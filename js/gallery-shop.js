@@ -1,5 +1,5 @@
 /* Shop catalog and Renders gallery.
- * New looks appear automatically from HOUSE.looks and HOUSE.shopData.looks.
+ * Look lists come from HOUSE.lookRegistry (js/looks-registry.js); product sets from HOUSE.shopData.looks.
  * Do not hard-code look ids here.
  */
 (function () {
@@ -16,7 +16,7 @@
 
   var CATEGORIES = [
     { id: "sofas", label: "Sofas", slots: ["seating"], match: /sofa|loveseat|sectional|settee/i },
-    { id: "chairs", label: "Chairs", slots: ["seating", "chairs", "accents"], match: /chair|armchair|stool|swivel/i },
+    { id: "chairs", label: "Chairs", slots: ["seating", "chairs", "accents", "stools", "bench"], match: /chair|armchair|stool|swivel|bench/i },
     { id: "tables", label: "Tables", slots: ["coffee", "dining-table", "dining-set"] },
     { id: "rugs", label: "Rugs", slots: ["rug"] },
     { id: "lighting", label: "Lighting", slots: ["lamp", "pendant", "vanity"] },
@@ -26,7 +26,8 @@
     { id: "beds", label: "Beds", slots: ["bed"] },
     { id: "nightstands", label: "Nightstands", slots: ["nightstand"] },
     { id: "storage", label: "Storage", slots: ["desk"] },
-    { id: "decor", label: "Decor", slots: ["accents", "pulls", "faucet"] },
+    { id: "textiles", label: "Bedding & pillows", slots: ["bedding", "throw", "pillows"] },
+    { id: "decor", label: "Decor", slots: ["accents", "pulls", "faucet", "art", "decor"] },
     { id: "flooring", label: "Flooring", ids: ["floor"] }
   ];
   HOUSE.SHOP_CATEGORIES = CATEGORIES;
@@ -149,7 +150,9 @@
     if (slots.indexOf("coffee") !== -1 || slots.indexOf("dining-table") !== -1 || slots.indexOf("dining-set") !== -1) return "tables";
     if (slots.indexOf("lamp") !== -1 || slots.indexOf("pendant") !== -1 || slots.indexOf("vanity") !== -1) return "lighting";
     if (slots.indexOf("desk") !== -1) return "storage";
-    if (slots.indexOf("chairs") !== -1) return "chairs";
+    if (slots.indexOf("chairs") !== -1 || slots.indexOf("stools") !== -1 || slots.indexOf("bench") !== -1) return "chairs";
+    if (slots.indexOf("bedding") !== -1 || slots.indexOf("throw") !== -1 || slots.indexOf("pillows") !== -1) return "textiles";
+    if (slots.indexOf("art") !== -1 || slots.indexOf("decor") !== -1) return "decor";
     if (slots.indexOf("seating") !== -1 || slots.indexOf("accents") !== -1) {
       if (/chair|armchair|stool|swivel/.test(name)) return "chairs";
       if (/sofa|loveseat|sectional|settee/.test(name)) return "sofas";
@@ -254,7 +257,8 @@
       next[key] = item.id;
       next.shopItemId = "";
       var on = (current || "") === item.id ? ' aria-current="true"' : "";
-      html += '<a href="' + esc(shopHash(next)) + '"' + on + ">" + esc(item.label) + "</a>";
+      var data = key === "shopLook" && item.id ? ' data-look-id="' + esc(item.id) + '"' : "";
+      html += '<a href="' + esc(shopHash(next)) + '"' + on + data + (item.title ? ' title="' + esc(item.title) + '"' : "") + ">" + esc(item.label) + "</a>";
     });
     html += "</div></div>";
     return html;
@@ -344,7 +348,7 @@
     html += chipRow("Room", rooms, state.shopRoom || "", "shopRoom", state);
     var cats = [{ id: "", label: "All types" }].concat(CATEGORIES.map(function (c) { return { id: c.id, label: c.label }; }));
     html += chipRow("Type", cats, state.shopCategory || "", "shopCategory", state);
-    var looks = [{ id: "", label: "All looks" }].concat(lookOptions().map(function (l) { return { id: l.id, label: l.name }; }));
+    var looks = [{ id: "", label: "All looks" }].concat(lookOptions().map(function (l) { return { id: l.id, label: l.name + (l.hasProducts ? "" : " ·  no set"), title: l.hasProducts ? "" : l.note }; }));
     html += chipRow("Look", looks, state.shopLook || "", "shopLook", state);
     var stores = [{ id: "", label: "All stores" }].concat(["IKEA", "Costco", "Target", "Walmart", "Wayfair", "Amazon", "Other"].map(function (s) { return { id: s, label: s }; }));
     html += chipRow("Store", stores, state.shopStore || "", "shopStore", state);
@@ -404,6 +408,8 @@
     html += '<details class="shop-filters"' + (filtersOpen ? " open" : "") + '><summary>Filter by room, type, look, store, or price</summary>';
     html += shopFiltersHtml(state);
     html += "</details>";
+    var shopLookEntry = state.shopLook && HOUSE.lookRegistry ? HOUSE.lookRegistry.byId(state.shopLook) : null;
+    if (shopLookEntry && !shopLookEntry.hasProducts) html += '<p class="note" data-shop-no-set>' + esc(shopLookEntry.name + ": " + shopLookEntry.productSetNote) + "</p>";
     if (!list.length) {
       html += '<p class="empty">Nothing matches these filters. Try All rooms, All types, or All stores.</p>';
     } else {
@@ -465,13 +471,10 @@
     return roomId;
   }
   function lookPhotoFor(roomId, lookId) {
-    var look = null;
-    (HOUSE.looks || []).forEach(function (item) { if (item.id === lookId) look = item; });
-    if (!look) return null;
+    if (!HOUSE.lookRegistry || !lookId) return null;
     var rec = builderRoom(roomId);
     var key = (rec && rec.lookKey) || roomId;
-    if (look.prefix && key) return "assets/looks/" + look.prefix + "-" + key + ".jpg";
-    return null;
+    return HOUSE.lookRegistry.renderFor(lookId, key);
   }
   function builderHrefForRender(key, rec, state) {
     if (typeof HOUSE.builderHrefForRecord === "function") return HOUSE.builderHrefForRecord(rec, { edit: state && state.edit });
@@ -548,24 +551,28 @@
   }
 
   function galleryFilterHtml(state, allKeys, index, roomF, lookF) {
-    var rooms = [], looks = [];
+    var rooms = [], counts = {};
     allKeys.forEach(function (key) {
       var rec = index[key];
       if (rec.room && rooms.indexOf(rec.room) === -1) rooms.push(rec.room);
-      if (rec.look && looks.indexOf(rec.look) === -1) looks.push(rec.look);
+      if (rec.look) counts[rec.look] = (counts[rec.look] || 0) + 1;
     });
+    /* Every active look from the registry, in registry order, so this filter matches the
+       other pages. Looks with no staged renders yet show (0). */
+    var looks = HOUSE.lookRegistry ? HOUSE.lookRegistry.activeIds() : Object.keys(counts);
     var order = (HOUSE.rooms || []).map(function (r) { return r.id; });
     rooms.sort(function (a, b) { return order.indexOf(a) - order.indexOf(b); });
-    function chip(label, room, look, on) {
+    function chip(label, room, look, on, isLook) {
       var href = rendersHash({ edit: state.edit, renderRoom: room, renderLook: look });
-      return '<a class="ctrl filter-chip" href="' + esc(href) + '"' + (on ? ' aria-current="true"' : "") + ">" + esc(label) + "</a>";
+      var data = isLook && look ? ' data-look-id="' + esc(look) + '"' : "";
+      return '<a class="ctrl filter-chip' + (isLook && look && !counts[look] ? " is-empty" : "") + '" href="' + esc(href) + '"' + data + (on ? ' aria-current="true"' : "") + ">" + esc(label) + "</a>";
     }
     var html = '<div class="gallery-filters" role="group" aria-label="Filter renders">';
     html += '<p class="gallery-filter-row"><span class="gallery-filter-label">Room</span>' + chip("All rooms", "", lookF, !roomF);
     rooms.forEach(function (r) { html += chip(roomDisplayName(r), r, lookF, roomF === r); });
     html += "</p>";
     html += '<p class="gallery-filter-row"><span class="gallery-filter-label">Look</span>' + chip("All looks", roomF, "", !lookF);
-    looks.forEach(function (l) { html += chip(lookName(l), roomF, l, lookF === l); });
+    looks.forEach(function (l) { html += chip(lookName(l) + " (" + (counts[l] || 0) + ")", roomF, l, lookF === l, true); });
     html += "</p></div>";
     return html;
   }

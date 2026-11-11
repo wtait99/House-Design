@@ -13,7 +13,6 @@
   var prevState = null;
   var focusCtrlName = null;
   var focusHref = null;
-  var storedLooks = loadLookState();
 
   function desktop() { return desktopQuery.matches; }
 
@@ -79,7 +78,10 @@
     if (item.method === "unpinned") return "Not on the tour map";
     return "Tour photograph " + item.number;
   }
-  function lookById(id) { return findById(HOUSE.looks, id); }
+  function lookById(id) {
+    var e = HOUSE.lookRegistry.byId(id);
+    return e && e.status === "active" ? e.def : null;
+  }
   function productById(id) { return findById(HOUSE.products, id); }
   function budgetIdeas() { return HOUSE.budgetIdeas || []; }
   function budgetIdeaById(id) { return findById(budgetIdeas(), id); }
@@ -126,13 +128,13 @@
     return list[0] || null;
   }
 
+  /* Look lists come only from HOUSE.lookRegistry (js/looks-registry.js). */
+  function registryDefs(list) { return list.map(function (e) { return e.def; }); }
   function visibleLooks() {
-    return HOUSE.looks.filter(function (look) { return lookStatus(look.id) === "visible"; });
+    return registryDefs(HOUSE.lookRegistry.active());
   }
   function looksForRoom(roomKey, includeHidden) {
-    return HOUSE.looksForRoom(roomKey).filter(function (look) {
-      return includeHidden || lookStatus(look.id) === "visible";
-    });
+    return registryDefs(HOUSE.lookRegistry.forRoom(roomKey, !!includeHidden));
   }
   function parseCompareIds(raw) {
     var out = [];
@@ -143,58 +145,16 @@
     return out;
   }
 
-  function loadLookState() {
-    var empty = { hidden: [], archived: [] };
-    try {
-      var raw = window.localStorage.getItem(HOUSE.lookStorageKey);
-      if (!raw) return empty;
-      var parsed = JSON.parse(raw);
-      var hidden = Array.isArray(parsed.hidden) ? parsed.hidden.filter(lookById) : [];
-      var archived = Array.isArray(parsed.archived) ? parsed.archived.filter(lookById) : [];
-      return { hidden: uniqueIds(hidden), archived: uniqueIds(archived) };
-    } catch (err) {
-      return empty;
-    }
-  }
+  function lookStatus(id) { return HOUSE.lookRegistry.userStatus(id); }
 
-  function uniqueIds(list) {
-    var out = [];
-    list.forEach(function (id) { if (out.indexOf(id) === -1) out.push(id); });
-    return out;
-  }
-
-  function saveLookState() {
-    try {
-      window.localStorage.setItem(HOUSE.lookStorageKey, JSON.stringify(storedLooks));
-    } catch (err) { /* private mode or blocked storage; the session still works */ }
-  }
-
-  function lookStatus(id) {
-    if (storedLooks.archived.indexOf(id) !== -1) return "archived";
-    if (storedLooks.hidden.indexOf(id) !== -1) return "hidden";
-    return "visible";
-  }
-
-  function setLookStatus(id, status) {
-    storedLooks.hidden = storedLooks.hidden.filter(function (item) { return item !== id; });
-    storedLooks.archived = storedLooks.archived.filter(function (item) { return item !== id; });
-    if (status === "hidden") storedLooks.hidden.push(id);
-    if (status === "archived") storedLooks.archived.push(id);
-    saveLookState();
-  }
+  function setLookStatus(id, status) { HOUSE.lookRegistry.setUserStatus(id, status); }
 
   function hiddenCount() {
-    var n = 0;
-    HOUSE.looks.forEach(function (look) { if (lookStatus(look.id) !== "visible") n += 1; });
-    return n;
+    return HOUSE.lookRegistry.userHidden().length;
   }
 
   function looksForFilter(filter) {
-    return HOUSE.looks.filter(function (look) {
-      var status = lookStatus(look.id);
-      if (filter === "hidden") return status !== "visible";
-      return status === "visible";
-    });
+    return registryDefs(filter === "hidden" ? HOUSE.lookRegistry.userHidden() : HOUSE.lookRegistry.active());
   }
 
   function lookFile(look, roomKey) {
@@ -743,7 +703,7 @@
         lookHtml += '<a href="' + esc(looksIndexHash("hidden", state)) + '"' + (state.filter === "hidden" && !state.lookId && !state.comparing ? ' aria-current="true"' : "") + ">Hidden (" + hiddenCount() + ")</a>";
       }
       var railLooks = looksForFilter(state.edit && state.filter === "hidden" ? "hidden" : "all");
-      var railGroups = HOUSE.lookGroups || [{ id: "house" }, { id: "study" }];
+      var railGroups = HOUSE.lookRegistry.groups();
       railGroups.forEach(function (group) {
         railLooks.filter(function (look) { return (look.group || "house") === group.id; }).forEach(function (look) {
           var current = state.lookId === look.id ? ' aria-current="true"' : "";
@@ -970,7 +930,8 @@
       html += '<div class="room-copy">' + notesHtml(room.notes) + renderMiniPlan(room.id, currentMap ? currentMap.id : null, true, photo.file) + roomIndexHtml(room.id, state) + "</div>";
     }
     /* === shop-builder hook === */
-    var buildRooms = { living: "living", master: "master", office: "office", kitchen: "kitchen", bath: "bath" };
+    var buildRooms = {};
+    ((HOUSE.shopData && HOUSE.shopData.builderRooms) || []).forEach(function (item) { buildRooms[item.id] = item.id; });
     html += '<p class="ctrl-row">';
     if (buildRooms[room.id]) {
       html += '<a class="ctrl" href="#/plan/build/' + esc(buildRooms[room.id]) + queryFrom({ edit: state.edit }) + '">Furnish this room</a>';
@@ -1072,13 +1033,19 @@
       "</div>";
   }
 
+  function lookProductMeta(id) {
+    var e = HOUSE.lookRegistry.byId(id);
+    if (!e) return "";
+    return e.hasProducts ? " · Product set" : " · No product set yet";
+  }
+
   function lookCard(look, state) {
     var href = lookHref(look, null, "concept", false, state);
     var status = lookStatus(look.id);
     var meta = look.kicker || (HOUSE.roomCountLabel ? HOUSE.roomCountLabel(look) : "");
     if (status !== "visible") meta = (status === "archived" ? "Archived" : "Hidden") + (meta ? " · " + meta : "");
     var countLabel = HOUSE.roomCountLabel ? HOUSE.roomCountLabel(look) : (look.rooms.length + " rooms");
-    return '<article class="look-card" data-look-card="' + esc(look.id) + '">' +
+    return '<article class="look-card" data-look-card="' + esc(look.id) + '" data-look-id="' + esc(look.id) + '">' +
       '<a class="look-card-hit" href="' + esc(href) + '">' +
       '<span class="look-card-media"><img data-photo data-file="' + esc(look.hero) + '" alt="" src="assets/' + esc(look.hero) + '">' + conceptBadge() + '<span class="missing" hidden></span></span>' +
       '<span class="look-card-body">' +
@@ -1086,7 +1053,7 @@
       '<span class="look-card-name">' + esc(look.name) + "</span>" +
       '<span class="look-card-note">' + esc(look.blurb || look.note) + "</span>" +
       chipsHtml(look, true) +
-      '<span class="look-card-meta">' + esc(countLabel) + "</span>" +
+      '<span class="look-card-meta">' + esc(countLabel) + lookProductMeta(look.id) + "</span>" +
       "</span></a>" +
       lookActions(look, state) +
       "</article>";
@@ -1297,10 +1264,7 @@
         ? '<p class="empty">No looks are hidden. Hide one from All looks, then restore it here.</p>'
         : '<p class="empty">Every look is hidden. Open Hidden to show one again.</p>';
     } else {
-      var groups = HOUSE.lookGroups || [
-        { id: "house", label: "Whole house" },
-        { id: "study", label: "Room studies" }
-      ];
+      var groups = HOUSE.lookRegistry.groups();
       groups.forEach(function (group) {
         var items = list.filter(function (look) { return (look.group || "house") === group.id; });
         if (!items.length) return;
@@ -1493,7 +1457,7 @@
       html += "<h3>Pairs with</h3><ul>";
       idea.pairsWithLooks.forEach(function (look) {
         if (lookById(look.id)) {
-          html += '<li><a href="' + esc(lookHref(lookById(look.id), null, "concept", false, state)) + '">' + esc(look.name) + "</a> — " + esc(look.why) + "</li>";
+          html += '<li><a href="' + esc(lookHref(lookById(look.id), null, "concept", false, state)) + '">' + esc(HOUSE.lookRegistry.name(look.id)) + "</a> — " + esc(look.why) + "</li>";
         } else {
           html += "<li>" + esc(look.name) + " — " + esc(look.why) + "</li>";
         }

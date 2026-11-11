@@ -617,7 +617,9 @@ HOUSE.lookFile = function (look, roomKey) {
   return "looks/" + look.prefix + "-" + roomKey + ".jpg";
 };
 
+/* Kept for older scripts. Pages read HOUSE.lookRegistry (js/looks-registry.js) instead. */
 HOUSE.looksForRoom = function (roomKey) {
+  if (HOUSE.lookRegistry) return HOUSE.lookRegistry.forRoom(roomKey).map(function (e) { return e.def; });
   return (HOUSE.looks || []).filter(function (look) {
     return look.rooms && look.rooms.indexOf(roomKey) !== -1;
   });

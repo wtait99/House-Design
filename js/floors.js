@@ -435,8 +435,8 @@
 
   HOUSE.selectedFloorId = function (lookId) {
     var stored = loadFloors();
-    var look = null;
-    (HOUSE.looks || []).forEach(function (item) { if (item.id === lookId) look = item; });
+    var entry = HOUSE.lookRegistry ? HOUSE.lookRegistry.byId(lookId) : null;
+    var look = entry ? entry.def : null;
     var options = HOUSE.floorOptions(look);
     if (!options.length) return null;
     var id = stored[lookId];

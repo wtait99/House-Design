@@ -15,30 +15,25 @@
     return null;
   }
   function shopLook(id) { return (data().looks || {})[id] || null; }
+  /* Look lists come only from HOUSE.lookRegistry (js/looks-registry.js). */
+  function registry() { return HOUSE.lookRegistry; }
   function lookDisplayName(lookId) {
     if (!lookId) return "";
-    var rec = shopLook(lookId);
-    if (rec && rec.name) return rec.name;
-    var found = null;
-    (HOUSE.looks || []).forEach(function (look) { if (look.id === lookId) found = look; });
-    return (found && found.name) || String(lookId);
+    return registry() ? registry().name(lookId) : String(lookId);
+  }
+  function lookOptionFrom(e) {
+    return { id: e.id, name: e.name, group: e.group, hasProducts: e.hasProducts, productSetId: e.productSetId, note: e.productSetNote };
   }
   function allLookOptions() {
-    var seen = {};
-    var out = [];
-    function add(id, name, group) {
-      if (!id || seen[id]) return;
-      seen[id] = true;
-      out.push({ id: id, name: name || id, group: group || "" });
-    }
-    (HOUSE.looks || []).forEach(function (look) { add(look.id, look.name, look.group || ""); });
-    var shopLooks = data().looks || {};
-    Object.keys(shopLooks).forEach(function (id) { add(id, shopLooks[id].name, "house"); });
-    return out;
+    return registry() ? registry().active().map(lookOptionFrom) : [];
   }
   function catalogLookOptions() {
-    /* Looks with shop data. A new look appears here once it is added to shopData.looks. */
-    return allLookOptions().filter(function (look) { return !!shopLook(look.id); });
+    /* Every active look, in registry order. Looks without a product set are included and
+       marked (hasProducts false); starting from one gives empty picks plus a note. */
+    return allLookOptions();
+  }
+  function productSetLookOptions() {
+    return allLookOptions().filter(function (look) { return look.hasProducts; });
   }
   function productInLook(p, lookId) {
     if (!lookId || !p) return true;
@@ -59,6 +54,7 @@
   HOUSE.lookDisplayName = lookDisplayName;
   HOUSE.allLookOptions = allLookOptions;
   HOUSE.catalogLookOptions = catalogLookOptions;
+  HOUSE.productSetLookOptions = productSetLookOptions;
   HOUSE.productInLook = productInLook;
   HOUSE.outsideLookNote = outsideLookNote;
   HOUSE.rememberBuilderLook = rememberBuilderLook;
@@ -670,15 +666,8 @@
   }
 
   function lookFileFor(room, lookId) {
-    if (!lookId || typeof lookById !== "function") {
-      // lookById is inside app.js and not global. Use HOUSE.looks.
-    }
-    var look = null;
-    (HOUSE.looks || []).forEach(function (item) { if (item.id === lookId) look = item; });
-    if (!look || !room.lookKey) return null;
-    var file = (look.files && look.files[room.lookKey]) || ((look.prefix || "") && ("looks/" + look.prefix + "-" + room.lookKey + ".jpg"));
-    if (look.prefix && room.lookKey) file = "assets/looks/" + look.prefix + "-" + room.lookKey + ".jpg";
-    return file;
+    if (!lookId || !room || !room.lookKey || !registry()) return null;
+    return registry().renderFor(lookId, room.lookKey);
   }
 
   function fillFromLook(lookId) {
@@ -777,7 +766,7 @@
   function lookOptionsHtml() {
     var html = "";
     catalogLookOptions().forEach(function (look) {
-      html += '<button type="button" data-builder-start="' + esc(look.id) + '">' + esc(look.name) + "</button>";
+      html += '<button type="button" data-builder-start="' + esc(look.id) + '" data-look-id="' + esc(look.id) + '"' + (look.hasProducts ? "" : ' class="no-set" title="' + esc(look.note) + '"') + ">" + esc(look.name) + (look.hasProducts ? "" : ' <span class="note">· no product set yet</span>') + "</button>";
     });
     return html;
   }
@@ -872,7 +861,8 @@
     var stagedRec = lookId ? stagedFor(key) : null;
     var useStaged = state.builderBg === "staged" && stagedRec;
     var useLook = !useStaged && (state.builderBg === "look" || (state.builderBg === "staged" && !stagedRec && !!lookId));
-    var lookPhoto = useLook ? lookFileFor(room, lookId || "quiet") : null;
+    var defaultLook = (productSetLookOptions()[0] || catalogLookOptions()[0] || {}).id || "";
+    var lookPhoto = useLook ? lookFileFor(room, lookId || defaultLook) : null;
     var bg = (useStaged && stagedRec ? stagedRec.image : null) || lookPhoto || room.vacantFile || "";
     var pickCount = Object.keys(roomPicks).filter(function (slot) { return !!roomPicks[slot]; }).length;
     var canRequest = !!lookId && pickCount > 0;
@@ -903,6 +893,9 @@
     html += "<summary>Start from a look</summary>";
     html += '<div class="builder-start-menu">' + lookOptionsHtml() + "</div>";
     html += "</details></div>";
+    var lookEntry = lookId && registry() ? registry().byId(lookId) : null;
+    if (lookEntry && !lookEntry.hasProducts) html += '<p class="builder-room-note" data-builder-no-set>' + esc(lookEntry.name + ": " + lookEntry.productSetNote) + "</p>";
+    if (useLook && !lookPhoto && lookEntry) html += '<p class="builder-room-note">' + esc(lookEntry.name) + " has no render for this room yet, so the original photograph is shown.</p>";
     html += '<div class="builder-totals-stick">' + totalsBox(tots, room) + "</div>";
     html += '<div class="builder-stage">';
     html += '<figure class="builder-backdrop">';
@@ -921,7 +914,7 @@
     if (useLook) {
       html += '<label class="builder-look-pick"><span class="sr">Look render</span><select class="builder-look-select" data-builder-look>';
       catalogLookOptions().forEach(function (look) {
-        html += '<option value="' + esc(look.id) + '"' + (look.id === lookId ? " selected" : "") + ">" + esc(look.name) + "</option>";
+        html += '<option value="' + esc(look.id) + '"' + (look.id === lookId ? " selected" : "") + ">" + esc(look.name) + (look.hasProducts ? "" : " (no product set yet)") + "</option>";
       });
       html += "</select></label>";
     }
@@ -976,7 +969,7 @@
       if (houseEmpty) {
         var starters = catalogLookOptions();
         var starter = null;
-        starters.forEach(function (look) { if (look.id === "quiet") starter = look; });
+        starters.forEach(function (look) { if (!starter && look.hasProducts) starter = look; });
         if (!starter) starter = starters[0] || null;
         if (starter) html += '<button type="button" class="builder-try" data-builder-start="' + esc(starter.id) + '">Try ' + esc(starter.name) + "</button>";
       }

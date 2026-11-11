@@ -829,7 +829,9 @@ HOUSE.applyExtraLooksFile({
 
 /* Nautical variants, November 11, 2026. Three looks x seven rooms (living, kitchen,
  * master, bed3, office [closet view E55A7401], laundry, foyer). Bath excluded by the brief.
- * Renders are also listed in renders/renders.json for the Renders gallery. */
+ * Renders are also listed in renders/renders.json for the Renders gallery.
+ * Re-rendered with sourced products only (js/nautical-sourced.js); old concept renders archived in
+ * assets/looks/archive-concept-2026-11-11/ and renders.json "archived". */
 (function () {
   if (typeof HOUSE === "undefined" || typeof HOUSE.applyExtraLooksFile !== "function") return;
   HOUSE.applyExtraLooksFile({
@@ -837,7 +839,7 @@ HOUSE.applyExtraLooksFile({
     {
       "id": "nautical",
       "label": "Nautical variants",
-      "note": "Three nautical directions, added November 11, 2026, each rendered in all seven main-house rooms with furniture and decor. Harbor Navy uses navy on walls, Lighthouse Keeper has no blue, Ship Cabin keeps navy to textiles. None is approved. Closest-match renders are labeled."
+      "note": "Three nautical directions, re-rendered November 11, 2026 with only sourced products (real store links and prices) in all seven main-house rooms. Harbor Navy uses navy on walls, Lighthouse Keeper has no blue, Ship Cabin keeps navy to textiles. None is approved. Closest-match renders are labeled. The earlier concept renders are archived."
     }
   ],
   "looks": [
@@ -847,7 +849,7 @@ HOUSE.applyExtraLooksFile({
       "name": "Harbor Navy",
       "kicker": "Classic navy and white",
       "blurb": "Deep navy on the living room, primary bedroom, office and foyer walls; crisp white kitchen, laundry and 3rd bedroom; red as a small accent; brass, rope, stripes and one chart.",
-      "note": "The classic version Bill asked about: navy and white with a little red. Blue on walls is allowed (Bill's November 11 correction), so navy goes on paintable drywall and the manufactured bedroom paneling only. Ceilings stay white. Unpainted wood trim, wood doors, the office's wood closets and wardrobe, and the laundry's wood ceiling and cabinets stay as they are. Concept renders, not exact products; colors are approximate.",
+      "note": "The classic version: navy and white with a little red. Every staged piece is a real product with a store link and a price checked November 11, 2026 (IKEA and Target); see Shop or open a render in the builder. Paint is Sherwin-Williams Naval and Alabaster. Ceilings stay white; unpainted wood, the office's wood closets and wardrobe, and the laundry's wood ceiling and cabinets stay as they are. Existing floors stay (no new flooring is staged). Renders are generated images: products and colors are approximate.",
       "hero": "looks/nt-navy-living.jpg",
       "prefix": "nt-navy",
       "rooms": [
@@ -869,13 +871,13 @@ HOUSE.applyExtraLooksFile({
         "foyer": "rooms/foyer.jpg"
       },
       "captions": {
-        "living": "Navy walls, white plank ceiling, wood beam and trim unpainted, white slipcovered sofa, navy stripe rug and pillows, one red pillow, brass lantern, one chart. Closest match, not exact.",
-        "kitchen": "White walls and cabinets, navy island base, brass knobs, caged ship light in the same spot, navy stripe runner. Backsplash, cooktop and rounded island kept.",
-        "master": "Navy on the manufactured paneling, grooves kept, white ceiling, white bed with a navy stripe throw, sea chest, brass lamp, oak-look plank over the carpet.",
-        "bed3": "Crisp white paneling, ticking-stripe bedding with a red blanket, brass lantern, navy stripe rug, one chart, oak-look plank floor.",
-        "office": "Navy walls; the wood closets, wardrobe and window trim stay natural. Navy stripe runner, brass ship's clock and lamp.",
-        "laundry": "Coral walls repainted white; wood ceiling, skylight, cabinets and equipment stay. Navy stripe runner, rope basket, brass hooks.",
-        "foyer": "Navy walls, white ceiling, front door and French door unpainted, white bench with a striped cushion, brass porthole mirror and lantern."
+        "living": "Naval walls. Staged: IKEA UPPLAND sofa, IKEA LOKBYTE rug, IKEA LACK coffee table, IKEA SANELA cushion cover, Chunky Chenille Rib Knit Throw Dark Red - Threshold™, IKEA ÅRSTID floor lamp, IKEA GINSTMOTT curtains, American Art Decor Framed Nautical Rope Wall Decor Navy Coastal Shadow Box Art, IKEA HÖSTAGILLE lantern for pillar candle. Generated image; products and colors are approximate.",
+        "kitchen": "Alabaster walls, Naval island base. Staged: IKEA ROSENTORP bar stool with backrest, 2'4\"x7' Woven Runner Rug Indigo - Threshold™, Petal Lane 8\"x8\" Sailboat Landscape Framed Wall Art Cream Brass Beaded Frame. Closest match, not exact. Generated image; products and colors are approximate.",
+        "master": "Naval on the manufactured paneling. Staged: IKEA IDANÄS bed frame, IKEA SOLFIBBLA duvet cover and pillowcase(s), Chunky Chenille Rib Knit Throw Dark Red - Threshold™, IKEA SANELA cushion cover, IKEA STORKLINTA nightstand, IKEA AKTERSPRING table lamp, IKEA GINSTMOTT curtains, IKEA LOHALS rug. Generated image; products and colors are approximate.",
+        "bed3": "Alabaster paneling. Staged: IKEA VEVELSTAD bed frame, IKEA SOLFIBBLA duvet cover and pillowcase(s), IKEA SANELA cushion cover, IKEA STORKLINTA nightstand, IKEA AKTERSPRING table lamp, IKEA RIDSTIG rug, IKEA GINSTMOTT curtains, Petal Lane 8\"x8\" Sailboat Landscape Framed Wall Art Cream Brass Beaded Frame. Closest match, not exact. Generated image; products and colors are approximate.",
+        "office": "Naval walls. Staged: 2'4\"x7' Woven Runner Rug Indigo - Threshold™, Petal Lane 8\"x8\" Sailboat Landscape Framed Wall Art Cream Brass Beaded Frame, IKEA HÖSTAGILLE lantern for pillar candle. Generated image; products and colors are approximate.",
+        "laundry": "Alabaster walls. Staged: 2'4\"x7' Woven Runner Rug Indigo - Threshold™, 13\" Decorative Coiled Rope Basket Cream - Brightroom™, Brass Single Wall Hook - Hearth & Hand™ with Magnolia. Generated image; products and colors are approximate.",
+        "foyer": "Naval walls. Staged: IKEA TJUSIG bench with shoe storage, IKEA SANELA cushion cover, IKEA LINDBYN gold mirror, 2'4\"x7' Woven Runner Rug Indigo - Threshold™, IKEA HÖSTAGILLE lantern for pillar candle. Generated image; products and colors are approximate."
       },
       "swatches": [
         {
@@ -904,16 +906,10 @@ HOUSE.applyExtraLooksFile({
           "name": "Brass",
           "hex": "#B08D57",
           "column": "Accent",
-          "use": "Lanterns, ship lights, knobs, hooks. Screen color only."
-        },
-        {
-          "id": "mid-oak",
-          "name": "Mid oak",
-          "hex": "#C4965A",
-          "column": "Floor",
-          "use": "Medium warm oak-look vinyl plank over the bedroom carpet in the renders. Existing hard floors and tile stay."
+          "use": "Brass finishes on the sourced lamps, lantern, hook and mirror. Screen color only."
         }
-      ]
+      ],
+      "sourced": true
     },
     {
       "id": "nt-keeper",
@@ -921,7 +917,7 @@ HOUSE.applyExtraLooksFile({
       "name": "Lighthouse Keeper",
       "kicker": "Nautical with no blue",
       "blurb": "Sandy linen walls, white ceilings, deep green and barn-red accents, rope, brass, and weathered teak and driftwood. No blue anywhere in the styling.",
-      "note": "The no-blue nautical: sand and linen walls, a deep green island and office, barn red only in textiles, and rope, brass, canvas, teak and driftwood doing the nautical work. Ceilings stay white. Unpainted wood stays unpainted. The laundry's existing blue pressure tank is equipment, not decor, and stays in the picture. Concept renders, not exact products; colors are approximate.",
+      "note": "The no-blue nautical: Natural Linen walls, Rookwood Dark Green in the office and on the island, barn red only in textiles, rope, brass and teak tones. Every staged piece is a real product with a store link and a price checked November 11, 2026 (IKEA and Target). Ceilings stay white and unpainted wood stays unpainted. The laundry's blue pressure tank is existing equipment. Existing floors stay. Renders are generated images: products and colors are approximate.",
       "hero": "looks/nt-keeper-living.jpg",
       "prefix": "nt-keeper",
       "rooms": [
@@ -943,13 +939,13 @@ HOUSE.applyExtraLooksFile({
         "foyer": "rooms/foyer.jpg"
       },
       "captions": {
-        "living": "Sandy linen walls, white ceiling, forest-green sofa, barn-red stripe pillows, teak table, brass lantern, rope lamp, jute rug. Closest match, not exact.",
-        "kitchen": "Sandy linen walls, white cabinets, deep green island base, brass knobs and caged light, barn-red stripe runner. Backsplash and cooktop kept.",
-        "master": "Linen-sand paneling, white ceiling, teak bed, deep green blanket, barn-red stripe pillow, rope-handled sea chest, brass lamp, oak-look plank floor.",
-        "bed3": "Soft white paneling, barn-red stripe blanket, green pillow, brass lantern, rope coil on a driftwood hook, jute rug, oak-look plank floor.",
-        "office": "Deep green walls; wood closets, wardrobe and window trim stay natural. Barn-red stripe runner, brass clock and lamp, rope pencil cup.",
-        "laundry": "Sandy linen walls; wood ceiling, skylight, cabinets and equipment stay (the pressure tank is blue equipment). Barn-red runner, rope basket. Closest match, not exact.",
-        "foyer": "Sandy linen walls, white ceiling, teak bench with a green cushion, rope-hung brass mirror, lantern, barn-red stripe runner."
+        "living": "Natural Linen walls. Staged: IKEA GULLVALLA sofa, IKEA LOHALS rug, IKEA UGGLERUM coffee table, IKEA DYTÅG cushion cover, Lush Décor 50\"x60\" Farmhouse Stripe Throw Blanket Red, Threshold cream linen panels, Northlight Striped Nautical Anchor with Rope Hanging Wall Decoration - 25\" x 12.5 - Red and White, IKEA HÖSTAGILLE lantern for pillar candle. Generated image; products and colors are approximate.",
+        "kitchen": "Natural Linen walls, Rookwood Dark Green island base. Staged: IKEA SKOGSTA bar stool with backrest, IKEA LOHALS rug, Petal Lane 12\"x7\" Beach Landscape Wall Art. Generated image; products and colors are approximate.",
+        "master": "Natural Linen paneling. Staged: IKEA SONGESAND bed frame, IKEA INDIRA bedspread, IKEA LAPPTÅG throw, IKEA DYTÅG cushion cover, IKEA STORKLINTA nightstand, Brass Lamp with Glass Shade - Hearth & Hand™ with Magnolia, Threshold cream linen panels, IKEA LOHALS rug. Closest match, not exact. Generated image; products and colors are approximate.",
+        "bed3": "Alabaster paneling. Staged: IKEA TARVA bed frame, IKEA PELARTUJA bedspread, IKEA SANELA cushion cover, IKEA STORKLINTA nightstand, IKEA FLYGHÖJD table lamp, IKEA LOHALS rug, Threshold cream linen panels, Northlight Striped Nautical Anchor with Rope Hanging Wall Decoration - 25\" x 12.5 - Red and White. Generated image; products and colors are approximate.",
+        "office": "Rookwood Dark Green walls. Staged: IKEA LOHALS rug, Petal Lane 12\"x7\" Beach Landscape Wall Art, IKEA HÖSTAGILLE lantern for pillar candle. Generated image; products and colors are approximate.",
+        "laundry": "Natural Linen walls. Staged: IKEA LOHALS rug, 13\" Decorative Coiled Rope Basket Cream - Brightroom™, Brass Single Wall Hook - Hearth & Hand™ with Magnolia. Generated image; products and colors are approximate.",
+        "foyer": "Natural Linen walls. Staged: IKEA SKOGSTA bench with storage, IKEA SANELA cushion cover, 30\" Round Wood Framed Wall Mirror Natural - Hearth & Hand™ with Magnolia, IKEA LOHALS door mat, IKEA HÖSTAGILLE lantern for pillar candle. Generated image; products and colors are approximate."
       },
       "swatches": [
         {
@@ -964,7 +960,7 @@ HOUSE.applyExtraLooksFile({
           "name": "Shoji White",
           "hex": "#E6DFD3",
           "column": "Rooms",
-          "use": "A softer warm white for the 3rd-bedroom paneling. Sherwin-Williams Shoji White SW 7042."
+          "use": "Not used in the sourced renders; the 3rd bedroom uses Alabaster SW 7008. Kept as an option."
         },
         {
           "id": "rookwood-dark-green",
@@ -992,9 +988,10 @@ HOUSE.applyExtraLooksFile({
           "name": "Weathered teak",
           "hex": "#8A6A4A",
           "column": "Accent",
-          "use": "Teak and driftwood furniture tones. Screen color only."
+          "use": "Wood tones of the sourced pieces (acacia SKOGSTA, walnut UGGLERUM, brown SONGESAND). Screen color only."
         }
-      ]
+      ],
+      "sourced": true
     },
     {
       "id": "nt-cabin",
@@ -1002,7 +999,7 @@ HOUSE.applyExtraLooksFile({
       "name": "Ship Cabin",
       "kicker": "Khaki, brass and a little navy",
       "blurb": "The existing Nautical khaki-and-brass palette, now furnished in every room: khaki walls, a cream 3rd bedroom, an iron-ore island and office, navy only in stripes and blankets.",
-      "note": "Builds on the November 10 Nautical look and research (khaki, brass, canvas, one lantern, one stripe, one chart), carried into all seven main-house rooms with furniture and decor. Navy stays in textiles here; walls are khaki, cream and iron ore. Ceilings stay white and unpainted wood stays unpainted. Concept renders, not exact products; colors are approximate.",
+      "note": "Khaki and brass, navy only in textiles. Every staged piece is a real product with a store link and a price checked November 11, 2026 (IKEA, Target and one World Market lamp). Paint is Khaki Shade, Natural Linen and Iron Ore. Ceilings stay white and unpainted wood stays unpainted. Existing floors stay. Renders are generated images: products and colors are approximate.",
       "hero": "looks/nt-cabin-living.jpg",
       "prefix": "nt-cabin",
       "rooms": [
@@ -1024,13 +1021,13 @@ HOUSE.applyExtraLooksFile({
         "foyer": "rooms/foyer.jpg"
       },
       "captions": {
-        "living": "Khaki walls, white ceiling, wood beam and trim unpainted, canvas sofa with navy awning-stripe pillows, leather campaign chair, brass lantern and swing-arm lamp, one lake chart. Closest match, not exact.",
-        "kitchen": "Khaki walls, white cabinets, iron-ore island base, brass knobs and schoolhouse light, navy stripe runner. Backsplash and cooktop kept.",
-        "master": "Khaki paneling, white ceiling, dark wood bed, navy blanket, black campaign nightstand with brass, jute rug, oak-look plank floor.",
-        "bed3": "Cream paneling, white bedding with a khaki coverlet and navy stripe pillow, brass lamp, one chart, oak-look plank floor.",
-        "office": "Iron-ore walls; wood closets, wardrobe and window trim stay natural. Navy stripe runner, brass clock and lamp.",
-        "laundry": "Khaki walls; wood ceiling, skylight, cabinets and equipment stay. Navy stripe runner, rope basket, brass hooks, one chart. Closest match, not exact.",
-        "foyer": "Khaki walls, white ceiling, dark wood bench with a canvas cushion, brass mirror and lantern, navy stripe runner."
+        "living": "Khaki Shade walls. Staged: IKEA MANNARP sofa, Gelbin Faux Leather Slipper Chair with Wood Legs - Threshold™, IKEA TIOKRONA rug, IKEA TRANERED coffee table, IKEA SANELA cushion cover, Martha Stripe Navy Quilted Throw - Levtex Home, Hamilton Wood And Antique Brass Floor Lamp, 1pc 54\"x95\" Light Filtering Linen Window Curtain Panel Khaki - Threshold, Haus and Hues Framed Vintage Sailboat Wall Art, Walnut 24x36, IKEA HÖSTAGILLE lantern for pillar candle. Generated image; products and colors are approximate.",
+        "kitchen": "Khaki Shade walls, Iron Ore island base. Staged: IKEA RÄVSTEN bar stool, 2'4\"x7' Woven Runner Rug Indigo - Threshold™, Petal Lane 8\"x8\" Sailboat Landscape Framed Wall Art Cream Brass Beaded Frame. Generated image; products and colors are approximate.",
+        "master": "Khaki Shade paneling. Staged: IKEA IDANÄS bed frame, IKEA ÄNGSLILJA duvet cover and pillowcase(s), Martha Stripe Navy Quilted Throw - Levtex Home, IKEA SANELA cushion cover, IKEA BRIMNES nightstand, IKEA SOLKLINT table lamp, 1pc 54\"x95\" Light Filtering Linen Window Curtain Panel Khaki - Threshold, IKEA LOHALS rug. Generated image; products and colors are approximate.",
+        "bed3": "Natural Linen paneling. Staged: IKEA SONGESAND bed frame, IKEA INDIRA bedspread, IKEA SANELA cushion cover, IKEA BRIMNES nightstand, IKEA SOLKLINT table lamp, 1pc 54\"x95\" Light Filtering Linen Window Curtain Panel Khaki - Threshold, Petal Lane 8\"x8\" Sailboat Landscape Framed Wall Art Cream Brass Beaded Frame. Closest match, not exact. Generated image; products and colors are approximate.",
+        "office": "Iron Ore walls. Staged: 2'4\"x7' Woven Runner Rug Indigo - Threshold™, Petal Lane 8\"x8\" Sailboat Landscape Framed Wall Art Cream Brass Beaded Frame, IKEA HÖSTAGILLE lantern for pillar candle. Generated image; products and colors are approximate.",
+        "laundry": "Khaki Shade walls. Staged: 2'4\"x7' Woven Runner Rug Indigo - Threshold™, 13\" Decorative Coiled Rope Basket Cream - Brightroom™, Brass Single Wall Hook - Hearth & Hand™ with Magnolia. Generated image; products and colors are approximate.",
+        "foyer": "Khaki Shade walls. Staged: Lumarco Woven Bench Natural - Threshold™, IKEA SANELA cushion cover, IKEA LINDBYN gold mirror, 2'4\"x7' Woven Runner Rug Indigo - Threshold™, IKEA HÖSTAGILLE lantern for pillar candle. Generated image; products and colors are approximate."
       },
       "swatches": [
         {
@@ -1067,15 +1064,9 @@ HOUSE.applyExtraLooksFile({
           "hex": "#EDEAE0",
           "column": "Ceiling",
           "use": "Painted ceilings. Not the laundry's wood ceiling. Sherwin-Williams Alabaster SW 7008."
-        },
-        {
-          "id": "mid-oak",
-          "name": "Mid oak",
-          "hex": "#C4965A",
-          "column": "Floor",
-          "use": "Medium warm oak-look vinyl plank over the bedroom carpet in the renders. Existing hard floors and tile stay."
         }
-      ]
+      ],
+      "sourced": true
     }
   ]
 });
