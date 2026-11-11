@@ -4,7 +4,7 @@ Design ideas for the main house in Howell, Michigan. This is a planning view, no
 
 Live site: <https://wtait99.github.io/House-Design/>
 
-This public GitHub Pages site is the hosted copy of the dashboard. Render requests from the room builder are temporarily disabled while that endpoint moves off Netlify; they will return once a Cloudflare Worker is in place.
+This public GitHub Pages site is the hosted copy of the dashboard. Render requests from the room builder go to a Cloudflare Worker at `https://house-render-request.wtait99.workers.dev`.
 
 ## Update the site
 

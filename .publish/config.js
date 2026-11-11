@@ -1,5 +1,4 @@
 // Public site config for GitHub Pages.
-// Set RENDER_ENDPOINT to the Cloudflare Worker URL when it is ready.
-// Leave it empty to keep the builder render button disabled.
+// RENDER_ENDPOINT is the Cloudflare Worker that accepts render requests.
 window.HOUSE_CONFIG = window.HOUSE_CONFIG || {};
-window.HOUSE_CONFIG.RENDER_ENDPOINT = "";
+window.HOUSE_CONFIG.RENDER_ENDPOINT = "https://house-render-request.wtait99.workers.dev";
