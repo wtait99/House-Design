@@ -1,0 +1,2129 @@
+{
+  "updated": "November 10, 2026",
+  "note": "Display copies only. Vacant, exterior, garage, guest-house, and look sources were not modified. Rejected look files were not included. Earlier furnished photographs remain under assets/earlier/. s5\u2013s9 whole-house looks were added from vacant-2026-11-09/looks/ on November 10, 2026. Office concepts for s1\u2013s9 are paired with the closet view rooms/office-7401.jpg (original E55A7401.jpg).",
+  "nov8_furnished_display_copies": [
+    {
+      "asset": "01.jpg",
+      "source": "/workspace/home-design-reference/jpg/01.jpg",
+      "kind": "original photograph; resized only, no crop or design edits",
+      "source_size": [
+        4032,
+        3024
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "ca19b42dc48d9b7e6942f850080c632fff21a064e638c805f43e88d0df5f53b9",
+      "asset_sha256": "d962ffebcdb0b39844faa40493c1e6f88ede324cd72b5b43f5839853f0a2bf17"
+    },
+    {
+      "asset": "02.jpg",
+      "source": "/workspace/home-design-reference/jpg/02.jpg",
+      "kind": "original photograph; resized only, no crop or design edits",
+      "source_size": [
+        4032,
+        3024
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "a5cd54a397ab18c8abf68d3cd9e950298c886f9f4487acdefcc2fe92c30b7c0d",
+      "asset_sha256": "805c4e180e8516d7c42ad6979dbf4c93c8693ccc6c4843b700e110f88810fd41"
+    },
+    {
+      "asset": "03.jpg",
+      "source": "/workspace/home-design-reference/jpg/03.jpg",
+      "kind": "original photograph; resized only, no crop or design edits",
+      "source_size": [
+        5712,
+        4284
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "1f1aa5bfcc18cd4831150c21c16e5328f6cc94f2106d7399bef8c1d29016bf15",
+      "asset_sha256": "aa98177a6336360a5465bc5d0367bb02c589ccf103300b734eef409f7db6f19f"
+    },
+    {
+      "asset": "04.jpg",
+      "source": "/workspace/home-design-reference/jpg/04.jpg",
+      "kind": "original photograph; resized only, no crop or design edits",
+      "source_size": [
+        5712,
+        4284
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "707d26d0e5bdb9ea7c371e1bc339eaccd44185c00d646046150247ad16b05fa3",
+      "asset_sha256": "9679d1f9632edd11a29bbb58e952e2d1aa923a07b66737641201803de2b02a87"
+    },
+    {
+      "asset": "05.jpg",
+      "source": "/workspace/home-design-reference/jpg/05.jpg",
+      "kind": "original photograph; resized only, no crop or design edits",
+      "source_size": [
+        5712,
+        4284
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "65639edd21a9c11b390d43ffb061bc2c642ba81e4592e7a640136dcbf4314121",
+      "asset_sha256": "c10c710ce2136994f3a871d87913971a5c42572a47a049f41ee702e48796ece0"
+    },
+    {
+      "asset": "06.jpg",
+      "source": "/workspace/home-design-reference/jpg/06.jpg",
+      "kind": "original photograph; resized only, no crop or design edits",
+      "source_size": [
+        5712,
+        4284
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "13f587f02dde0d7c10f9710b732ae716acacf05808520526b1420298d0616286",
+      "asset_sha256": "256cb4c2da0f2428ff104442feaf3e20131258949b4932fa5d58a1892a31f20f"
+    }
+  ],
+  "assets": [
+    {
+      "asset": "assets/rooms/living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/ask/7431.jpg",
+      "kind": "Living room vacant photograph; source ask/7431.jpg (originals/E55A7431.jpg). Matched visually to the living-room look mockups (beam, fan, window, kitchen beyond). Display copy only; originals were not modified.",
+      "source_size": [
+        1600,
+        1067
+      ],
+      "asset_size": [
+        1600,
+        1067
+      ],
+      "source_sha256": "cad083316cc0f79748693a6a7b36ee024367436d3fea0661cc993ac09aa46464",
+      "asset_sha256": "f6d56b41f81f31bc67cf061952f168d408d2219aa13f948109c9cc4aae0ee453",
+      "source_bytes": 297411,
+      "asset_bytes": 294419,
+      "originals_file": "E55A7431.jpg"
+    },
+    {
+      "asset": "assets/rooms/kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/ask/7451.jpg",
+      "kind": "Kitchen vacant photograph; source ask/7451.jpg (originals/E55A7451.jpg). Matched visually to the kitchen look mockups (rounded island corner, cooktop in island, door to office). Display copy only; originals were not modified.",
+      "source_size": [
+        1600,
+        1067
+      ],
+      "asset_size": [
+        1600,
+        1067
+      ],
+      "source_sha256": "67753d5bc02657dec9f559bd80f6d6ce4a5e35a9ec8416ca26f1b033a5ad90bd",
+      "asset_sha256": "2c5334ad190a806a737e9db0ed461e8de7e192642dbf17a7b546ef1921a347b8",
+      "source_bytes": 303521,
+      "asset_bytes": 299626,
+      "originals_file": "E55A7451.jpg"
+    },
+    {
+      "asset": "assets/rooms/kitchen-7386.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/ask/7386.jpg",
+      "kind": "Kitchen vacant photograph, second angle; source ask/7386.jpg (originals/E55A7386.jpg). Sink wall and cooktop, visually identified as kitchen. Display copy only; originals were not modified.",
+      "source_size": [
+        1600,
+        1066
+      ],
+      "asset_size": [
+        1600,
+        1066
+      ],
+      "source_sha256": "8163c18b28552f3042cae6de48a2b2340cec442fc5c38caa38d6d14a68d847ad",
+      "asset_sha256": "34280e8562291ab79d22df68890d113a17578b2a88972718e54d5408f20eb35c",
+      "source_bytes": 332468,
+      "asset_bytes": 326267,
+      "originals_file": "E55A7386.jpg"
+    },
+    {
+      "asset": "assets/rooms/master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/ask/7436.jpg",
+      "kind": "Master bedroom vacant photograph; source ask/7436.jpg (originals/E55A7436.jpg), as mapped in the brief. Display copy only; originals were not modified.",
+      "source_size": [
+        1600,
+        1066
+      ],
+      "asset_size": [
+        1600,
+        1066
+      ],
+      "source_sha256": "5d033fda1207c68e95874ae391dfa82b435023bbaf5afc6da5a64d8c0a327cd6",
+      "asset_sha256": "d1e67f93d6884f151f7e080f718f136710eb0c459b0946fb6e76d9f669c0a85b",
+      "source_bytes": 393821,
+      "asset_bytes": 383072,
+      "originals_file": "E55A7436.jpg"
+    },
+    {
+      "asset": "assets/rooms/bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/ask/7441.jpg",
+      "kind": "3rd bedroom vacant photograph; source ask/7441.jpg (originals/E55A7441.jpg), as mapped in the brief. Display copy only; originals were not modified.",
+      "source_size": [
+        1400,
+        932
+      ],
+      "asset_size": [
+        1400,
+        932
+      ],
+      "source_sha256": "c25c03095c8cc9aade3d437689fdcfca87cf5563b388d462dc6e4bddf5ccbdcd",
+      "asset_sha256": "c2f3feee70e648e315393d825b3c1c83772e1a9140cab2845b6d564b4ce0f1ba",
+      "source_bytes": 237373,
+      "asset_bytes": 240906,
+      "originals_file": "E55A7441.jpg"
+    },
+    {
+      "asset": "assets/rooms/office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/ask/7396.jpg",
+      "kind": "Office vacant photograph; source ask/7396.jpg (originals/E55A7396.jpg), as mapped in the brief. Portrait original kept uncropped. Display copy only; originals were not modified.",
+      "source_size": [
+        1065,
+        1600
+      ],
+      "asset_size": [
+        1065,
+        1600
+      ],
+      "source_sha256": "7ff3203ac99ec97d3383b72d9bf48020fc54d03700eb06c262ac51072dc846b7",
+      "asset_sha256": "44ebdfe3f33025acca4ee9fd7969a9d8765a7f219209fae25afb87483df3d9ea",
+      "source_bytes": 241452,
+      "asset_bytes": 238107,
+      "originals_file": "E55A7396.jpg"
+    },
+    {
+      "asset": "assets/rooms/office-7401.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/ask/7401.jpg",
+      "kind": "Office vacant photograph, closet wall; source ask/7401.jpg (originals/E55A7401.jpg), as mapped in the brief. Display copy only; originals were not modified.",
+      "source_size": [
+        1600,
+        1067
+      ],
+      "asset_size": [
+        1600,
+        1067
+      ],
+      "source_sha256": "18b66b137d97b776af510e9d7bacdf53490919be42d869bce65f77beeaf6dd6d",
+      "asset_sha256": "10e95481e00b71d852c3c431dd838f25a8ff0f42e459a06878751427b4ee93c7",
+      "source_bytes": 285991,
+      "asset_bytes": 283263,
+      "originals_file": "E55A7401.jpg"
+    },
+    {
+      "asset": "assets/rooms/laundry.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/ask/7376.jpg",
+      "kind": "Laundry / mud room vacant photograph; source ask/7376.jpg (originals/E55A7376.jpg), as mapped in the brief. Display copy only; originals were not modified.",
+      "source_size": [
+        1400,
+        933
+      ],
+      "asset_size": [
+        1400,
+        933
+      ],
+      "source_sha256": "b261be7eb2585447873fc3c3cb37f2a024fc9876539f5879495eafe15701393a",
+      "asset_sha256": "2092b6034013dc3c869aa5ac46eeb43f92c8f928696723d79e81ec6fbb8785b7",
+      "source_bytes": 220806,
+      "asset_bytes": 227348,
+      "originals_file": "E55A7376.jpg"
+    },
+    {
+      "asset": "assets/rooms/laundry-7381.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/ask/7381.jpg",
+      "kind": "Laundry / mud room vacant photograph, second angle; source ask/7381.jpg (originals/E55A7381.jpg), as mapped in the brief. Display copy only; originals were not modified.",
+      "source_size": [
+        1400,
+        933
+      ],
+      "asset_size": [
+        1400,
+        933
+      ],
+      "source_sha256": "3798e261c0fffeabf248db81d4c21a499eabe8fb03d2a0b6265ef7c06e237c7c",
+      "asset_sha256": "7cc42b19f7141437f99464821be5e25c9583e50352f1f5c350402c1255d6877a",
+      "source_bytes": 226593,
+      "asset_bytes": 232092,
+      "originals_file": "E55A7381.jpg"
+    },
+    {
+      "asset": "assets/earlier/living-03.jpg",
+      "source": "/workspace/howell-main-house-prototype/assets/03.jpg",
+      "kind": "Earlier furnished living-room photograph (display copy already in this folder as 03.jpg, Nov 8, 2026).",
+      "source_size": [
+        2200,
+        1650
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "aa98177a6336360a5465bc5d0367bb02c589ccf103300b734eef409f7db6f19f",
+      "asset_sha256": "aa98177a6336360a5465bc5d0367bb02c589ccf103300b734eef409f7db6f19f",
+      "source_bytes": 784468,
+      "asset_bytes": 784468
+    },
+    {
+      "asset": "assets/earlier/living-04.jpg",
+      "source": "/workspace/howell-main-house-prototype/assets/04.jpg",
+      "kind": "Earlier furnished living-room photograph (display copy already in this folder as 04.jpg, Nov 8, 2026).",
+      "source_size": [
+        2200,
+        1650
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "9679d1f9632edd11a29bbb58e952e2d1aa923a07b66737641201803de2b02a87",
+      "asset_sha256": "9679d1f9632edd11a29bbb58e952e2d1aa923a07b66737641201803de2b02a87",
+      "source_bytes": 772070,
+      "asset_bytes": 772070
+    },
+    {
+      "asset": "assets/earlier/kitchen-05.jpg",
+      "source": "/workspace/howell-main-house-prototype/assets/05.jpg",
+      "kind": "Earlier furnished kitchen photograph (display copy already in this folder as 05.jpg, Nov 8, 2026).",
+      "source_size": [
+        2200,
+        1650
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "c10c710ce2136994f3a871d87913971a5c42572a47a049f41ee702e48796ece0",
+      "asset_sha256": "c10c710ce2136994f3a871d87913971a5c42572a47a049f41ee702e48796ece0",
+      "source_bytes": 828676,
+      "asset_bytes": 828676
+    },
+    {
+      "asset": "assets/earlier/kitchen-06.jpg",
+      "source": "/workspace/howell-main-house-prototype/assets/06.jpg",
+      "kind": "Earlier furnished kitchen photograph (display copy already in this folder as 06.jpg, Nov 8, 2026).",
+      "source_size": [
+        2200,
+        1650
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "256cb4c2da0f2428ff104442feaf3e20131258949b4932fa5d58a1892a31f20f",
+      "asset_sha256": "256cb4c2da0f2428ff104442feaf3e20131258949b4932fa5d58a1892a31f20f",
+      "source_bytes": 629533,
+      "asset_bytes": 629533
+    },
+    {
+      "asset": "assets/earlier/master-02.jpg",
+      "source": "/workspace/howell-main-house-prototype/assets/02.jpg",
+      "kind": "Earlier furnished master-bedroom photograph (display copy already in this folder as 02.jpg, Nov 8, 2026). Identified by green carpet and two windows, matching vacant E55A7436.",
+      "source_size": [
+        2200,
+        1650
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "805c4e180e8516d7c42ad6979dbf4c93c8693ccc6c4843b700e110f88810fd41",
+      "asset_sha256": "805c4e180e8516d7c42ad6979dbf4c93c8693ccc6c4843b700e110f88810fd41",
+      "source_bytes": 769879,
+      "asset_bytes": 769879
+    },
+    {
+      "asset": "assets/earlier/bed3-01.jpg",
+      "source": "/workspace/howell-main-house-prototype/assets/01.jpg",
+      "kind": "Earlier furnished 3rd-bedroom photograph (display copy already in this folder as 01.jpg, Nov 8, 2026). Identified by single window and beige carpet, matching vacant E55A7441.",
+      "source_size": [
+        2200,
+        1650
+      ],
+      "asset_size": [
+        2200,
+        1650
+      ],
+      "source_sha256": "d962ffebcdb0b39844faa40493c1e6f88ede324cd72b5b43f5839853f0a2bf17",
+      "asset_sha256": "d962ffebcdb0b39844faa40493c1e6f88ede324cd72b5b43f5839853f0a2bf17",
+      "source_bytes": 705812,
+      "asset_bytes": 705812
+    },
+    {
+      "asset": "assets/looks/s1-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s1-living.jpg",
+      "kind": "Look mockup display copy of looks/s1-living.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "796bd8b9ada83abefc81ac8577f45ac85ff8bf43ccf60374ed0fc2f36c8d6e3a",
+      "asset_sha256": "c58cfc2dc3dde02a0856c6c37070036468c1a7a1f1bcd82708edcdec51f90531",
+      "source_bytes": 252318,
+      "asset_bytes": 126593
+    },
+    {
+      "asset": "assets/looks/s1-kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s1-kitchen.jpg",
+      "kind": "Look mockup display copy of looks/s1-kitchen.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "78eef98092121766127f289931ee10f20083fbe4126c04c6aa56b684a7842111",
+      "asset_sha256": "5d56474f0d1efdfdbd2be56f9126e0e878f78775816d432cc1c645adfa704926",
+      "source_bytes": 242016,
+      "asset_bytes": 121907
+    },
+    {
+      "asset": "assets/looks/s1-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s1-master.jpg",
+      "kind": "Look mockup display copy of looks/s1-master.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "4711ee96b49d2747d4ec2c55a491779fbaae7dfb446c9b09de970cd0ea884fda",
+      "asset_sha256": "7cf081a67b3a7de34ba1c789a041a941b47d218174068360516b67c96cce3b42",
+      "source_bytes": 216905,
+      "asset_bytes": 110033
+    },
+    {
+      "asset": "assets/looks/s1-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s1-bed3.jpg",
+      "kind": "Look mockup display copy of looks/s1-bed3.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "160c1dddc6738b5c0b821a8b669ab11f311a696ddbc212fb4ef550cddf76a382",
+      "asset_sha256": "d49b7dd84332974cb269fe6e5c367aea0573195c310491b330bc0d2f66a78b3b",
+      "source_bytes": 210312,
+      "asset_bytes": 109195
+    },
+    {
+      "asset": "assets/looks/s1-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s1-office.jpg",
+      "kind": "Look mockup display copy of looks/s1-office.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "9ddf8771f889e519a02774b00b7a7526861c1516c259f983197bdd7adc4aec35",
+      "asset_sha256": "65a7ec4f0c75d29a74c39b4526c382e854fff80f464a12c430ad67a2ead97c56",
+      "source_bytes": 276912,
+      "asset_bytes": 137745
+    },
+    {
+      "asset": "assets/looks/s1-laundry.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s1-laundry.jpg",
+      "kind": "Look mockup display copy of looks/s1-laundry.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "4ddce88bd360b8bad7986e46917ece8f031ae79c78a142bfc1aca4465ccb87cc",
+      "asset_sha256": "600e4784d538dae3dbb79ec254736b5fb20b9c97bf6bf71c59868ebd08ad94db",
+      "source_bytes": 280570,
+      "asset_bytes": 146557
+    },
+    {
+      "asset": "assets/looks/s2-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s2-living.jpg",
+      "kind": "Look mockup display copy of looks/s2-living.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "1e54e1d9ec111aa727d50c7ca8cf9161b8f41a58a47001ef955961e10453affa",
+      "asset_sha256": "6dfdfe1e3f4c87e779cc8a27381ecb481c6e9347001045e37fd91bfe2e6535e0",
+      "source_bytes": 275969,
+      "asset_bytes": 141891
+    },
+    {
+      "asset": "assets/looks/s2-kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s2-kitchen.jpg",
+      "kind": "Look mockup display copy of looks/s2-kitchen.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "3e9108b58f0d12d5f390ba2f0c856410059c6d7825c14a5bdfe669712b151991",
+      "asset_sha256": "21fa15aa887bd14190cb3097ddc1ea94741a273b5f856c387fca5c3eda2d035a",
+      "source_bytes": 258982,
+      "asset_bytes": 133869
+    },
+    {
+      "asset": "assets/looks/s2-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s2-master.jpg",
+      "kind": "Look mockup display copy of looks/s2-master.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "cd5b126a2ce0a9e6afa3e9e255ba10f7f6f58ad4cecd182a63411747e195ea2e",
+      "asset_sha256": "7cc585bdcfcb716d8575c3640a0429a1cf6a2280665f016fe1ae27491029832d",
+      "source_bytes": 215792,
+      "asset_bytes": 105478
+    },
+    {
+      "asset": "assets/looks/s2-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s2-bed3.jpg",
+      "kind": "Look mockup display copy of looks/s2-bed3.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "63041071ae25d89882f0bbebff7fdafe7f4f5583ee70bf58604fb59e01e059ac",
+      "asset_sha256": "c67d454f3d44c1d1104dab58e5aa14c1f8f598e53083f589b165df38d4615e3f",
+      "source_bytes": 206914,
+      "asset_bytes": 102775
+    },
+    {
+      "asset": "assets/looks/s2-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s2-office.jpg",
+      "kind": "Look mockup display copy of looks/s2-office.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "3ca4008ca25b57fd64268c8858971de9fbfef4ae9ccef3a5117b803d1d66fc3b",
+      "asset_sha256": "06e9985795ff46af902e475086c6499afe2e959907bbc272dab47dfce96b523b",
+      "source_bytes": 291706,
+      "asset_bytes": 148567
+    },
+    {
+      "asset": "assets/looks/s2-laundry.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s2-laundry.jpg",
+      "kind": "Look mockup display copy of looks/s2-laundry.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "a3bd9f70012d6ae8efb9be9e42af9d7368692b6afcd0ac1082400bab2ea2a0a4",
+      "asset_sha256": "82c08247c96854d6d3f135712733561221e4acc42235cb8b3d67b88b9e96de55",
+      "source_bytes": 266983,
+      "asset_bytes": 136499
+    },
+    {
+      "asset": "assets/looks/s3-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s3-living.jpg",
+      "kind": "Look mockup display copy of looks/s3-living.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "fcb7d1c4c156a091da7d693d7789448e68e8c8839076859ce6a7b9168d1c2ac0",
+      "asset_sha256": "6b06cd837b28f34bbf77b353473d8289bef5e5a4e8d70a9e9f57215645baa719",
+      "source_bytes": 259379,
+      "asset_bytes": 130392
+    },
+    {
+      "asset": "assets/looks/s3-kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s3-kitchen.jpg",
+      "kind": "Look mockup display copy of looks/s3-kitchen.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "82d97433c1508060367c7ffc7e064e42b5c74d11b8ff70f728d03d4de33ad8f2",
+      "asset_sha256": "fd1e6998bc2d783cd6afb75bdf7bfb94ce5f0aced00fe2e5b106a37150165f7f",
+      "source_bytes": 231242,
+      "asset_bytes": 118293
+    },
+    {
+      "asset": "assets/looks/s3-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s3-master.jpg",
+      "kind": "Look mockup display copy of looks/s3-master.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "99215aa422cf685bc328ef4125b58b4927bc500f47502ba4714a3d2484d1e70f",
+      "asset_sha256": "afc312dff68de5fe5d28d2afa8744b6f18537389a5451e7c391eaf67f6fcac40",
+      "source_bytes": 205891,
+      "asset_bytes": 98972
+    },
+    {
+      "asset": "assets/looks/s3-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s3-bed3.jpg",
+      "kind": "Look mockup display copy of looks/s3-bed3.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "ff9e1a4075ba56628c35a729c36186c466adc19f07c0edb26a536c8e82bd8008",
+      "asset_sha256": "3d8d1793089ba13fdcbb9634f853cdd2467ea42b743d31ad7a13920706e99e7f",
+      "source_bytes": 205960,
+      "asset_bytes": 104965
+    },
+    {
+      "asset": "assets/looks/s3-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s3-office.jpg",
+      "kind": "Look mockup display copy of looks/s3-office.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "df74bec34dc40d79055fa8278afd85c6bf03d114bc5907df13ca18146c738746",
+      "asset_sha256": "14d36ab7b507833c2e4a02316b2dbba7bf1576a885f0602a44914917d80d158c",
+      "source_bytes": 288056,
+      "asset_bytes": 147853
+    },
+    {
+      "asset": "assets/looks/s3-laundry.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s3-laundry.jpg",
+      "kind": "Look mockup display copy of looks/s3-laundry.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "b93aec412524739355787ad0015bd59229a0d2987c435b9715cd695151eab9da",
+      "asset_sha256": "de20184aa62535fbf3bcf532cebb6df298a1a433dc0ad4113815f2f798744462",
+      "source_bytes": 270277,
+      "asset_bytes": 139946
+    },
+    {
+      "asset": "assets/looks/s4-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s4-living.jpg",
+      "kind": "Look mockup display copy of looks/s4-living.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "7a8bdd46e4e062fa2c30a5f63fd5fee2e94574fd5cddd9ed950e9e792405f3e5",
+      "asset_sha256": "28190a702acd3c612203732ae603d38f845ca0fcb93b6caebf418930f2553c2b",
+      "source_bytes": 290297,
+      "asset_bytes": 148733
+    },
+    {
+      "asset": "assets/looks/s4-kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s4-kitchen.jpg",
+      "kind": "Look mockup display copy of looks/s4-kitchen.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "7c8b205bde008225ba871802c325aabd3858630d2e33c65bc018bf5da9f2dcad",
+      "asset_sha256": "4a32c7309990add55f348c1de670a3ba80b8c3cb38f8cfe91b70327eead548c8",
+      "source_bytes": 280560,
+      "asset_bytes": 145860
+    },
+    {
+      "asset": "assets/looks/s4-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s4-master.jpg",
+      "kind": "Look mockup display copy of looks/s4-master.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "28a3b1184171f7694e01646768a4d99df5cfb74fa88ba2416a4cea48ac8cbbe4",
+      "asset_sha256": "e8b6f14196dc5ba71199e4c16abb184f93a65ef9c3380d3bbcf79f8b532e0818",
+      "source_bytes": 234365,
+      "asset_bytes": 116858
+    },
+    {
+      "asset": "assets/looks/s4-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s4-bed3.jpg",
+      "kind": "Look mockup display copy of looks/s4-bed3.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "28387769995796b6c1c83049863ce1bf235afc31bdd249ab500fafa1014bb575",
+      "asset_sha256": "f0b4b5cb570ed3b515c17565cc38bd6038983a0755fcc957ed00a30e7b7e7241",
+      "source_bytes": 229097,
+      "asset_bytes": 118921
+    },
+    {
+      "asset": "assets/looks/s4-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s4-office.jpg",
+      "kind": "Look mockup display copy of looks/s4-office.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "63d4804af51962c432d87ec30e0a1f49c2882cd5d1106bd5aa266779cf6e221f",
+      "asset_sha256": "716611e22f3e3f9755cd415fca0f5aba80b909f5e61f95cfbc7f9774ceeca477",
+      "source_bytes": 295201,
+      "asset_bytes": 151264
+    },
+    {
+      "asset": "assets/looks/s4-laundry.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s4-laundry.jpg",
+      "kind": "Look mockup display copy of looks/s4-laundry.jpg. Concept render, not construction-accurate. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "b3b7832942b4ebc3fed7784d845e6c846af976b539f23215bd51f3893e14aedb",
+      "asset_sha256": "80ef8ec3c7d253491412ae595fec34fc60f8d771420aacaae2d1fa1f89d93193",
+      "source_bytes": 264612,
+      "asset_bytes": 137784
+    },
+    {
+      "asset": "assets/looks/driftwood-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/explorations/driftwood-living.jpg",
+      "kind": "Earlier exploration mockup display copy of looks/explorations/driftwood-living.jpg. REJECTED files were excluded. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "36ed48288f830794c4c3642da51ae89c5af9457e6c28ab9277e596b238c0421f",
+      "asset_sha256": "a8d9c6a6e67311ff577f374bfe14e30aba54c00ef10fd49b5287aeae3765ab7d",
+      "source_bytes": 278427,
+      "asset_bytes": 143322
+    },
+    {
+      "asset": "assets/looks/driftwood-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/explorations/driftwood-master.jpg",
+      "kind": "Earlier exploration mockup display copy of looks/explorations/driftwood-master.jpg. REJECTED files were excluded. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "2f204c9e30a80805604a00f3e95710dc91e075016ddd45cd55ec13ebe0fee7be",
+      "asset_sha256": "3d59cf3d0b500b459847338cc96bf589568edbdb35e5c3743994363913c19cd3",
+      "source_bytes": 232513,
+      "asset_bytes": 119430
+    },
+    {
+      "asset": "assets/looks/mossy-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/explorations/mossy-living.jpg",
+      "kind": "Earlier exploration mockup display copy of looks/explorations/mossy-living.jpg. REJECTED files were excluded. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "865f95db9cb02f39393b41ad593f653b72fc17d05d392ed13cfd696778d4c84b",
+      "asset_sha256": "8842ad37b099db628f1022be9d8a1b87c393a4a0f2aca0796244a8a820255e3a",
+      "source_bytes": 288057,
+      "asset_bytes": 148782
+    },
+    {
+      "asset": "assets/looks/mossy-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/explorations/mossy-master.jpg",
+      "kind": "Earlier exploration mockup display copy of looks/explorations/mossy-master.jpg. REJECTED files were excluded. Originals not modified.",
+      "source_size": [
+        1280,
+        720
+      ],
+      "asset_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "6ab0323e5964576d300735f100a0864a695eda86d0b554e1b6b8457b428763d8",
+      "asset_sha256": "d631b54b311c927ba6af69658e86e82e8b0ba484a7aa0c79e850e9ab1175f9c3",
+      "source_bytes": 242776,
+      "asset_bytes": 123013
+    },
+    {
+      "asset": "assets/looks/s1-board.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s1-board.jpg",
+      "kind": "Look sample board; display copy, resized only. Concept, not construction-accurate.",
+      "asset_size": [
+        2000,
+        875
+      ],
+      "asset_sha256": "8f1a605696780b485acd4b8aef4e30f97a12a3d7ecc8f568ff275b1f2d4cd368",
+      "asset_bytes": 208380,
+      "source_size": [
+        2440,
+        1068
+      ],
+      "source_sha256": "103401dbe7ddd9336b76a42c3b0c45bb44075886892bad13c0bda673d0f1c8d4",
+      "source_bytes": 404436
+    },
+    {
+      "asset": "assets/looks/s2-board.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s2-board.jpg",
+      "kind": "Look sample board; display copy, resized only. Concept, not construction-accurate.",
+      "asset_size": [
+        2000,
+        875
+      ],
+      "asset_sha256": "61c6c1a65f4061fe1b51e7d8d9ec2606339f774739da3cae6c0a4c642a34cfbf",
+      "asset_bytes": 211944,
+      "source_size": [
+        2440,
+        1068
+      ],
+      "source_sha256": "c00d944f7a607ebefeb8ffcd16bd088a964c0423ca103b0e052e5c5dd7a0a4a2",
+      "source_bytes": 410719
+    },
+    {
+      "asset": "assets/looks/s3-board.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s3-board.jpg",
+      "kind": "Look sample board; display copy, resized only. Concept, not construction-accurate.",
+      "asset_size": [
+        2000,
+        875
+      ],
+      "asset_sha256": "d8cf5202529eaee2af1559eab07e4ba8258fa062c72ebd348a1289d112d33b77",
+      "asset_bytes": 204634,
+      "source_size": [
+        2440,
+        1068
+      ],
+      "source_sha256": "0e4aa423f8e0b3afd45f27681fa4f270984650c1336a65109d99b531ac633f1b",
+      "source_bytes": 397483
+    },
+    {
+      "asset": "assets/looks/s4-board.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s4-board.jpg",
+      "kind": "Look sample board; display copy, resized only. Concept, not construction-accurate.",
+      "asset_size": [
+        2000,
+        875
+      ],
+      "asset_sha256": "e886f1387e0256c184fd2eb4b8430ff703b41b983de9f493b4642c05af378beb",
+      "asset_bytes": 223363,
+      "source_size": [
+        2440,
+        1068
+      ],
+      "source_sha256": "b290c021b4c48e5fb1c99e613cb0993d89b761595516f119c67dcd5c49fd9459",
+      "source_bytes": 434055
+    },
+    {
+      "asset": "assets/looks/s5-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s5-bed3.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "3c25d54218bd170f94f491e0cb3487f1020c820f190a3feae93755ea7dbdf4d1",
+      "asset_bytes": 105015,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "14122539250dfe4bb171ae4c5437e126c1c7812dd2b572e768e1fe908ab0d673",
+      "source_bytes": 193172
+    },
+    {
+      "asset": "assets/looks/s5-board.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s5-board.jpg",
+      "kind": "Look sample board; display copy, resized only. Concept, not construction-accurate.",
+      "asset_size": [
+        2000,
+        875
+      ],
+      "asset_sha256": "311a05f912c47668cce7066108a1df211bb3412b69c4669af380c3f5efe56f04",
+      "asset_bytes": 226605,
+      "source_size": [
+        2440,
+        1068
+      ],
+      "source_sha256": "21190d93649c6ff915743b5703d48d4a7597042c9d57e68f34f02ca3e26a05d6",
+      "source_bytes": 661351
+    },
+    {
+      "asset": "assets/looks/s5-kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s5-kitchen.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "b220e751bdd32b22b71a2bc3ba591a7199fb43474b8fd1ac91e45e8cc7c11e57",
+      "asset_bytes": 128214,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "05eb869f676082f218ac2b8eb9907225cbf5f9da787fe99cf2cddc618bd44c81",
+      "source_bytes": 243034
+    },
+    {
+      "asset": "assets/looks/s5-laundry.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s5-laundry.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "9e93b949899ec687ce179f3f29243b0b0f2c6defe40c2c01a8d22ddd61249e61",
+      "asset_bytes": 126127,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "85ceb340c0e8ea874c28d0d8fdab550d7f71184c76f842d87168cb98a99e48f3",
+      "source_bytes": 245169
+    },
+    {
+      "asset": "assets/looks/s5-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s5-living.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "3c4b9b293c3cd46870d1b64c1132789b21f5e9f27901fdc30687755f02c800ef",
+      "asset_bytes": 147362,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "03b4d7fbdf0229ee81a2234ce4a18947c6e9ba3601097a0582a62fd13375b18c",
+      "source_bytes": 280468
+    },
+    {
+      "asset": "assets/looks/s5-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s5-master.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "5fe7d1a1b27e104022309bf05703ffae34ef00eeab8cfdf60fb9a2e9b5df498d",
+      "asset_bytes": 112310,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "73eaa540faa2a356826639412ac0f94023c402f9c3376ae4912bb310b2cead44",
+      "source_bytes": 209269
+    },
+    {
+      "asset": "assets/looks/s5-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s5-office.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "045950c6c85daed49c092d6c6becee7e99e2c36c73c2059c48546e94fc14a0ce",
+      "asset_bytes": 132895,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "c36f71aebb673349a4e126e2c307c1f5c47abee48024dad390f108380e1e036a",
+      "source_bytes": 260452
+    },
+    {
+      "asset": "assets/looks/s6-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s6-bed3.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "9d1e88476665bd301921504f598873407c09bf1a7d3748fd68fa5bf1777164b6",
+      "asset_bytes": 97401,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "e950c11f610d00b75c3ce3beb07d7d7c328fe2b32075b2240b734f1cd2a0ecf4",
+      "source_bytes": 189999
+    },
+    {
+      "asset": "assets/looks/s6-board.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s6-board.jpg",
+      "kind": "Look sample board; display copy, resized only. Concept, not construction-accurate.",
+      "asset_size": [
+        2000,
+        875
+      ],
+      "asset_sha256": "94f642145e063f91a640561719e3a3286a920343d33927653173e31fdf25fc9e",
+      "asset_bytes": 212705,
+      "source_size": [
+        2440,
+        1068
+      ],
+      "source_sha256": "420548d2999329fb6611ca9be42f0092c956ee749ec2eb9dab5a80464de8c680",
+      "source_bytes": 640156
+    },
+    {
+      "asset": "assets/looks/s6-kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s6-kitchen.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "680b375bad492c4c19378d58db59fff016c481ac60b7948a1801eccafa3e49d6",
+      "asset_bytes": 127693,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "aec035b8abb680f24635d0807bfdfcf76fe127676e80689d99112f219fd7dde4",
+      "source_bytes": 243455
+    },
+    {
+      "asset": "assets/looks/s6-laundry.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s6-laundry.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "a4d8afefd1fffb56989df60e350d6498a15be2a9e13c90102e7f42da7b290032",
+      "asset_bytes": 122589,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "bedd8f6d7d380a98e03f47d6d98e214f18acd614396c746b28270052df46cd8a",
+      "source_bytes": 239508
+    },
+    {
+      "asset": "assets/looks/s6-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s6-living.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "42ae0774d330d916918f77c0fa7de7d7f313dd3e4c3ee555bf22af8e1b1ef97c",
+      "asset_bytes": 139527,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "3c1e64ec8f037fb6bf629f684b57817622129f6e079862c0b0a235cab66d9747",
+      "source_bytes": 267498
+    },
+    {
+      "asset": "assets/looks/s6-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s6-master.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "f321c73e729678bb1b7abd36fa1af0e6ef92d718e3a9120707db0d000f52a63e",
+      "asset_bytes": 90663,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "b36d380aed856ab8a5718fdcfdc5d7df8e923eb75bf6ea6f283f8f52bd722409",
+      "source_bytes": 178869
+    },
+    {
+      "asset": "assets/looks/s6-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s6-office.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "ba398e0fb101167512741b0cf745e74501d32ef4859267de386bd880503f2ccd",
+      "asset_bytes": 130651,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "535430b1b87694520b4082310ddaf0248353529c31a01f23d292862dca2d00d6",
+      "source_bytes": 258452
+    },
+    {
+      "asset": "assets/looks/s7-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s7-bed3.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "0ac12f71c4f1c122e7ca6d269ecfb99abf7c563d7cd9e6ca8a7bdf1743f96af5",
+      "asset_bytes": 84117,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "8fccd806440af8c64459016e25c57dc5a4125033be37198829f8193fdedcbd63",
+      "source_bytes": 162137
+    },
+    {
+      "asset": "assets/looks/s7-board.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s7-board.jpg",
+      "kind": "Look sample board; display copy, resized only. Concept, not construction-accurate.",
+      "asset_size": [
+        2000,
+        875
+      ],
+      "asset_sha256": "ffba39793656c6cb244518a116f1a45000940ab43bf164fc7f6b353ccb08d268",
+      "asset_bytes": 197868,
+      "source_size": [
+        2440,
+        1068
+      ],
+      "source_sha256": "f916676663a5b622c479a7904da610d15d10e47bd1ad3c8d28059b4c3c319916",
+      "source_bytes": 588975
+    },
+    {
+      "asset": "assets/looks/s7-kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s7-kitchen.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "7e28de76a8bda1a2c17a36c3044c7720271495e893743df928243887e7e36c0a",
+      "asset_bytes": 125733,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "cf2c1a80c7c9d1be16907a1e9f593340b959f49a12ee2c586c18f433aa6030f6",
+      "source_bytes": 234354
+    },
+    {
+      "asset": "assets/looks/s7-laundry.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s7-laundry.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "e3d5a86ff750cf451d8d04cf1ccb15b30120c1d9479919d378f723165a0d774a",
+      "asset_bytes": 120619,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "b410d7133ac0b7921a95ef8a9e0f5d2ba0f5703ecda6f8840a6160d60ac5c2a2",
+      "source_bytes": 235917
+    },
+    {
+      "asset": "assets/looks/s7-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s7-living.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "a0cbd4afdcbad424fcc8b86df04e1e0f3e732442366ea785451a2cd55dcdbec0",
+      "asset_bytes": 131791,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "b425712d0145c1ddd75fe411b2c88f76e85e2dc334bde61514b6c21c1f951ffb",
+      "source_bytes": 255478
+    },
+    {
+      "asset": "assets/looks/s7-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s7-master.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "7eeee96d57daa5d228c0eb634233518d1a72c333b92185f294fc388e57269eb5",
+      "asset_bytes": 72502,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "3a77b413e409e9231b27c07c5eda55fb552ab0311ccb083a0d0a009a5e3ad80c",
+      "source_bytes": 144713
+    },
+    {
+      "asset": "assets/looks/s7-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s7-office.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "c6c469645d3ad0ded8a25f50c7d9edb79c70b14d96cf67a2ea1fee63e6eed8bc",
+      "asset_bytes": 129954,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "da7c7c933da956dfa528747103568fe581a19d5afd02a394d6b89281b35df601",
+      "source_bytes": 255052
+    },
+    {
+      "asset": "assets/looks/s8-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s8-bed3.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "68748e48d1c7653e59c67ea652aaf61a37d3e95177152e981b7d1902e799249a",
+      "asset_bytes": 107148,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "62c2b09bf757ec679f453ca3f3646217bcbd945b0f92c0d3ed62444e62f37988",
+      "source_bytes": 192145
+    },
+    {
+      "asset": "assets/looks/s8-board.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s8-board.jpg",
+      "kind": "Look sample board; display copy, resized only. Concept, not construction-accurate.",
+      "asset_size": [
+        2000,
+        875
+      ],
+      "asset_sha256": "a99212817ebfbb37bdb398a025bfcc197887a617d84805dd54c04e6c0f161d46",
+      "asset_bytes": 222233,
+      "source_size": [
+        2440,
+        1068
+      ],
+      "source_sha256": "bca238597994f182e3f9d3be50ae48f7ef9000278af1997335a32958fa901314",
+      "source_bytes": 645881
+    },
+    {
+      "asset": "assets/looks/s8-kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s8-kitchen.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "326bc2dfab6ce253209afaac18e978318378cbd2b76f19209eef788ee918e677",
+      "asset_bytes": 121600,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "8ad8c8f2121e4e13aaaf4ff0c720df85994aec70669ef7e5a12c2db3bb59cde1",
+      "source_bytes": 232153
+    },
+    {
+      "asset": "assets/looks/s8-laundry.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s8-laundry.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "7f28fd8b02f6ce8c495f5f2cd4ded8fcb7c3747160a2c13ddaf639f310f0b661",
+      "asset_bytes": 124993,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "59a19123f9b2666764be5a358d09414df44bba4a21e4a35245b7cc73031764b2",
+      "source_bytes": 242275
+    },
+    {
+      "asset": "assets/looks/s8-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s8-living.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "74c187ebe406cc06531de722f0caa1e4797f2488b9e9e9878f1de474e732ef1f",
+      "asset_bytes": 128277,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "3f6a8bb082571021cb10dad7ad31d925e2ca03324e0cb60c87748690ae32b823",
+      "source_bytes": 250212
+    },
+    {
+      "asset": "assets/looks/s8-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s8-master.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "1f4b3019e79a0edb1fb8df9c85fc5b12e474bb9e4cec2e16e308da9dc9697327",
+      "asset_bytes": 114431,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "59f3645f3fda0844afb79df8ca3e157ffae339ab40623f288cf703568c8acc2e",
+      "source_bytes": 209666
+    },
+    {
+      "asset": "assets/looks/s8-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s8-office.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "ec268136c10a0cf2e4c20649725b8af71acda899e5ee8be5e2a70a8a68ac8994",
+      "asset_bytes": 132415,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "873816a0f4f70307531f7c82ddde1164e8b3f6d90dcd206a3beaabaa6c716abe",
+      "source_bytes": 256819
+    },
+    {
+      "asset": "assets/looks/s9-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s9-bed3.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "7252d39b29fca5e830c7a24c8b3c02099e7c07de8e37e0de3562698f2b1b8dc8",
+      "asset_bytes": 88975,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "24a7bff84e672c58787e40b8cbf62bbced5ec9a9395a53187408ccb0f95ea3b8",
+      "source_bytes": 170901
+    },
+    {
+      "asset": "assets/looks/s9-board.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s9-board.jpg",
+      "kind": "Look sample board; display copy, resized only. Concept, not construction-accurate.",
+      "asset_size": [
+        2000,
+        875
+      ],
+      "asset_sha256": "2ddab4778ca764c081d2bdc8f2040558e9bd0cfedd7baecc5a25cf7201cd52c3",
+      "asset_bytes": 202214,
+      "source_size": [
+        2440,
+        1068
+      ],
+      "source_sha256": "fac9a4ad3839f3c310625892ce8e24bae6213ff52acbfd6ea375dda628e54e51",
+      "source_bytes": 599886
+    },
+    {
+      "asset": "assets/looks/s9-kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s9-kitchen.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "aca8712d9714ac83af20e7a70710db8d65a5da4c396048a2eb067b7509899d40",
+      "asset_bytes": 126141,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "e74b44d64aef9bb1fee57417bf79fdcc8c7f8d7cf398eff6ad0d2668fa3b841e",
+      "source_bytes": 234774
+    },
+    {
+      "asset": "assets/looks/s9-laundry.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s9-laundry.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "ced56cec1015c2c058574fb7a01459de767e131acf51abbf01e0bd88121ae878",
+      "asset_bytes": 125054,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "2f11cc922ae33e8872b116d5d41ed83de953e7397380c45c9ebe7c5106339db2",
+      "source_bytes": 242334
+    },
+    {
+      "asset": "assets/looks/s9-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s9-living.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "89b00b957e35aa09690128fef25eb0ceabe7e2d97d87a9affb748e69425e9888",
+      "asset_bytes": 122838,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "ae76dfa7a13d84d6281e94d53290d0a5cf1c4adc2012f2d18b190582a628413f",
+      "source_bytes": 237986
+    },
+    {
+      "asset": "assets/looks/s9-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s9-master.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "e72ad81483698fa280deb09e1b54fd107bc0e01af0cf514c56dd3a3d3673745e",
+      "asset_bytes": 87794,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "c5690071a701fc4e88cd48df9ef0f3462973afba096d66300c2b333df4d294f1",
+      "source_bytes": 166996
+    },
+    {
+      "asset": "assets/looks/s9-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/s9-office.jpg",
+      "kind": "Concept render; display copy, resized only. Not construction-accurate. Rejected explorations were not included.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "cab869c43f55736fdfb870cf25b15db1ef4e436bffc04853938f4bec92126085",
+      "asset_bytes": 122847,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "da2491652da2b00d24e57907d56f60d069c4482f3c85098190116a30cb6a9a4d",
+      "source_bytes": 242372
+    },
+    {
+      "asset": "assets/looks/softsage-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/concepts/bedroom3-B-sage.jpg",
+      "kind": "Room study concept; display copy, resized only. Not construction-accurate.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "7bcce550e7639c3acfc6ef3eea960c810d9a819439b73a274f2f4dc2300604a2",
+      "asset_bytes": 108500,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "053cfab4b86160dbfc159d7ba326b02381a1240a1b40044654844b2ac5e54240",
+      "source_bytes": 235429
+    },
+    {
+      "asset": "assets/looks/softsage-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/concepts/living-sage-white.jpg",
+      "kind": "Room study concept; display copy, resized only. Not construction-accurate.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "efcd8ee4189684b4a114173b83b4e5159bcdd78c11746f2ec274b62fa271a8c7",
+      "asset_bytes": 130618,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "475223bd636b12bc22ab2aa112b6fdbe9336eb4c7752ebbcf3ce652a58da4928",
+      "source_bytes": 283636
+    },
+    {
+      "asset": "assets/looks/softsage-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/concepts/master-B-sage.jpg",
+      "kind": "Room study concept; display copy, resized only. Not construction-accurate.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "81b7eb94528056273328cc847aefd2b58c6d90101d5c3109e978ea813e19c897",
+      "asset_bytes": 105234,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "359730c59f1a79dd449bf14c8d0ac093d602f98fb3d6331befcb9ebb67946216",
+      "source_bytes": 233154
+    },
+    {
+      "asset": "assets/looks/softsage-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/concepts/office-B-sage.jpg",
+      "kind": "Room study concept; display copy, resized only. Not construction-accurate.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "68aef39a78c8232720d4ef1dac1880475ce75d7bed30594d74230e1147c6be11",
+      "asset_bytes": 126336,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "967dcaebce7ff71c01b6e6ba011158acf4a728031994f2a72a5405f590af592f",
+      "source_bytes": 284978
+    },
+    {
+      "asset": "assets/looks/warmwhite-bed3.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/concepts/bedroom3-A-warm-white.jpg",
+      "kind": "Room study concept; display copy, resized only. Not construction-accurate.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "01616536ca78c6ee534fcb39c7922f3ee244c1fd7069ee050bb95e6098b82782",
+      "asset_bytes": 97347,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "c07c7f218ff02046bd3ef7302746535a8c99879991e9c6dfa64d1f4c0510081e",
+      "source_bytes": 215373
+    },
+    {
+      "asset": "assets/looks/warmwhite-kitchen.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/concepts/kitchen-A.jpg",
+      "kind": "Room study concept; display copy, resized only. Not construction-accurate.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "0c8503566e23c5ed1d508274d5858dbc298c9e4959982c8c5b305fdafa4ada12",
+      "asset_bytes": 125111,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "3386f80ed8d61506ef8d72c4ac44fe43ac211e562a7ef77552f468cb6328d518",
+      "source_bytes": 270466
+    },
+    {
+      "asset": "assets/looks/warmwhite-living.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/concepts/living-A.jpg",
+      "kind": "Room study concept; display copy, resized only. Not construction-accurate.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "815983d2dc8efa11afbd18dab670bf967c0344d44105ff90478b9da380844f81",
+      "asset_bytes": 144785,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "7650c077d55074634665e726368119fdd8993fb6792e311d66687a8aed378884",
+      "source_bytes": 308933
+    },
+    {
+      "asset": "assets/looks/warmwhite-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/concepts/master-A-warm-white.jpg",
+      "kind": "Room study concept; display copy, resized only. Not construction-accurate.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "e268a2856a12695141b2ef47b254765e650cc79f0fca5e9dc154ac9231b8877f",
+      "asset_bytes": 95337,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "e568459b7762131d96c89ee0fe90a1a1db325a9dd79fb44c86a75a38c54583b2",
+      "source_bytes": 217821
+    },
+    {
+      "asset": "assets/looks/warmwhite-office.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/concepts/office-A-warm-white.jpg",
+      "kind": "Room study concept; display copy, resized only. Not construction-accurate.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "3d53a329448d2bd10562af19807958ebe746aee85d18e856b1aaa632a41f7b8d",
+      "asset_bytes": 131276,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "a14b8881790337d7179347dcf442752e71e02baf42920e4dc5f839a86b9e3506",
+      "source_bytes": 291553
+    },
+    {
+      "asset": "assets/looks/warmwhite-study-master.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/looks/explorations/warmwhite-master.jpg",
+      "kind": "Room study concept; display copy, resized only. Not construction-accurate.",
+      "asset_size": [
+        1280,
+        720
+      ],
+      "asset_sha256": "e104af554c0d5d24291f02e2f05ecb5d9ae7fbbd57b8ac0b5b935dd16faada47",
+      "asset_bytes": 86229,
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "3c8d532538efb6bdbb24abf6a4b39a1ecaeae86140b514896f9b70d890cfad02",
+      "source_bytes": 208157
+    },
+    {
+      "asset": "assets/plan/main-house-plan.png",
+      "source": null,
+      "kind": "CubiCasa floor-plan scan used for the Photo map.",
+      "asset_size": [
+        759,
+        872
+      ],
+      "asset_sha256": "8c1e5f7519d15c6dd53d02b85768d96b333fa8507a3ed23704d17b09f98597b9",
+      "asset_bytes": 137082
+    },
+    {
+      "asset": "assets/rooms/bath.jpg",
+      "source": null,
+      "kind": "Vacant photograph, November 9, 2026. Display copy only.",
+      "asset_size": [
+        1600,
+        1066
+      ],
+      "asset_sha256": "b65c6ff51509fbffddb0fa43c6d610d8a64cc7d813778a314556967aff20ac18",
+      "asset_bytes": 241748
+    },
+    {
+      "asset": "assets/rooms/exterior-7251.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7251.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "4d2b2c97e53eef7d7acc8d04459971fedb50cfda7ca1e42513abfd2cf43056b5",
+      "asset_bytes": 385358,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "49e5968522e9a3f7508b6e0a81c5bfc3f850c0bebcf70ad1ee19236a78d6db28",
+      "source_bytes": 8837426
+    },
+    {
+      "asset": "assets/rooms/exterior-7256.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7256.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "38fd297d927e8fc4dbb83dd274c6f42d7e5084291587cf03640b413453240b8c",
+      "asset_bytes": 357011,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "3f44ca9e09e8c48f0560fbc8278c7821581780e7c66e4c15c7169a4932cafd06",
+      "source_bytes": 13983658
+    },
+    {
+      "asset": "assets/rooms/exterior-7261.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7261.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        933
+      ],
+      "asset_sha256": "ade9e6f903b38a8331279328caed724e3d9fd414b85839ceb891de5c4561f404",
+      "asset_bytes": 286474,
+      "source_size": [
+        6000,
+        3999
+      ],
+      "source_sha256": "a765bb56e7b6064984cb709df995a676c30c67ee39e85a55bb8befe14052485c",
+      "source_bytes": 11050460
+    },
+    {
+      "asset": "assets/rooms/exterior-7266.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7266.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "feb8dcd4f0f6fd8ec8a1d185aa5e717737ab775e85498e9d210c0d0599b12e58",
+      "asset_bytes": 244860,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "87a4634c4e9797109c90a227a5d5ea7cfdafe3ed94ccc0dace485705f24e4e11",
+      "source_bytes": 10626880
+    },
+    {
+      "asset": "assets/rooms/exterior-7276.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7276.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        933
+      ],
+      "asset_sha256": "c1e98c1eb862d2b27be3e9c76de11c0f44116e3c2d9ac48ecf17d270383e4e15",
+      "asset_bytes": 106516,
+      "source_size": [
+        5994,
+        3994
+      ],
+      "source_sha256": "0ef944ea1a2062536a8b34116b97354a6e4230db0a4e476e183213c9d1b3ee25",
+      "source_bytes": 3967256
+    },
+    {
+      "asset": "assets/rooms/exterior-7281.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7281.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "d67c5aa9eb3c674a1af1ef519f4f8aad0134d3793144810abb04fc2911d5b181",
+      "asset_bytes": 333352,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "d5a903c361af8fa8e598d52d93c383874dcb7a36c81ba12d3b490c5c8c7c7fa6",
+      "source_bytes": 7924143
+    },
+    {
+      "asset": "assets/rooms/exterior-7286.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7286.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "37109eb591da9ab81f8a11fe124ec22452799315b09177c3900ccf3caf3a4a5c",
+      "asset_bytes": 340846,
+      "source_size": [
+        5999,
+        3999
+      ],
+      "source_sha256": "f1fe3d3416a4a213a138eb0cf9be74b08d2503d7ba59f326b852331376da70c5",
+      "source_bytes": 7957715
+    },
+    {
+      "asset": "assets/rooms/exterior-7291.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7291.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "2c29ce2ed234b535fdb01f2b31d5869d709a43c1928ac642854cd366e100786b",
+      "asset_bytes": 330925,
+      "source_size": [
+        5998,
+        3999
+      ],
+      "source_sha256": "ae6a359fa4d40326d5f0e93c5f43b6f591ca0e7b86af529e29b2fd54322848f5",
+      "source_bytes": 7724615
+    },
+    {
+      "asset": "assets/rooms/exterior-7296.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7296.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "05ade07a4220a4b1961fb5b38faa05d62434958c5273058727cae6d0f0075509",
+      "asset_bytes": 280419,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "bdccfcb9872c381c23ec8c5cde5986bc2468d0cb3eff6c840a5e93f4eb212ba5",
+      "source_bytes": 6537360
+    },
+    {
+      "asset": "assets/rooms/exterior-7301.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7301.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "4244db9e5e0e32c606642b55b1b8109e2776dd3932a5186bb6aacefe646928d7",
+      "asset_bytes": 296516,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "9d752080f9242599754eb1eacf6fbeecad6f8a476e165e769c67c910cb6f2a0a",
+      "source_bytes": 6933584
+    },
+    {
+      "asset": "assets/rooms/exterior-7306.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7306.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "852a5b15c96e0558e253dd080905e4b2e93a6c6779267fe0a19fc892e7ed4c17",
+      "asset_bytes": 303597,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "a28531f6e13d7aee3f26f1d76691d4bdd97b96b9505bbd59ad24668f5d00a735",
+      "source_bytes": 7132833
+    },
+    {
+      "asset": "assets/rooms/exterior-7316.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7316.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "61ce1d04aa8ffbc151facd04d6c6060182a04b8f450c42aeaa1da5bddf6a714a",
+      "asset_bytes": 299349,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "0ca3886f1fd781b534481dea14d2d00b879b0ab1685495931599bc493a36bf69",
+      "source_bytes": 7012507
+    },
+    {
+      "asset": "assets/rooms/exterior-7326.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7326.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "745a25cf18b5de3c8cb291e339779488f5ca737cd10774637d61e9af7391970a",
+      "asset_bytes": 167885,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "fa984c44bcdfe248eaa9842689f80ffac5acbc848e7b2bdcff5dc078cc7c5db8",
+      "source_bytes": 4436711
+    },
+    {
+      "asset": "assets/rooms/exterior-7371.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7371.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "bd9fcbf7720081ab20297312f8554a5d30a5271ee5872d8f8cab04d6dbc7038a",
+      "asset_bytes": 308082,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "0f4ec3c2bc9eeddf4bcd69c2bc10726cb21ce9e70a819c0c9c1b6ad344c3991b",
+      "source_bytes": 7391716
+    },
+    {
+      "asset": "assets/rooms/foyer.jpg",
+      "source": null,
+      "kind": "Vacant photograph, November 9, 2026. Display copy only.",
+      "asset_size": [
+        1600,
+        1067
+      ],
+      "asset_sha256": "ce7bf842967e5150565cb557bd37095541e7ac9f7ae68cd810e34af54f7a2cf3",
+      "asset_bytes": 295385
+    },
+    {
+      "asset": "assets/rooms/garage-7311.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7311.jpg",
+      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "d0de7d85d7817f5e3deefeee41de112ed75b1450fcf43b6bf3b6d2da7d577de9",
+      "asset_bytes": 222153,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "fb7a1c5ba42e82018ca246afac2d2eeb764a52f1c2c0721020a451a0e081214e",
+      "source_bytes": 5809381
+    },
+    {
+      "asset": "assets/rooms/guest-7331.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7331.jpg",
+      "kind": "Vacant guest-house photograph, November 9, 2026. Display copy only. The guest house is deferred.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "a91e29deaaf50251fbf4bae527769373702c356d7d31526919eab10aa68414cd",
+      "asset_bytes": 209214,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "85c9d9767dff888edb2fb39061c08b0a192ac17dd024de5f325d2e53fea1dc85",
+      "source_bytes": 5696119
+    },
+    {
+      "asset": "assets/rooms/guest-7336.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7336.jpg",
+      "kind": "Vacant guest-house photograph, November 9, 2026. Display copy only. The guest house is deferred.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "bb75b633784d8b0e092526243e104b7f1d1ead931a72bebcab2ce33a62eb0fa9",
+      "asset_bytes": 202996,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "dc2c035796bd0ae18553add1a806e7c9ff8a491e7aa7c655cdd47225b5e94560",
+      "source_bytes": 5369839
+    },
+    {
+      "asset": "assets/rooms/guest-7341.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7341.jpg",
+      "kind": "Vacant guest-house photograph, November 9, 2026. Display copy only. The guest house is deferred.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "c98c01da0166fc34a9476cfd87ca4f037cbea8e3d2bab0f6c29f8707584d4dce",
+      "asset_bytes": 208936,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "7d1793b7e290791aa724969a190b879b9fed5000bb89b6027b339d9ce663e994",
+      "source_bytes": 5645900
+    },
+    {
+      "asset": "assets/rooms/guest-7346.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7346.jpg",
+      "kind": "Vacant guest-house photograph, November 9, 2026. Display copy only. The guest house is deferred.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "68b91d778fb39c9a90555f6b1448365bf030be21825b372ac1d9134b01e38550",
+      "asset_bytes": 204018,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "e24fc3bd536163cfc0101e4785c0e73ed71152f52fcd513a694f566b023a5dbd",
+      "source_bytes": 5733173
+    },
+    {
+      "asset": "assets/rooms/guest-7351.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7351.jpg",
+      "kind": "Vacant guest-house photograph, November 9, 2026. Display copy only. The guest house is deferred.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "77634c019206a6ca1a0b61e00c69f89f52fe7093bd9139d6c3821be954c8ddce",
+      "asset_bytes": 183852,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "e1d193561fca1df678ea20e449f08318e290c2a492954fe5c382009836b6385f",
+      "source_bytes": 5563704
+    },
+    {
+      "asset": "assets/rooms/guest-7356.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7356.jpg",
+      "kind": "Vacant guest-house photograph, November 9, 2026. Display copy only. The guest house is deferred.",
+      "asset_size": [
+        934,
+        1400
+      ],
+      "asset_sha256": "140295af474a4df074b7ec3270ee044068b80d2ddb1e477695819209fa2499c8",
+      "asset_bytes": 167401,
+      "source_size": [
+        4000,
+        6000
+      ],
+      "source_sha256": "a23d7fa4bb025a6c0275df25e35df7a674ac057f5e04e64c8c2bd0801dc4d9fe",
+      "source_bytes": 4891422
+    },
+    {
+      "asset": "assets/rooms/guest-7361.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7361.jpg",
+      "kind": "Vacant guest-house photograph, November 9, 2026. Display copy only. The guest house is deferred.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "35b095d94b46c6a97b95ec6c5e160b0a756ba6a6c9f248b1ffd891cf520a9114",
+      "asset_bytes": 245525,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "10c650958e5d55578f276510c377e9fc4e2d2c3ee8f3ced03e833acb75956b25",
+      "source_bytes": 6539264
+    },
+    {
+      "asset": "assets/rooms/guest-7366.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7366.jpg",
+      "kind": "Vacant guest-house photograph, November 9, 2026. Display copy only. The guest house is deferred.",
+      "asset_size": [
+        1400,
+        934
+      ],
+      "asset_sha256": "dc8f633f191ba5098345df1436044ce291470958a7eff78a81f8fa264f23daed",
+      "asset_bytes": 198369,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "4a24244850cb3d4befd33df641db7389506bb60c08b5a3244687d394081ef561",
+      "source_bytes": 5904909
+    },
+    {
+      "asset": "assets/rooms/kitchen-7391.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7391.jpg",
+      "kind": "Vacant photograph, November 9, 2026. Display copy only.",
+      "asset_size": [
+        1600,
+        1067
+      ],
+      "asset_sha256": "1c8dc0423309560b13eac9c0f1f69848b070caf0bdaa473b7a998415b9cee8b4",
+      "asset_bytes": 261491,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "dc29cfa3e1108390a556fa8cf7b1a7a27ee782caabb125ac6236b744fc114a0e",
+      "source_bytes": 4161997
+    },
+    {
+      "asset": "assets/rooms/kitchen-7456.jpg",
+      "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7456.jpg",
+      "kind": "Vacant photograph, November 9, 2026. Display copy only.",
+      "asset_size": [
+        1600,
+        1067
+      ],
+      "asset_sha256": "fcb773fadda3c308d75fae646d31795868563d5016ef281940e9729738a7db06",
+      "asset_bytes": 231587,
+      "source_size": [
+        6000,
+        4000
+      ],
+      "source_sha256": "e664e9fc3efef8e06501aec33aba823288484c82403821958a06698ae9600c2f",
+      "source_bytes": 3770837
+    }
+  ]
+}

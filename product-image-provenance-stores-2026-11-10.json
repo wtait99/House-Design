@@ -1,0 +1,407 @@
+{
+  "checked": "November 10, 2026",
+  "images": [
+    {
+      "id": "bhg-springwood-sofa",
+      "product_page": "https://www.walmart.com/ip/Better-Homes-Gardens-Springwood-Wood-Frame-Sofa-Gray/5014199286",
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQBfbAGYrkogOn4tdmXm_uUFxmo_ZRwbwkiEU2yMbY-ey5O8E-VcTiZCQr0_Xn4c274nTSO67gpgYcg-bpMGS4cvU4QvYkH",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/bhg-springwood-sofa.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        800,
+        800
+      ]
+    },
+    {
+      "id": "bhg-lillian-sofa",
+      "product_page": "https://www.walmart.com/ip/LILIAN-TUFTED-SOFA-WHEAT/12973752517",
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQf3GSDPZvqMacX6Gni8lE1niL8YSpRB0vl9CXgcTCTXOwgKbAQrHlgVkd6zVFcWKNRSkHsMqxiW74SXTgolPl7zDVQSuZ6pU62ok5D-u7lCjOtder217aCmQ",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/bhg-lillian-sofa.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        728,
+        335
+      ]
+    },
+    {
+      "id": "ms-westley-sofa",
+      "product_page": "https://www.walmart.com/ip/MS-WESTLEY-SWOOP-ARM/6931623649",
+      "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQK0ldQxWvuescPerL0sdwUBv21iaEpLle9XRaaSQA4-I7BVc4VXA03YkJLkJHQ37I9CtpSskuWSKFW7e55ASS_x7RBAGzLUqAvIB4Kk7dA",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/ms-westley-sofa.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "ms-tatum-love",
+      "product_page": "https://www.walmart.com/ip/MAINSTAYS-TATUM-TWIN/9315169932",
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT7CKRzMK9AwY7u2lLFyQSWQSRBOnuBXlNwakymjreqF03eozcuKClyVYiWvxRQkLbckXjM19GMXlKwGhE8WLOLbPfSC99VCyr7JaPwB7E",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/ms-tatum-love.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "ms-coffee-walnut",
+      "product_page": "https://www.walmart.com/ip/Mainstays-Wood-Rectangle-Coffee-Table-Walnut-Finish/827005186",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSCDVFnRjouZ0YwON_0K9FJOAv_loOEjL_XYzlXqKcI29isOY8OI9xwj-xuEhG8bvBzMskvFHIXA7f0el_A58_5wKP5XXHP",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/ms-coffee-walnut.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        800,
+        800
+      ]
+    },
+    {
+      "id": "bhg-greyson-coffee",
+      "product_page": "https://www.walmart.com/ip/MID-CENTURY-COFFEE/15585304714",
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRpFnW-MpFFnYj-7YdkWOhVuFtJoDpJJ3llKnpoJdL42pVDg0XZSaa_LLsdWGOEgPbFeQuT0H1wp-zYVTPyKAf2rEolSU7ACg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/bhg-greyson-coffee.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        800,
+        800
+      ]
+    },
+    {
+      "id": "bhg-greyson-bed",
+      "product_page": "https://www.walmart.com/ip/Better-Homes-Gardens-Greyson-Wood-Leather-Platform-Bed-Queen/15961673962",
+      "image_url": null,
+      "local_file": null,
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "No product image captured this turn. The dashboard shows a text card with the product link."
+    },
+    {
+      "id": "ms-ardent-ns",
+      "product_page": "https://www.walmart.com/ip/Mainstays-Ardent-Nightstand-with-1-Drawer-Black/5062669211",
+      "image_url": null,
+      "local_file": null,
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "No product image captured this turn. The dashboard shows a text card with the product link."
+    },
+    {
+      "id": "bhg-lillian-ns",
+      "product_page": "https://www.walmart.com/ip/Better-Homes-Gardens-Lillian-Fluted-2-Drawer-Nightstand-with-USB-White-Wood-Finish/5718371834",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR-28pN1IkKazcCKTPxlFrt7x_hkqLKBloywfAah6_L6P3eCkD9o7xR6RlGPDPtskl866mt6ofxeayBSzmU06YLpFXBYXsXeiDImNey5fqH",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/bhg-lillian-ns.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "bhg-farmhouse-side",
+      "product_page": "https://www.walmart.com/ip/Better-Homes-Gardens-Modern-Farmhouse-Side-Table-with-USB-Rustic-Gray-Finish/425660913",
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT7Pk-mWQQ2IGDEHZqsmTxVZpAbASdzc4njnDPFwfvOV78yC9QUXERELHhhuNtCdaA-Sl5y206RQXV0ncVPEsXmvLh7oGQKhA",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/bhg-farmhouse-side.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        800,
+        800
+      ]
+    },
+    {
+      "id": "ms-etagere-lamp",
+      "product_page": "https://www.walmart.com/ip/Mainstays-Etagere-62-Matte-Black-Mid-Century-Style-Floor-Lamp-with-2-Wood-Shelves/857691017",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTmWNeF6wsF2n0MpCeFc2Cbp_3VocbKxzttAwuGPtJjOd0DMz7VBx2ub1cCpoM3itAwX3wHwl7BqAbE5uHqJE2pGpd-Bqj7bQ",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/ms-etagere-lamp.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        800,
+        800
+      ]
+    },
+    {
+      "id": "ms-54-lamp",
+      "product_page": "https://www.walmart.com/ip/Mainstays-54-inch-Mid-Century-Style-Floor-Lamp-with-Faux-Wood-Finished-Table/575307303",
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTqS4uv20EmA_W1hjpj3HKkJRTerSmMZ6VHiIaSKWCxQ6Ezw2hVAmeiyP1p3sQIk8h49ev9Q2Zb1UspLtK3FWbMXllavnkND5HeCaS9YFWx5DzFwAKA9FsuHA",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/ms-54-lamp.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        801,
+        1200
+      ]
+    },
+    {
+      "id": "bhg-mira-linen",
+      "product_page": "https://www.walmart.com/ip/Better-Homes-Gardens-Mira-Swivel-Chair-Linen/5161950924",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRIRsh6QGGcS5eD_bQ3l42xpVrUb5_q2x0AuJSqEuRO3ik-7hwzGwmgdd1WljrekOBgGTDWvye9qQPn-W5gh45e7mvdocAS0d63YyhlEvc",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/bhg-mira-linen.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "bhg-mira-shearling",
+      "product_page": "https://www.walmart.com/ip/Better-Homes-Gardens-Mira-Swivel-Chair-Cream/5261193145",
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTiE-UJpGuubBpUEQjMImJcIdwBM9w1NySyLlZp4kiw8vEMSBczN7VT2JuCeeoQKblS8CX44C2LSjHL78OovcSKUAASZjhD6NBmDpPcYl8",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/bhg-mira-shearling.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "bhg-lillian-chair",
+      "product_page": "https://www.walmart.com/ip/BHG-CHANNELVEL-CHAIR/12731166374",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTLDwcIC6r9isW3lCMwrAo4RTZk0d-iUiZa97pkGhpT6nfN1wzOKLqwD6CerkWm1wswquce4KN9ll13CasMD0u7jiKXv-5f",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/bhg-lillian-chair.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        800,
+        800
+      ]
+    },
+    {
+      "id": "bhg-mirror-round-gold",
+      "product_page": "https://www.walmart.com/ip/Better-Homes-Gardens-Wall-Mirror-Round-28IN-Diameter-Gold-Finish/296908944",
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRyz6_r-NmZirA1vVbryM-nsG_bKLM1XLuOuHsw4r3d8Rm3hR_EFMLVJZdY45QdspHBHjwVWXj2dJhWWEu2o1Jypt0Q5QABLqsd9N0ZHCF0psXVDvEd4SblzC0",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/bhg-mirror-round-gold.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        441,
+        436
+      ]
+    },
+    {
+      "id": "bhg-mirror-arch-gold",
+      "product_page": "https://www.walmart.com/ip/Better-Homes-Gardens-24-x-34-Arch-Metal-Wall-Mirror-Gold/228911421",
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR4iV22Rtzhr16TD_8S3nHq1iEIZ1Eq5BB8v_DbTd3X3uD5ApJixLwhk10mImcOylJ9aeywfuDqL34QNKehU6JDD5pu3BFvYZc5zpxlTt7pPWwSotDAj_2Odw",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/bhg-mirror-arch-gold.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        867,
+        1200
+      ]
+    },
+    {
+      "id": "beautiful-ornate-mirror",
+      "product_page": "https://www.walmart.com/ip/Beautiful-Round-Ornate-Gold-Frame-Mirror-24-by-Drew-Barrymore/2526495502",
+      "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSv9Ymo89ymNLGXuhWrKgNBIoWifGW6gw1Pul8XQE0DBpN6MCHSyH04GaL9gL3owynOpe54iLSceFD1mB3cN019rWp7On_vsUuXGNIi_7ynvX7a77OupIv1g",
+      "local_file": null,
+      "verified_on": "November 10, 2026",
+      "store": "Walmart",
+      "note": "Image download failed. The dashboard shows a text card with the product link.",
+      "error": "curl: (22) The requested URL returned error: 404\n"
+    },
+    {
+      "id": "tgt-linen-curtain",
+      "product_page": "https://www.target.com/p/54-34-x84-34-light-filtering-linen-window-curtain-panel-cream-threshold-8482/-/A-54102055",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTtXuAHKLVZy1LB5Kmzd3UREjksiUcaXSIhrZRqMlrkDssCGrmaNWqw9Zpc6KLs9owCH6ab_zFvwyK7auhgVjGqYNDfEOVV7Q",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/tgt-linen-curtain.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Target",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "id": "tgt-farrah-curtain",
+      "product_page": "https://www.target.com/p/54-34-x84-34-light-filtering-farrah-window-curtain-panel-cream-threshold-8482/-/A-14258198",
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ_EfSWnGAEX4HRxduHMZXMElltbBNJ11l3OzUHhvG3-26S8-R_8gZdrCQWVdPMPvHD5Dr1lVWeGLF97LEzv0GGONkgzW3J",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/tgt-farrah-curtain.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Target",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "tgt-ogden-ns",
+      "product_page": "https://www.target.com/p/ogden-nightstand-brown-threshold-8482-designed-with-studio-mcgee/-/A-89981735",
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRHqNMdQB5Fuj8F8NhyNMiozyUpIRJh5X0S2b2Paj8UxGpyNnIXQwDDV_fd9j5ob7ev0TPgxS5azEw5jd43ttH9_7JkxGQl",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/tgt-ogden-ns.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Target",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "id": "tgt-2drawer-ns",
+      "product_page": "https://www.target.com/p/2-drawer-nightstand-brown-natural-wood-threshold-8482-designed-with-studio-mcgee/-/A-94629880",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR03ZdBGrTDlBfS3-K-x0vYpuAaVCOsUCTzUkiTMh6wIWMiMYUTHhoXWQk9l7YlQvUNGzMEgHFPCeeziTitOv96-VKrdD3Hsw",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/tgt-2drawer-ns.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Target",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "id": "tgt-hh-cane-ns-2pc",
+      "product_page": "https://www.target.com/p/2pc-wood-and-cane-2-drawer-nightstands-aged-oak-hearth-38-hand-8482-with-magnolia/-/A-94683225",
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRBMkCh1rEAdPp91TS_0HuRzAoJHVJqXi2HIbdX5AiyD-6BehXDy3UpJRd0AlrNoHBvINXpOfT7J1OhrF05TQ9p1bcYF68fWg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/tgt-hh-cane-ns-2pc.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Target",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "id": "tgt-shelf-lamp",
+      "product_page": "https://www.target.com/p/shelf-floor-lamp-black-threshold-8482/-/A-15401197",
+      "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ7TWOiz8QW0efL71VBkZu9YEXHqNXKlPSUec1VBrngQdXOsWAhIJNKl9tubp-xhiMS0edSUp-o9TUhor3nElUyto9bRVZevg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/tgt-shelf-lamp.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Target",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "id": "wf-go-loveseat",
+      "product_page": "https://www.wayfair.com/George-Oliver--65-W-Loveseat-Sofa-Mid-Century-Modern-Love-Seat-Couches-For-Living-Room-X227423818-L305-K~W116312707.html",
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRQFm6HGfAbRL21aOhJs05HXVOw0d77RXnIzzeW90fZxCwv5BAYsgKPeJ6MWwT7t2c2AEnKcfXYc96n22iU8_371RduilBH8w",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/wf-go-loveseat.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Wayfair",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "id": "wf-elle-chloe",
+      "product_page": "https://www.wayfair.com/Elle-Decor--Elle-Decor-Chloe-Square-Arm-Loveseat-UPH20011-L305-K~ELDC1031.html",
+      "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT-G3KZYt937hn7JJLrBClLhjsXGz0Tat2q7hdnj0qZVg1DZJylQDBUNLrPJBzUbuqW-E2PbsxNARV8ZMMuAZhirw0AzWMm",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/wf-elle-chloe.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Wayfair",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1000,
+        440
+      ]
+    },
+    {
+      "id": "wf-mercer-shag",
+      "product_page": "https://www.wayfair.com/Mercer41--Shahen-Rectangle-Shag-Area-Rug-X115989781-L167-K~W004878670.html",
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTuziD0A-iKFOdjM5cCxC-auBy0rTwPWHsNChAxxIyubHwJDQEj0dxqyyq_V_MiMhEqXsgQiJ1z5H-BRMp72YcqpamLCkYEeg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/wf-mercer-shag.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Wayfair",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "id": "wf-ladonya-rug",
+      "product_page": "https://www.wayfair.com/Williston-Forge--Ladonya-Vintage-Washable-Beige-Area-Rug-with-NonSlip-Backing-IJJN2274-L167-K~HIIM1163.html",
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROAL8Ctq2TQ6UVLVQ--ejtV2J7l1uTWWTu4uVQXqSqM3P_83UBmIDDtPsAQUUbb64RZAm4DuWERJJRv5TMrvT_-PIDQM1L",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/wf-ladonya-rug.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Wayfair",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "id": "wf-loloi-dawn",
+      "product_page": "https://www.wayfair.com/Loloi-II--Loloi-II-Dawn-IndoorOutdoor-Natural-Area-Rug-DAWNDAW03NA00-L167-K~CLOI1235.html",
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRaBjRRnLxLQYMvzpJzHjnkF502nY2H8g6T-zMKEvckFQvoV7NU15RGdVbu5_JCW2Qw1F3-3gtAxTSChOhjavufJJCGUkAvvDwFqITJLY-04nUyDbZcfK8mfXk",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/wf-loloi-dawn.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Wayfair",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        762,
+        1080
+      ]
+    },
+    {
+      "id": "wf-brightech-ethan",
+      "product_page": "https://www.wayfair.com/Brightech--Ethan-65.5-in.-MidCentury-Modern-3Light-3Way-Dimming-LED-Floor-Lamp-with-3-Metal-Cone-Shades-FLETHAN-L6238-K~BIEH1598.html",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRIOag3JQ-l4oifhVRtuKxdIDgScyhLXzpD50p1jsFr1Fz_AFxzNv4XhIb5z8aODfX4ROaMVsw_LeBArst2-pvhKX6DncQBnp6HnJC0OKkVGXXLCAX_OhFcIQM",
+      "local_file": null,
+      "verified_on": "November 10, 2026",
+      "store": "Wayfair",
+      "note": "Image download failed. The dashboard shows a text card with the product link.",
+      "error": "curl: (22) The requested URL returned error: 404\n"
+    },
+    {
+      "id": "amz-nuloom-raleigh",
+      "product_page": "https://www.amazon.com/dp/B01DW8VS9S",
+      "image_url": "https://prod-iad-renders.kokkiri.media.amazon.dev/VIVID_IMAGE%21c3f5b99a-7ef0-45ca-a318-e1ad0efc7338%210/ASIN%211%21B01DW8VS9S%21asin1/00000000-0000-0000-000000000000/00000000-0000-0000-000000000000/418072928/48cd6ddg1ak8uwgt6h6url7mslc34bnh2eey.png",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/amz-nuloom-raleigh.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Amazon",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "id": "amz-hifit-leather",
+      "product_page": "https://www.amazon.com/dp/B0CNGRGMLS",
+      "image_url": "https://prod-iad-renders.kokkiri.media.amazon.dev/VIVID_IMAGE%21c3f5b99a-7ef0-45ca-a318-e1ad0efc7338%210/ASIN%211%21B0CNGRGMLS%21asin1/00000000-0000-0000-000000000000/00000000-0000-0000-000000000000/1708430513/8ff3x1tz95n0sjjb7tb3uzqlsyiigkn4m944.png",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/stores/amz-hifit-leather.jpg",
+      "verified_on": "November 10, 2026",
+      "store": "Amazon",
+      "note": "Official retailer CDN was blocked. Image saved from a ProductSearch / Google Shopping or Amazon thumbnail dated November 10, 2026.",
+      "source_dimensions": [
+        1080,
+        1350
+      ]
+    }
+  ]
+}

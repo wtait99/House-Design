@@ -1,0 +1,53 @@
+Room photographs, required for the gallery. JPEG display copies, in this folder.
+
+Vacant photographs, November 9, 2026, under assets/rooms/
+  living.jpg           Living room (source ask/7431.jpg, original E55A7431.jpg)
+  kitchen.jpg          Kitchen, island view used for the look mockups (ask/7451.jpg, E55A7451.jpg)
+  kitchen-7386.jpg     Kitchen, sink-wall angle (ask/7386.jpg, E55A7386.jpg)
+  master.jpg           Master bedroom (ask/7436.jpg, E55A7436.jpg)
+  bed3.jpg             3rd bedroom (ask/7441.jpg, E55A7441.jpg)
+  office.jpg           Office (ask/7396.jpg, E55A7396.jpg)
+  office-7401.jpg      Office, closet wall (ask/7401.jpg, E55A7401.jpg)
+  laundry.jpg          Laundry / mud room (ask/7376.jpg, E55A7376.jpg)
+  laundry-7381.jpg     Laundry / mud room, second angle (ask/7381.jpg, E55A7381.jpg)
+  kitchen-7391.jpg     Kitchen, looking toward the living room past the island (ask/7391.jpg, E55A7391.jpg). Not on the tour map.
+  kitchen-7456.jpg     Kitchen, from the dining area looking toward the peninsula and cooktop (ask/7456.jpg, E55A7456.jpg)
+  foyer.jpg            Foyer, looking south toward the front door (ask/7411.jpg, E55A7411.jpg)
+  bath.jpg             Main bath, from the hall door (original E55A7446.jpg). Not the guest bath.
+
+Earlier furnished photographs, November 8 display copies, under assets/earlier/
+  living-03.jpg        Living room, earlier
+  living-04.jpg        Living room, earlier
+  kitchen-05.jpg       Kitchen, earlier
+  kitchen-06.jpg       Kitchen, earlier
+  master-02.jpg        Master bedroom, earlier
+  bed3-01.jpg          3rd bedroom, earlier
+
+Look mockups under assets/looks/
+  s1-*.jpg             Quiet Lake, six rooms
+  s2-*.jpg             Northwoods Lake, six rooms
+  s3-*.jpg             Modern Country, six rooms
+  s4-*.jpg             Old-Farm Country, six rooms
+  driftwood-living.jpg, driftwood-master.jpg
+  mossy-living.jpg, mossy-master.jpg
+
+Rejected exploration files were not copied here.
+
+Do not add the guest-bath photograph as a main-bath image.
+The main-bath photograph is bath.jpg (E55A7446). There is no exterior photograph in this interior gallery.
+
+Floor plan, under assets/plan/
+  main-house-plan.png   Clean CubiCasa main-house plan used by the Photo Map. Sizes are approximate scan figures in feet.
+
+Optional product photographs. If a file is absent, the written candidate stays and no picture is invented.
+
+assets/product-floor.jpg
+assets/product-kivik.jpg
+assets/product-lack.jpg
+assets/product-lamp.jpg
+assets/product-vihals.jpg
+assets/product-bed.jpg
+assets/product-dining.jpg
+assets/product-rug.jpg
+
+The page only reads these local files. It does not upload them.

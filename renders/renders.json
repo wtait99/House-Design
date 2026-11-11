@@ -1,0 +1,310 @@
+{
+  "renders": {
+    "master|moody-lodge|bed=slattum,curtains=ginstmott,fan=hunter-cavera,lamp=rodflik-floor,mirror=lindbyn-black,nightstand=vihals-ns": {
+      "room": "master",
+      "look": "moody-lodge",
+      "picks": {
+        "bed": "slattum",
+        "nightstand": "vihals-ns",
+        "fan": "hunter-cavera",
+        "lamp": "rodflik-floor",
+        "mirror": "lindbyn-black",
+        "curtains": "ginstmott"
+      },
+      "image": "renders/master-moody-lodge-s5-v3.jpg",
+      "original": "assets/rooms/master.jpg",
+      "createdAt": "2026-11-10T14:30:00-05:00",
+      "caveats": "Concept only. Products look similar but not exact. The small square ceiling detector was left off and stays in real life."
+    },
+    "living|farm|coffee=lack-white,curtains=lill,fan=hunter-swanson,lamp=rodflik-floor,mirror=lindbyn-gold,rug=blaljus,seating=morabo": {
+      "room": "living",
+      "look": "farm",
+      "picks": {
+        "seating": "morabo",
+        "rug": "blaljus",
+        "coffee": "lack-white",
+        "fan": "hunter-swanson",
+        "curtains": "lill",
+        "mirror": "lindbyn-gold",
+        "lamp": "rodflik-floor"
+      },
+      "image": "renders/living-farm-morabo-v1.jpg",
+      "original": "assets/rooms/living.jpg",
+      "createdAt": "2026-11-10T15:25:00-05:00",
+      "caveats": "Concept only. Products look similar but not exact; the rug pattern and loveseat read as a different style than the IKEA photos. Curtains cover part of the window trim. Fan is a generic matte black 5-blade, not the exact Hunter Swanson. The ceiling detector stays in real life."
+    },
+    "living|quiet|accents=ekenaeset,coffee=ms-coffee-walnut,curtains=lill,fan=hunter-cavera,lamp=tgt-shelf-lamp,mirror=lindbyn-black,rug=amz-nuloom-raleigh,seating=wf-elle-chloe": {
+      "room": "living",
+      "look": "quiet",
+      "picks": {
+        "seating": "wf-elle-chloe",
+        "rug": "amz-nuloom-raleigh",
+        "coffee": "ms-coffee-walnut",
+        "fan": "hunter-cavera",
+        "curtains": "lill",
+        "lamp": "tgt-shelf-lamp",
+        "mirror": "lindbyn-black",
+        "accents": "ekenaeset"
+      },
+      "image": "renders/living-quiet-closest-v3.jpg",
+      "original": "assets/rooms/living.jpg",
+      "createdAt": "2026-11-10T15:50:00-05:00",
+      "status": "closest",
+      "disclaimer": "The large left window is about a quarter narrower and sits farther from the left wall than in the real photo, and the sheer curtains cover part of its wood trim. The wood beam runs farther toward the kitchen than it does in real life; the mirror is a generic arched floor mirror, not the LINDBYN; the fan is a generic black 5-blade, not the exact Hunter Cavera; the sofa reads as a full sofa rather than the Chloe loveseat; and the chair is a lower-back wood armchair, not the high-back EKEN\u00c4SET. The floor looks smoother and lighter, the walls look whiter than the real pale blue, and a plant was added on the left; the ceiling detector, vent, doors, and kitchen are close to the original."
+    },
+    "living|quiet|accents=ekenaeset,coffee=bhg-greyson-coffee,curtains=lill,fan=hunter-cavera,lamp=ms-etagere-lamp,mirror=lindbyn-black,rug=wf-ladonya-rug,seating=amz-hifit-leather": {
+      "room": "living",
+      "look": "quiet",
+      "picks": {
+        "seating": "amz-hifit-leather",
+        "rug": "wf-ladonya-rug",
+        "coffee": "bhg-greyson-coffee",
+        "fan": "hunter-cavera",
+        "curtains": "lill",
+        "lamp": "ms-etagere-lamp",
+        "mirror": "lindbyn-black",
+        "accents": "ekenaeset"
+      },
+      "image": "renders/living-quiet-hifit-v1.jpg",
+      "original": "assets/rooms/living.jpg",
+      "createdAt": "2026-11-10T16:25:00-05:00",
+      "caveats": "Concept only, not exact products. Passed the architecture check on the first try: the window, doors, beam, kitchen and camera angle line up with the real photo, though the sheer curtains cover the window's outer wood trim and a thin strip of the left pane. The armchair is a lower wood armchair without the EKEN\u00c4SET high back and headrest; the coffee table is more oval and has no lower shelf like the Greyson; the fan has 4 blades and is a generic matte black fan, not the exact Hunter Cavera II. A plant was added on the table, and the sofa hides the wall outlet and floor vent under the window. Outside the Quiet Lake look: HIFIT loveseat, Ladonya rug, Greyson coffee table, LILL curtains and EKEN\u00c4SET chair. The ceiling detector stays in real life."
+    },
+    "living|nt-navy|nautical-2026-11-11": {
+      "room": "living",
+      "look": "nt-navy",
+      "picks": {},
+      "image": "assets/looks/nt-navy-living.jpg",
+      "original": "assets/rooms/living.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 3,
+      "theme": "nautical",
+      "status": "closest",
+      "disclaimer": "Closest of 3 attempts. The large left window is about a quarter narrower and sits a little farther from the left corner than in the photo, and the curtains cover part of its wood trim. The painted wall above the kitchen cabinets reads navy instead of white. The ceiling fan is a generic brass-and-wood fan in the same spot. The sofa hides the wall outlet and floor vent under the window. Doors, beam, ceiling, detector, vent and the kitchen are close to the original."
+    },
+    "kitchen|nt-navy|nautical-2026-11-11": {
+      "room": "kitchen",
+      "look": "nt-navy",
+      "picks": {},
+      "image": "assets/looks/nt-navy-kitchen.jpg",
+      "original": "assets/rooms/kitchen.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. The framed print is shown on an upper cabinet door; in real life it would hang on a wall. The refrigerator reads slightly larger. Concept only, not exact products. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "master|nt-navy|nautical-2026-11-11": {
+      "room": "master",
+      "look": "nt-navy",
+      "picks": {},
+      "image": "assets/looks/nt-navy-master.jpg",
+      "original": "assets/rooms/master.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Both windows are in place, a touch narrower, and the trim reads white; the curtains cover part of the trim. Access panel, heater, outlets, ceiling fixture and detector stay. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "bed3|nt-navy|nautical-2026-11-11": {
+      "room": "bed3",
+      "look": "nt-navy",
+      "picks": {},
+      "image": "assets/looks/nt-navy-bed3.jpg",
+      "original": "assets/rooms/bed3.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 2,
+      "theme": "nautical",
+      "caveats": "Passed on the second try (the first narrowed the window). The curtains cover the outer edges of the window trim. The ceiling-tile stain was cleaned up in the render and stays in real life until repaired. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "office|nt-navy|nautical-2026-11-11": {
+      "room": "office",
+      "look": "nt-navy",
+      "picks": {},
+      "image": "assets/looks/nt-navy-office.jpg",
+      "original": "assets/rooms/office-7401.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 2,
+      "theme": "nautical",
+      "caveats": "Passed on the second try (the first shrank the window). Closets, mirror, wardrobe, doorway, vent and window line up. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "laundry|nt-navy|nautical-2026-11-11": {
+      "room": "laundry",
+      "look": "nt-navy",
+      "picks": {},
+      "image": "assets/looks/nt-navy-laundry.jpg",
+      "original": "assets/rooms/laundry.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Loose clutter was removed; the lace curtain on the door remains. Equipment, cabinets, skylight and wood ceiling stay. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "foyer|nt-navy|nautical-2026-11-11": {
+      "room": "foyer",
+      "look": "nt-navy",
+      "picks": {},
+      "image": "assets/looks/nt-navy-foyer.jpg",
+      "original": "assets/rooms/foyer.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Front door, storm door, French door and tile line up. The mirror reflects a window that is not in the room. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "living|nt-keeper|nautical-2026-11-11": {
+      "room": "living",
+      "look": "nt-keeper",
+      "picks": {},
+      "image": "assets/looks/nt-keeper-living.jpg",
+      "original": "assets/rooms/living.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "status": "closest",
+      "disclaimer": "Closest of 3 attempts (attempts 2 and 3 changed the doorways or painted the island). The large left window is about a quarter narrower and starts farther from the left corner than in the photo; the curtains cover part of its trim. A corner sectional covers the left wall and outlet. The ship print's sea reads slightly blue-gray. Doors, beam, ceiling, detector, vent and the white kitchen are close to the original."
+    },
+    "kitchen|nt-keeper|nautical-2026-11-11": {
+      "room": "kitchen",
+      "look": "nt-keeper",
+      "picks": {},
+      "image": "assets/looks/nt-keeper-kitchen.jpg",
+      "original": "assets/rooms/kitchen.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Cabinets, backsplash, island and cooktop, window and the office door line up; the office wall seen through the door is its existing color. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "master|nt-keeper|nautical-2026-11-11": {
+      "room": "master",
+      "look": "nt-keeper",
+      "picks": {},
+      "image": "assets/looks/nt-keeper-master.jpg",
+      "original": "assets/rooms/master.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Both windows, access panel, heater, outlets, fixture and detector line up; the curtains cover part of the trim. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "bed3|nt-keeper|nautical-2026-11-11": {
+      "room": "bed3",
+      "look": "nt-keeper",
+      "picks": {},
+      "image": "assets/looks/nt-keeper-bed3.jpg",
+      "original": "assets/rooms/bed3.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Window, doors and heater line up; the ceiling stain was cleaned up in the render and stays in real life until repaired. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "office|nt-keeper|nautical-2026-11-11": {
+      "room": "office",
+      "look": "nt-keeper",
+      "picks": {},
+      "image": "assets/looks/nt-keeper-office.jpg",
+      "original": "assets/rooms/office-7401.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Closets, mirror, wardrobe, doorway and window line up. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "laundry|nt-keeper|nautical-2026-11-11": {
+      "room": "laundry",
+      "look": "nt-keeper",
+      "picks": {},
+      "image": "assets/looks/nt-keeper-laundry.jpg",
+      "original": "assets/rooms/laundry.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "status": "closest",
+      "disclaimer": "Closest of 3 attempts (attempts 2 and 3 shifted the camera). The exterior door shows a narrow glass pane that is not visible in the photo, the gray box beside the back window reads larger, and the water-heater piping is simplified. The blue pressure tank is existing equipment and stays. Cabinets, skylight, wood ceiling, window and appliances line up."
+    },
+    "foyer|nt-keeper|nautical-2026-11-11": {
+      "room": "foyer",
+      "look": "nt-keeper",
+      "picks": {},
+      "image": "assets/looks/nt-keeper-foyer.jpg",
+      "original": "assets/rooms/foyer.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Doors and tile line up; the mirror reflects a window that is not in the room. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "living|nt-cabin|nautical-2026-11-11": {
+      "room": "living",
+      "look": "nt-cabin",
+      "picks": {},
+      "image": "assets/looks/nt-cabin-living.jpg",
+      "original": "assets/rooms/living.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "status": "closest",
+      "disclaimer": "Closest of 2 attempts (both narrowed the window the same way; a third was not run because the first two failed identically). The large left window is about a quarter narrower and starts farther from the left corner than in the photo; the curtains cover part of its trim. The ceiling fan is a generic black 5-blade fan in the same spot. The sofa hides the outlet and vent under the window. Doors, beam, ceiling, detector, vent and the white kitchen are close to the original."
+    },
+    "kitchen|nt-cabin|nautical-2026-11-11": {
+      "room": "kitchen",
+      "look": "nt-cabin",
+      "picks": {},
+      "image": "assets/looks/nt-cabin-kitchen.jpg",
+      "original": "assets/rooms/kitchen.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 2,
+      "theme": "nautical",
+      "caveats": "Passed on the second try (the first cut the backsplash short). Cabinets, backsplash, island, cooktop, window and the office door line up. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "master|nt-cabin|nautical-2026-11-11": {
+      "room": "master",
+      "look": "nt-cabin",
+      "picks": {},
+      "image": "assets/looks/nt-cabin-master.jpg",
+      "original": "assets/rooms/master.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Both windows, access panel, heater and fixture line up; the curtains cover part of the trim. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "bed3|nt-cabin|nautical-2026-11-11": {
+      "room": "bed3",
+      "look": "nt-cabin",
+      "picks": {},
+      "image": "assets/looks/nt-cabin-bed3.jpg",
+      "original": "assets/rooms/bed3.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Window, doors and heater line up; the ceiling stain was cleaned up in the render. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "office|nt-cabin|nautical-2026-11-11": {
+      "room": "office",
+      "look": "nt-cabin",
+      "picks": {},
+      "image": "assets/looks/nt-cabin-office.jpg",
+      "original": "assets/rooms/office-7401.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Closets, mirror, wardrobe, doorway and window line up. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    },
+    "laundry|nt-cabin|nautical-2026-11-11": {
+      "room": "laundry",
+      "look": "nt-cabin",
+      "picks": {},
+      "image": "assets/looks/nt-cabin-laundry.jpg",
+      "original": "assets/rooms/laundry.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 3,
+      "theme": "nautical",
+      "status": "closest",
+      "disclaimer": "Closest of 3 attempts. The camera sits slightly to the right, so the tall cabinet and back window are shifted a little right. The exterior door shows a narrow glass pane that is not visible in the photo. A framed chart and a brass bar are shown on the side of the tall cabinet, and the plastic drawer unit was removed. The lace door curtain remains. Skylight, wood ceiling, equipment and appliances stay."
+    },
+    "foyer|nt-cabin|nautical-2026-11-11": {
+      "room": "foyer",
+      "look": "nt-cabin",
+      "picks": {},
+      "image": "assets/looks/nt-cabin-foyer.jpg",
+      "original": "assets/rooms/foyer.jpg",
+      "createdAt": "2026-11-11T08:30:00-05:00",
+      "attempts": 1,
+      "theme": "nautical",
+      "caveats": "Passed on the first try. Doors and tile line up; the mirror reflects a window that is not in the room. Concept only. Architecture lock: the original November 9 photograph was the first reference, and walls, windows, doors, openings, beam, ceiling height and camera angle were checked against it."
+    }
+  }
+}

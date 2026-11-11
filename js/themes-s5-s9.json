@@ -1,0 +1,464 @@
+{
+  "generated": "November 10, 2026",
+  "timezone": "America/Detroit",
+  "note": "Whole-house look data for five new themes, ready to wire into the dashboard. Paint color names are examples only, not a color-match promise. Hex values are dashboard samples, not manufacturer color. Renders are concepts, not construction-accurate. Existing hard floors in the living room, kitchen, office, and laundry are left in place. Unpainted knotty pine and real wood stay unpainted, including the laundry wood plank ceiling. Manufactured bedroom paneling may be painted. Bill prefers white ceilings and has rejected blue in the main house. These looks are ideas, not approvals.",
+  "sourcePhotos": {
+    "living": { "original": "E55A7431.jpg", "reference": "/workspace/howell-main-house-prototype/assets/rooms/living.jpg" },
+    "kitchen": { "original": "E55A7451.jpg", "reference": "/workspace/howell-main-house-prototype/assets/rooms/kitchen.jpg" },
+    "master": { "original": "E55A7436.jpg", "reference": "/workspace/howell-main-house-prototype/assets/rooms/master.jpg" },
+    "bed3": { "original": "E55A7441.jpg", "reference": "/workspace/howell-main-house-prototype/assets/rooms/bed3.jpg" },
+    "office": { "original": "E55A7401.jpg", "reference": "/workspace/howell-main-house-prototype/assets/rooms/office-7401.jpg", "note": "The existing s1–s4 office renders use the closet view (E55A7401), not the portrait window-wall photo (E55A7396 / office.jpg)." },
+    "laundry": { "original": "E55A7376.jpg", "reference": "/workspace/howell-main-house-prototype/assets/rooms/laundry.jpg" }
+  },
+  "disclosures": [
+    "Kitchen counters were cleared of soap bottles, drying racks, and other loose goods in every accepted kitchen render.",
+    "Laundry loose clutter was removed in the accepted laundry renders: hanging cloth, broom and mop, detergent bottles, pellet bag, and most items on top of the tall cabinet. The clear plastic drawer unit was kept. The s7 laundry still shows a box on top of the tall cabinet.",
+    "Green carpet in the master and worn pale carpet in the 3rd bedroom are shown replaced with luxury-vinyl-look plank. Carpet indentations and soil are gone.",
+    "A faint ceiling water stain in the 3rd bedroom is shown cleaned or repaired.",
+    "A hanging wire in the upper-right corner of the 3rd bedroom is still visible in s8-bed3 (it is in the original); other bed3 renders omit or downplay it.",
+    "A faint access-panel outline in the master paneling, to the left of the north window, is not clearly visible after paint, as in the existing s2 master.",
+    "Through-door views are not always palette-perfect: in s5-kitchen the office beyond is shown in olive rather than the espresso used in s5-office.",
+    "Kitchen counters, backsplashes, cabinet paint, hardware, and faucet finishes are conceptual replacements in the same positions. The cooktop, island rounded corner, refrigerator, dishwasher, sink, window, cabinet layout, wood door, and ceiling lights are locked.",
+    "Living-room, kitchen, office, and laundry floors are the existing hard floors, cleaned, not replaced. Only the two carpeted bedrooms show a new floor.",
+    "Renders do not promise exact manufacturer color, texture, product, scale, or dimensional reproduction."
+  ],
+  "rejectedOrOmitted": [
+    {
+      "file": "explorations/REJECTED-s8-master-missing-heater.jpg",
+      "theme": "s8",
+      "room": "master",
+      "reason": "First pass removed the baseboard heater under the left window. Retry kept the heater and was accepted as s8-master.jpg."
+    },
+    {
+      "file": "explorations/REJECTED-s5-bed3-paneling-lost.jpg",
+      "theme": "s5",
+      "room": "bed3",
+      "reason": "First pass painted the manufactured vertical paneling as smooth drywall and lost the grooves. Retry restored the grooves and was accepted as s5-bed3.jpg."
+    },
+    {
+      "file": "explorations/REJECTED-s8-bed3-paneling-lost.jpg",
+      "theme": "s8",
+      "room": "bed3",
+      "reason": "First pass painted the manufactured vertical paneling as smooth drywall and lost the grooves. Retry restored the grooves and was accepted as s8-bed3.jpg."
+    }
+  ],
+  "acceptedRenders": {
+    "s5": ["living", "kitchen", "master", "bed3", "office", "laundry"],
+    "s6": ["living", "kitchen", "master", "bed3", "office", "laundry"],
+    "s7": ["living", "kitchen", "master", "bed3", "office", "laundry"],
+    "s8": ["living", "kitchen", "master", "bed3", "office", "laundry"],
+    "s9": ["living", "kitchen", "master", "bed3", "office", "laundry"]
+  },
+  "sources": [
+    {
+      "id": "pinterest-predicts-2026",
+      "title": "Pinterest Predicts: Nonconformity, self-preservation, and escapism drive 21 trends for 2026",
+      "url": "https://newsroom.pinterest.com/en-gb/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/",
+      "date": "December 9, 2025",
+      "kind": "Pinterest official trend report"
+    },
+    {
+      "id": "pinterest-predicts-2027",
+      "title": "Pinterest Predicts 2027",
+      "url": null,
+      "date": null,
+      "kind": "Not found",
+      "note": "As of November 10, 2026, no official Pinterest Predicts 2027 report was found. 2027 interior-trend pins exist as user collections, not as a Pinterest report."
+    },
+    {
+      "id": "houzz-fall-2026",
+      "title": "2026 U.S. Houzz Fall Design Trends Report",
+      "url": "https://www.houzz.com/magazine/2026-u-s-houzz-fall-design-trends-report-stsetivw-vs~185743042",
+      "date": "September 2, 2026",
+      "kind": "Houzz Research; interviews with nearly 50 design professionals"
+    },
+    {
+      "id": "apartment-therapy-2026",
+      "title": "10 Home Trends Designers Say Are Still In for 2026",
+      "url": "https://www.apartmenttherapy.com/home-trends-still-in-for-2026-37686257",
+      "date": "August 5, 2026",
+      "dateNote": "Date taken from search-index metadata; the live page itself returned 403 to an automated fetch on November 10, 2026.",
+      "kind": "Publication trend piece quoting designers"
+    },
+    {
+      "id": "homes-gardens-dark-2026",
+      "title": "Will Dark Paint Colors Still Be Trendy in 2026?",
+      "url": "https://www.homesandgardens.com/interior-design/will-dark-colors-still-be-on-trend-in-2026",
+      "date": "December 27, 2025",
+      "kind": "Designer interview / trend advice",
+      "author": "Emily Moorman"
+    },
+    {
+      "id": "house-beautiful-dirty-neutrals",
+      "title": "Designers Say “Dirty Neutrals” Are Replacing Plain White Walls",
+      "url": "https://www.housebeautiful.com/design-inspiration/a73376576/dirty-neutrals-paint-trend/",
+      "date": "August 7, 2026",
+      "dateNote": "Date taken from search-index metadata; the live page was not fully retrieved on November 10, 2026.",
+      "kind": "Publication trend piece"
+    },
+    {
+      "id": "homes-gardens-cottage-colors",
+      "title": "5 English Cottage Colors Designers Are Suddenly Using Again",
+      "url": "https://www.homesandgardens.com/decor/paint/forgotten-english-cottage-colors-designers-are-using-again",
+      "date": null,
+      "kind": "Designer interview / trend advice",
+      "note": "Retrieved November 10, 2026. Publication date was not confirmed from the page capture."
+    },
+    {
+      "id": "bhg-thrift-2026",
+      "title": "The 7 Biggest Thrifted and Vintage Decor Trends Coming in 2026",
+      "url": "https://www.bhg.com/thrifted-and-vintage-decor-trends-2026-11875982",
+      "date": null,
+      "kind": "Publication trend piece",
+      "note": "The live page returned 402 to an automated fetch on November 10, 2026. Points below use the public search-result summary of that article, not a full-text read, and are labeled as such."
+    },
+    {
+      "id": "britco-2026",
+      "title": "2026 Home Decor Trends: What’s In and What’s Out",
+      "url": "https://www.brit.co/home-decor-trends/",
+      "date": "December 4, 2025",
+      "dateNote": "Date taken from search-index metadata.",
+      "kind": "Publication trend piece; cites Shea McGee on Hollywood Cottage"
+    },
+    {
+      "id": "sw-coty-2026",
+      "title": "Color of the Year 2026, Universal Khaki SW 6150",
+      "url": "https://www.sherwin-williams.com/en-us/color/color-of-the-year/2026",
+      "date": "2025 announcement for the 2026 year",
+      "kind": "Manufacturer color of the year"
+    },
+    {
+      "id": "bm-coty-2026",
+      "title": "Benjamin Moore Announces Silhouette AF-655 as its Color of the Year 2026",
+      "url": "https://www.benjaminmoore.com/en-us/press/benjamin-moore-announces-color-of-the-year-2026",
+      "date": "October 16, 2025",
+      "kind": "Manufacturer press release"
+    },
+    {
+      "id": "behr-coty-2026",
+      "title": "Behr Paint Company Announces 2026 Color of the Year: Hidden Gem",
+      "url": "https://corporate.behr.com/news/behr-paint-company-announces-2026-color-of-the-year-hidden-gem-a-smoky-jade-that-embodies-understated-elegance-and-timeless-sophistication",
+      "date": "July 30, 2025",
+      "dateNote": "Date taken from search-index metadata of the official announcement.",
+      "kind": "Manufacturer announcement"
+    },
+    {
+      "id": "valspar-coty-2026",
+      "title": "Valspar Announces Warm Eucalyptus as 2026 Color of the Year",
+      "url": "https://www.prnewswire.com/news-releases/valspar-announces-warm-eucalyptus-as-2026-color-of-the-year-302522300.html",
+      "date": "August 7, 2025",
+      "kind": "Manufacturer press release"
+    },
+    {
+      "id": "sw-coty-2027",
+      "title": "Color of the Year 2027, Celery SW 6421",
+      "url": "https://www.sherwin-williams.com/en-us/color/color-of-the-year/2027",
+      "date": "September 15, 2026",
+      "dateNote": "Announcement date from secondary reports of the joint Sherwin-Williams / HGTV Home release; official product page confirms the color.",
+      "kind": "Manufacturer color of the year"
+    },
+    {
+      "id": "bm-coty-2027",
+      "title": "Benjamin Moore Announces Webster Green HC-130 as its Color of the Year 2027",
+      "url": "https://www.benjaminmoore.com/en-us/press/benjamin-moore-announces-color-of-the-year-2027",
+      "date": "October 14, 2026",
+      "kind": "Manufacturer press release"
+    },
+    {
+      "id": "behr-coty-2027",
+      "title": "Behr Paint Company Announces 2027 Color of the Year: Grounded",
+      "url": "https://corporate.behr.com/news/behr-paint-company-announces-2027-color-of-the-year-grounded",
+      "date": "August 26, 2026",
+      "kind": "Manufacturer announcement"
+    },
+    {
+      "id": "valspar-coty-2027",
+      "title": "Valspar Announces Cottage Door as 2027 Color of the Year",
+      "url": "https://www.prnewswire.com/news-releases/valspar-announces-cottage-door-as-2027-color-of-the-year-302843017.html",
+      "date": "August 5, 2026",
+      "kind": "Manufacturer press release",
+      "note": "Cottage Door is described as a mid-tone neutral blue. It is listed for completeness only and is not used in these palettes, because Bill rejected blue in the main house."
+    }
+  ],
+  "extraSuggestedThemes": [
+    {
+      "id": "collected-vintage-cabin",
+      "name": "Collected Vintage Cabin",
+      "whyItFits": "Suits this house because the wood beam, wood doors, and existing hardwood already give it history. It stays cosmetic, avoids blue, and is naturally budget-friendly.",
+      "sourceSays": "Houzz’s Fall 2026 report (September 2, 2026) says collected, layered interiors are taking hold, with homeowners favoring character, vintage pieces, and personal storytelling over off-the-shelf perfection. A public search summary of BHG’s 2026 thrifted-and-vintage piece points to vintage lighting, layered collected objects, and functional storage furniture such as hutches.",
+      "interpretation": "A whole-house look built on dirty-neutral or khaki walls, kept wood, thrifted lamps and tables, and a few inherited or secondhand textiles would be the budget path. It overlaps slightly with English Cottage but is less floral and more about found objects than heritage paint."
+    },
+    {
+      "id": "hollywood-cottage",
+      "name": "Hollywood Cottage",
+      "whyItFits": "A polished cream-and-linen alternative to English Cottage. It would feel collected and comfortable without plum or dusty rose, and it avoids blue.",
+      "sourceSays": "Brit + Co’s 2026 home-decor trends piece describes a ‘Hollywood Cottage’ look and attributes the name to Shea McGee, calling it cozy yet sophisticated, in the Nancy Meyers vein.",
+      "interpretation": "For this house that would mean cream walls, white ceilings, mid oak in the carpeted rooms, simple slipcovered or linen-look furnishings later, and brass in small amounts. It is calmer than Moody Lodge and more dressed than Scandi Cabin."
+    }
+  ],
+  "looks": [
+    {
+      "id": "moody-lodge",
+      "group": "house",
+      "name": "Moody Lodge",
+      "kicker": "Most dramatic",
+      "prefix": "s5",
+      "hero": "looks/s5-living.jpg",
+      "board": "looks/s5-board.jpg",
+      "rooms": ["living", "kitchen", "master", "bed3", "office", "laundry"],
+      "blurb": "Near-black olive living and kitchen, espresso office, deep olive master, greige-cream 3rd bedroom, walnut-look bedroom floors, aged brass.",
+      "note": "The most dramatic of these five. Dark walls stay off the ceiling and off real wood. The 3rd bedroom is kept light so the house can breathe. Existing hard floors stay.",
+      "captions": {
+        "living": "Near-black olive walls, white ceiling, existing hardwood kept.",
+        "kitchen": "The same olive on the walls and island, cream cabinets, aged brass, cooktop and rounded island corner kept.",
+        "master": "Deep olive on the manufactured paneling, white ceiling, walnut-look plank over the carpet.",
+        "bed3": "Warm greige-cream bedroom, the same walnut-look floor.",
+        "office": "Espresso walls. Wood closets and wardrobe stay unpainted.",
+        "laundry": "Leather-brown walls. Tile and the wood ceiling stay."
+      },
+      "palette": {
+        "ceiling": "White in every painted-ceiling room. The laundry wood plank ceiling is left unpainted.",
+        "trim": "Existing real wood trim and doors stay unpainted. Painted baseboards are a clean soft white.",
+        "walls": {
+          "living": "Near-black olive, sample hex #2A3328. Example range: Sherwin-Williams Rockwood Shutter Green SW 2801 or a greenblack, as a sample only.",
+          "kitchen": "The same near-black olive.",
+          "master": "Deep olive on manufactured paneling, sample hex #3C4634. Example range: a slightly lighter olive such as Behr Grounded T27-01 or Sherwin-Williams Ripe Olive, as a sample only.",
+          "bed3": "Warm greige-cream on manufactured paneling, sample hex #E6D9C5.",
+          "office": "Espresso, sample hex #3F3730. Example range: Benjamin Moore Silhouette AF-655, as a sample only.",
+          "laundry": "Warm leather brown, sample hex #7A5340."
+        },
+        "floorCarpetedRooms": "Medium walnut-look oak luxury vinyl, sample hex #A67B52, in the master and 3rd bedroom only.",
+        "existingHardFloors": "Living room, kitchen, office, and laundry floors stay as they are.",
+        "kitchenCabinetsCounters": "Warm cream perimeter cabinets, sample hex #EFE6D8. Island painted the same near-black olive. Warm honed beige stone or quartz counters. Cream subway backsplash.",
+        "accents": "Cognac leather, rust, aged brass.",
+        "lightingHardware": "Aged brass, in the same fixture positions. The living-room ceiling fan stays."
+      },
+      "swatches": [
+        { "id": "greenblack", "name": "Near-black olive", "hex": "#2A3328", "column": "Walls", "use": "Living room and kitchen walls, and the kitchen island, on surfaces that can be painted. In the range of a shutter green or greenblack, as a sample only." },
+        { "id": "espresso", "name": "Espresso", "hex": "#3F3730", "column": "Rooms", "use": "The office, on surfaces that can be painted. In the range of Benjamin Moore Silhouette AF-655, as a sample only." },
+        { "id": "deep-olive", "name": "Deep olive", "hex": "#3C4634", "column": "Rooms", "use": "Master bedroom manufactured paneling. In the range of a grounded olive, as a sample only." },
+        { "id": "walnut-oak", "name": "Walnut-look oak", "hex": "#A67B52", "column": "Floor", "use": "A medium walnut oak look for the carpeted rooms, able to continue later." }
+      ],
+      "trends": {
+        "sourceSays": [
+          "Homes & Gardens (December 27, 2025) reports designers still expect dark paints in 2026, with interest shifting toward jewel tones, near-black olives, burgundy, and warm-toned blacks rather than navy, and toward color-drenching in small or intimate rooms. Designers also say a home needs both dark and light rooms for balance, and that lighter accessories can keep a dark scheme livable.",
+          "Apartment Therapy’s mid-2026 ‘still in’ list, as indexed, includes colorful and color-drenched rooms, with charcoal, espresso browns, and aubergines among the hues designers name. Bill wants white ceilings, so these looks do not drench the ceiling.",
+          "Benjamin Moore’s 2026 Color of the Year, Silhouette AF-655 (announced October 16, 2025), is described by the company as rich espresso hues with subtle notes of charcoal.",
+          "Behr’s 2027 Color of the Year, Grounded T27-01 (announced August 26, 2026), is an earthy olive with brown undertones."
+        ],
+        "interpretation": "Moody Lodge uses the near-black olive and espresso those sources actually describe, keeps ceilings white per Bill’s preference, and uses a light 3rd bedroom so the dark rooms have somewhere to contrast.",
+        "onABudget": "Paint is the main spend: dark olive in the living room and kitchen, espresso in the office, a slightly lighter olive in the master. Swap the two carpets for a mid-tone vinyl plank. Add aged-brass-look knobs and a faucet from a big-box or IKEA aisle, and later a thrifted leather chair or rust throw. Do not recast the existing hardwood until a later, measured decision."
+      }
+    },
+    {
+      "id": "mid-century-cabin",
+      "group": "house",
+      "name": "Mid-Century Cabin",
+      "kicker": "Khaki, mustard, rust",
+      "prefix": "s6",
+      "hero": "looks/s6-living.jpg",
+      "board": "looks/s6-board.jpg",
+      "rooms": ["living", "kitchen", "master", "bed3", "office", "laundry"],
+      "blurb": "Warm khaki living and kitchen, mustard island, rust office, cream bedrooms, walnut-look bedroom floors, brass.",
+      "note": "Walnut and mustard give it a mid-century tone without changing the architecture. The rust office is the dramatic room. Existing hard floors stay.",
+      "captions": {
+        "living": "Warm khaki walls, white ceiling, existing hardwood kept.",
+        "kitchen": "The same khaki, a mustard island, cream cabinets, brass, cooktop and rounded island corner kept.",
+        "master": "Warm cream on the manufactured paneling, walnut-look plank over the carpet.",
+        "bed3": "Warm cream bedroom, the same walnut-look floor.",
+        "office": "Rust walls. Wood closets and wardrobe stay unpainted.",
+        "laundry": "Mustard-ochre walls. Tile and the wood ceiling stay."
+      },
+      "palette": {
+        "ceiling": "White in every painted-ceiling room. The laundry wood plank ceiling is left unpainted.",
+        "trim": "Existing real wood trim and doors stay unpainted. Painted baseboards are a clean cream-white.",
+        "walls": {
+          "living": "Warm khaki, sample hex #C8B48A. Example range: Sherwin-Williams Universal Khaki SW 6150, as a sample only.",
+          "kitchen": "The same warm khaki.",
+          "master": "Warm cream on manufactured paneling, sample hex #F3EDE0.",
+          "bed3": "The same warm cream.",
+          "office": "Rust or terracotta, sample hex #B85C38.",
+          "laundry": "Mustard ochre, sample hex #C4A05A."
+        },
+        "floorCarpetedRooms": "Walnut-look oak luxury vinyl, sample hex #8B5A2B, in the master and 3rd bedroom only.",
+        "existingHardFloors": "Living room, kitchen, office, and laundry floors stay as they are.",
+        "kitchenCabinetsCounters": "Warm cream perimeter cabinets. Mustard island. Light warm stone or quartz counters. Cream subway backsplash.",
+        "accents": "Mustard, rust, walnut.",
+        "lightingHardware": "Brass, in the same fixture positions. The living-room ceiling fan stays."
+      },
+      "swatches": [
+        { "id": "khaki", "name": "Warm khaki", "hex": "#C8B48A", "column": "Walls", "use": "Living room and kitchen walls, on surfaces that can be painted. In the range of Sherwin-Williams Universal Khaki SW 6150, as a sample only." },
+        { "id": "mustard", "name": "Mustard", "hex": "#C4A03A", "column": "Accents", "use": "The kitchen island, and the laundry walls in a closely related ochre." },
+        { "id": "rust", "name": "Rust", "hex": "#B85C38", "column": "Rooms", "use": "The office, on surfaces that can be painted." },
+        { "id": "dark-walnut", "name": "Walnut-look oak", "hex": "#8B5A2B", "column": "Floor", "use": "A darker walnut oak look for the carpeted rooms, able to continue later." }
+      ],
+      "trends": {
+        "sourceSays": [
+          "Sherwin-Williams’ 2026 Color of the Year is Universal Khaki SW 6150, which the company describes as a mid-tone neutral with a slight yellow undertone, chosen for livability and longevity.",
+          "Houzz’s Fall 2026 report says warmth is now a baseline: layered warm wood tones, earthy colors, and natural materials, rather than stark white-and-gray rooms.",
+          "House Beautiful’s dirty-neutrals piece describes designers moving away from stark white toward earthier neutrals such as mushroom, greige, cognac, and olive.",
+          "Pinterest Predicts 2026 (December 9, 2025) includes Neo Deco, described as geometric Art Deco forms edged in chrome or brass, after years of heavy minimalism. That is a related, not identical, mid-century-adjacent brass-and-geometry trend."
+        ],
+        "interpretation": "Khaki as the field color is taken from the Sherwin-Williams 2026 COTY. Mustard, rust, and a walnut-look bedroom floor are this look’s mid-century reading of Houzz’s warm woods and earthy colors, not a claim that those sources specified this exact scheme.",
+        "onABudget": "Paint the main rooms khaki, the island mustard, and the office rust. Use brass-look knobs and a faucet from Target, IKEA, or a hardware aisle. Put a walnut-look vinyl in the two carpeted bedrooms. Later, add one or two walnut-toned or tapered-leg pieces from a thrift store rather than a matched mid-century suite."
+      }
+    },
+    {
+      "id": "scandi-cabin",
+      "group": "house",
+      "name": "Scandi Cabin",
+      "kicker": "Calmest of the five",
+      "prefix": "s7",
+      "hero": "looks/s7-living.jpg",
+      "board": "looks/s7-board.jpg",
+      "rooms": ["living", "kitchen", "master", "bed3", "office", "laundry"],
+      "blurb": "Soft warm white, pale oak in the carpeted bedrooms, matte black hardware, a pale oatmeal office.",
+      "note": "The calm contrast to Moody Lodge. Black shows up only as hardware and small fixtures. Existing hard floors stay. White ceilings throughout the painted rooms.",
+      "captions": {
+        "living": "Soft warm white walls, white ceiling, existing hardwood kept.",
+        "kitchen": "The same warm white, pale counters, matte black hardware, cooktop and rounded island corner kept.",
+        "master": "Soft warm white on the manufactured paneling, pale oak over the carpet.",
+        "bed3": "The same soft white bedroom, the same pale oak floor.",
+        "office": "Pale oatmeal walls. Wood closets and wardrobe stay unpainted.",
+        "laundry": "Soft greige walls. Tile and the wood ceiling stay."
+      },
+      "palette": {
+        "ceiling": "White in every painted-ceiling room. The laundry wood plank ceiling is left unpainted.",
+        "trim": "Existing real wood trim and doors stay unpainted. Painted baseboards are a clean soft white.",
+        "walls": {
+          "living": "Soft warm white, sample hex #F7F1E6.",
+          "kitchen": "The same soft warm white.",
+          "master": "The same soft warm white on manufactured paneling.",
+          "bed3": "The same soft warm white.",
+          "office": "Pale oatmeal, sample hex #E8DFD0.",
+          "laundry": "Soft stone greige, sample hex #D5CEC3."
+        },
+        "floorCarpetedRooms": "Pale white-oak luxury vinyl, sample hex #D9C5A8, in the master and 3rd bedroom only.",
+        "existingHardFloors": "Living room, kitchen, office, and laundry floors stay as they are.",
+        "kitchenCabinetsCounters": "Warm white perimeter cabinets and island. Pale white solid-surface or quartz counters. White subway backsplash. Matte black hardware and faucet.",
+        "accents": "Matte black, linen, pale oak.",
+        "lightingHardware": "Matte black, in the same fixture positions. The living-room ceiling fan stays."
+      },
+      "swatches": [
+        { "id": "soft-white", "name": "Soft warm white", "hex": "#F7F1E6", "column": "Walls", "use": "Most rooms, on surfaces that can be painted." },
+        { "id": "oatmeal", "name": "Pale oatmeal", "hex": "#E8DFD0", "column": "Rooms", "use": "The office, on surfaces that can be painted." },
+        { "id": "greige", "name": "Soft greige", "hex": "#D5CEC3", "column": "Rooms", "use": "Laundry walls." },
+        { "id": "pale-oak", "name": "Pale white oak", "hex": "#D9C5A8", "column": "Floor", "use": "A pale biscuit or white-oak look for the carpeted rooms, able to continue later." }
+      ],
+      "trends": {
+        "sourceSays": [
+          "Houzz’s Fall 2026 report describes a continued move away from stark white-and-gray, and toward warmth, texture, and natural materials. A lighter Scandi scheme therefore needs a warm white, not a cool gallery white, to stay in step with that baseline.",
+          "Apartment Therapy’s mid-2026 list also includes ‘warm minimalism’: richer wood tones and tactile materials that ‘balance restraint with character,’ as quoted from designer Cody Brown in search-indexed coverage of that article.",
+          "Sherwin-Williams’ 2027 Color of the Year, Celery SW 6421, is described as a soft, muted green with subtle yellow undertones. It is a related light, nature-connected direction, but it is not used as a wall color here so this look stays clearly distinct from the green rooms in Moody Lodge and in the earlier Northwoods Lake look."
+        ],
+        "interpretation": "Scandi Cabin is the restrained, light end of the same warm-materials story, with black used only as hardware. It is an interpretation, not a named 2026 ‘Scandi Cabin’ trend in these sources.",
+        "onABudget": "A few gallons of warm white, pale vinyl plank in the two carpeted bedrooms, and matte-black IKEA or big-box hardware and a matching faucet do most of the work. Keep furnishings sparse. Linen-look bedding and one pale wood or black lamp from Target or IKEA are enough later staging."
+      }
+    },
+    {
+      "id": "english-cottage",
+      "group": "house",
+      "name": "English Cottage",
+      "kicker": "Cream, rose, sage, plum",
+      "prefix": "s8",
+      "hero": "looks/s8-living.jpg",
+      "board": "looks/s8-board.jpg",
+      "rooms": ["living", "kitchen", "master", "bed3", "office", "laundry"],
+      "blurb": "Warm cream living and kitchen, a plum island, dusty-rose master, muted sage 3rd bedroom, plum office, honey oak bedroom floors, antique brass.",
+      "note": "Cozy and a little romantic, with the drama in the plum office and island. No duck-egg or other blue. Existing hard floors stay.",
+      "captions": {
+        "living": "Warm cream walls, white ceiling, existing hardwood kept.",
+        "kitchen": "The same cream, a deep plum island, antique brass, cooktop and rounded island corner kept.",
+        "master": "Dusty rose on the manufactured paneling, honey oak over the carpet.",
+        "bed3": "Muted sage bedroom, the same honey oak floor.",
+        "office": "Deep plum walls. Wood closets and wardrobe stay unpainted.",
+        "laundry": "Rose-tan walls. Tile and the wood ceiling stay."
+      },
+      "palette": {
+        "ceiling": "White in every painted-ceiling room. The laundry wood plank ceiling is left unpainted.",
+        "trim": "Existing real wood trim and doors stay unpainted. Painted baseboards are a clean cream-white.",
+        "walls": {
+          "living": "Warm cream, sample hex #EFE2C8. Example range: Benjamin Moore Swiss Coffee OC-45, as a sample only.",
+          "kitchen": "The same warm cream.",
+          "master": "Muted dusty rose on manufactured paneling, sample hex #D4A8A0. Example range: Benjamin Moore First Crush CSP-310, as a sample only.",
+          "bed3": "Muted warm sage on manufactured paneling, sample hex #8F9A7A. Example range: Valspar Warm Eucalyptus 8004-28F, as a sample only.",
+          "office": "Deep plum or aubergine, sample hex #5A2E3C.",
+          "laundry": "Warm rose-tan, sample hex #D9B7A5."
+        },
+        "floorCarpetedRooms": "Honey natural oak luxury vinyl, sample hex #C4A574, in the master and 3rd bedroom only.",
+        "existingHardFloors": "Living room, kitchen, office, and laundry floors stay as they are.",
+        "kitchenCabinetsCounters": "Cream perimeter cabinets. Deep plum or oxblood island, sample hex #6B2C3E. Warm cream stone or quartz counters. Cream subway or soft handmade-look cream tile backsplash.",
+        "accents": "Deep red, plum, cream, antique brass. Floral or patterned textiles would come later, in staging, not in these vacant renders.",
+        "lightingHardware": "Antique brass, in the same fixture positions. The living-room ceiling fan stays."
+      },
+      "swatches": [
+        { "id": "cream", "name": "Warm cream", "hex": "#EFE2C8", "column": "Walls", "use": "Living room and kitchen walls, and cream cabinets, on surfaces that can be painted. In the range of Swiss Coffee, as a sample only." },
+        { "id": "dusty-rose", "name": "Dusty rose", "hex": "#D4A8A0", "column": "Rooms", "use": "Master bedroom manufactured paneling. In the range of First Crush, as a sample only." },
+        { "id": "muted-sage", "name": "Muted sage", "hex": "#8F9A7A", "column": "Rooms", "use": "3rd bedroom manufactured paneling. In the range of Valspar Warm Eucalyptus 8004-28F, as a sample only." },
+        { "id": "plum", "name": "Deep plum", "hex": "#5A2E3C", "column": "Accents", "use": "The office walls and, in a closely related oxblood, the kitchen island." }
+      ],
+      "trends": {
+        "sourceSays": [
+          "Homes & Gardens’ English-cottage color piece says designers are using muted, earthy heritage hues again, including dusty rose and muted greens, and are moving from gray-and-white rooms toward moody, earthy palettes. The same piece mentions duck-egg blue, which is not used here.",
+          "Valspar’s 2026 Color of the Year, Warm Eucalyptus 8004-28F (announced August 7, 2025), is described by the company as a grounded green inspired by vintage design palettes, with warm undertones.",
+          "Apartment Therapy’s mid-2026 coverage, as indexed, names aubergines among colors used in color-drenched rooms.",
+          "Benjamin Moore’s 2026 Color Trends palette, announced with Silhouette on October 16, 2025, includes Swiss Coffee OC-45 and First Crush CSP-310 among the complementary hues."
+        ],
+        "interpretation": "Cream, dusty rose, muted sage, and plum are this look’s reading of those heritage and aubergine notes, with blue deliberately left out. Vacant renders do not show floral textiles; those would be a later staging layer.",
+        "onABudget": "Paint is again the lever: cream in the main rooms, rose in the master, sage in the 3rd bedroom, plum in the office and on the island. Antique-brass-look hardware from a hardware aisle, honey vinyl in the two carpeted rooms, and later a few thrifted floral pillows, a vintage lamp, or mismatched frames, which lines up with the thrift-and-collected direction in Houzz and in the BHG 2026 vintage summary."
+      }
+    },
+    {
+      "id": "black-wood-modern",
+      "group": "house",
+      "name": "Black and Wood Modern",
+      "kicker": "Crisp white, matte black",
+      "prefix": "s9",
+      "hero": "looks/s9-living.jpg",
+      "board": "looks/s9-board.jpg",
+      "rooms": ["living", "kitchen", "master", "bed3", "office", "laundry"],
+      "blurb": "Crisp warm white rooms, a matte-black island and black hardware, mid-tone oak in the carpeted bedrooms, a light greige office and laundry.",
+      "note": "The most current-looking of the five. Drama comes from the black island and hardware, not from dark walls. Existing hardwood already does the ‘wood’ half of the name.",
+      "captions": {
+        "living": "Crisp warm white walls, white ceiling, existing hardwood kept.",
+        "kitchen": "White cabinets, a matte-black island and faucet, cooktop and rounded island corner kept.",
+        "master": "Crisp warm white on the manufactured paneling, mid-tone oak over the carpet.",
+        "bed3": "The same white bedroom, the same mid-tone oak floor.",
+        "office": "Light warm greige walls. Wood closets and wardrobe stay unpainted.",
+        "laundry": "Light warm greige walls. Tile and the wood ceiling stay."
+      },
+      "palette": {
+        "ceiling": "White in every painted-ceiling room. The laundry wood plank ceiling is left unpainted.",
+        "trim": "Existing real wood trim and doors stay unpainted. Painted baseboards are a clean white.",
+        "walls": {
+          "living": "Crisp warm white, sample hex #F5F0E8.",
+          "kitchen": "The same crisp warm white.",
+          "master": "The same crisp warm white on manufactured paneling.",
+          "bed3": "The same crisp warm white.",
+          "office": "Light warm greige, sample hex #D9D2C6.",
+          "laundry": "The same light warm greige."
+        },
+        "floorCarpetedRooms": "Mid-tone natural oak luxury vinyl, sample hex #C4A574, in the master and 3rd bedroom only.",
+        "existingHardFloors": "Living room, kitchen, office, and laundry floors stay as they are.",
+        "kitchenCabinetsCounters": "White perimeter cabinets. Matte black island, sample hex #1A1A1A. Pale white or very light gray stone or quartz counters. White subway backsplash. Matte black hardware and faucet.",
+        "accents": "Matte black and mid-tone wood.",
+        "lightingHardware": "Matte black, in the same fixture positions. The living-room ceiling fan stays."
+      },
+      "swatches": [
+        { "id": "crisp-white", "name": "Crisp warm white", "hex": "#F5F0E8", "column": "Walls", "use": "Living room, kitchen, and bedrooms, on surfaces that can be painted." },
+        { "id": "matte-black", "name": "Matte black", "hex": "#1A1A1A", "column": "Accents", "use": "The kitchen island, hardware, and faucet." },
+        { "id": "warm-greige", "name": "Light warm greige", "hex": "#D9D2C6", "column": "Rooms", "use": "Office and laundry walls, on surfaces that can be painted." },
+        { "id": "mid-oak", "name": "Mid natural oak", "hex": "#C4A574", "column": "Floor", "use": "A medium natural oak look for the carpeted rooms, able to continue later." }
+      ],
+      "trends": {
+        "sourceSays": [
+          "Houzz’s Fall 2026 report emphasizes warmth, wood, and natural materials as a baseline, and character over perfection. A black-and-wood scheme that keeps the existing oak and the wood beam sits inside that baseline rather than returning to cool gray-and-white minimalism.",
+          "Pinterest Predicts 2026 describes Neo Deco as geometric forms edged in chrome or brass. Matte black hardware is not what that report specifies; it is this look’s simpler, more widely available finish.",
+          "Homes & Gardens (December 27, 2025) notes designers favoring warm-toned blacks among the dark colors expected to continue, and also notes dark color used on a kitchen island as a way to add drama without committing every wall."
+        ],
+        "interpretation": "The black island is the one clearly dramatic move, which matches the ‘dark color on an island’ idea from that Homes & Gardens piece. The rest of the house stays a warm white so the existing wood can read as the other half of the scheme.",
+        "onABudget": "Warm white paint, a quart or two of matte black for the island, black IKEA or Home Depot hardware and a black faucet, and a mid-tone vinyl in the two carpeted bedrooms. Leave the existing hardwood and the wood beam alone. This is one of the cheaper looks to stage later, because the furniture can stay simple."
+      }
+    }
+  ]
+}

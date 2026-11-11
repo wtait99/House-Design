@@ -1,0 +1,589 @@
+{
+  "checked": "November 10, 2026",
+  "images": [
+    {
+      "id": "kivik",
+      "product_page": "https://www.ikea.com/us/en/p/kivik-loveseat-tibbleby-beige-gray-s89440595/",
+      "image_url": "https://www.ikea.com/us/en/images/products/kivik-loveseat-tibbleby-beige-gray__1577305_pe1033079_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/shared/kivik.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "mannarp-3",
+      "product_page": "https://www.ikea.com/us/en/p/mannarp-3-seat-sofa-gunnared-beige-s39604037/",
+      "image_url": "https://www.ikea.com/us/en/images/products/mannarp-3-seat-sofa-gunnared-beige__1578225_pe1033883_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/mannarp-3.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "mannarp-love",
+      "product_page": "https://www.ikea.com/us/en/p/mannarp-loveseat-saxemara-gray-beige-s49619156/",
+      "image_url": "https://www.ikea.com/us/en/images/products/mannarp-loveseat-saxemara-gray-beige__1578547_pe1034186_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/mid-century-cabin/mannarp-love.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "ekholma",
+      "product_page": "https://www.ikea.com/us/en/p/ekholma-loveseat-kilanda-light-beige-s89537408/",
+      "image_url": "https://www.ikea.com/us/en/images/products/ekholma-loveseat-kilanda-light-beige__1577947_pe1033693_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/modern/ekholma.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "morabo",
+      "product_page": "https://www.ikea.com/us/en/p/morabo-loveseat-grann-bomstad-golden-brown-wood-s69317756/",
+      "image_url": "https://www.ikea.com/us/en/images/products/morabo-loveseat-grann-bomstad-golden-brown-wood__1576943_pe1032840_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/morabo.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "ekenaeset",
+      "product_page": "https://www.ikea.com/us/en/p/ekenaeset-high-back-armchair-walnut-effect-kilanda-light-beige-20624375/",
+      "image_url": "https://www.ikea.com/us/en/images/products/ekenaeset-high-back-armchair-walnut-effect-kilanda-light-beige__1489620_pe1003898_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/mid-century-cabin/ekenaeset.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "dyvlinge",
+      "product_page": "https://www.ikea.com/us/en/p/dyvlinge-swivel-chair-kelinge-beige-60623859/",
+      "image_url": "https://www.ikea.com/us/en/images/products/dyvlinge-swivel-chair-kelinge-beige__1457402_pe992618_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/mid-century-cabin/dyvlinge.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "tiphede",
+      "product_page": "https://www.ikea.com/us/en/p/tiphede-rug-flatwoven-natural-black-40559166/",
+      "image_url": "https://www.ikea.com/us/en/images/products/tiphede-rug-flatwoven-natural-black__0772066_pe755879_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/mid-century-cabin/tiphede.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "blaljus",
+      "product_page": "https://www.ikea.com/us/en/p/blaljus-rug-flatwoven-handwoven-natural-gray-brown-check-50610904/",
+      "image_url": "https://www.ikea.com/us/en/images/products/blaljus-rug-flatwoven-handwoven-natural-gray-brown-check__1411408_pe973123_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/blaljus.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "tidtabell",
+      "product_page": "https://www.ikea.com/us/en/p/tidtabell-rug-flatwoven-beige-30566643/",
+      "image_url": "https://www.ikea.com/us/en/images/products/tidtabell-rug-flatwoven-beige__1185184_pe898303_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/tidtabell.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "aerende",
+      "product_page": "https://www.ikea.com/us/en/p/aerende-rug-high-pile-gray-00635450/",
+      "image_url": "https://www.ikea.com/us/en/images/products/aerende-rug-high-pile-gray__1502173_pe1007536_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/moody-lodge/aerende.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lack-bb",
+      "product_page": "https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-40104294/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lack-coffee-table-black-brown__57540_pe163122_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/lack-bb.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lack-white",
+      "product_page": "https://www.ikea.com/us/en/p/lack-coffee-table-white-80449901/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0750651_pe746801_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/lack-white.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lisabo-vihals",
+      "product_page": "https://www.ikea.com/us/en/p/lisabo-vihals-table-and-4-chairs-ash-veneer-white-tibbleby-beige-grey-s59631582/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lisabo-vihals-table-and-4-chairs-ash-veneer-white-tibbleby-beige-grey__1548156_pe1020985_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/lisabo-vihals.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lisabo-55",
+      "product_page": "https://www.ikea.com/us/en/p/lisabo-table-ash-veneer-70294339/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lisabo-table-ash-veneer__0737105_pe740883_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/mid-century-cabin/lisabo-55.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lisabo-chair",
+      "product_page": "https://www.ikea.com/us/en/p/lisabo-chair-ash-00457235/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lisabo-chair-ash__0786549_pe763015_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/lisabo-chair.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lisabo-2black",
+      "product_page": "https://www.ikea.com/us/en/p/lisabo-lisabo-table-and-2-chairs-black-black-s49545090/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-2-chairs-black-black__1241017_pe919624_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/shared/lisabo-2black.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "pinntorp",
+      "product_page": "https://www.ikea.com/us/en/p/pinntorp-table-light-brown-stained-white-stained-pine-30529467/",
+      "image_url": "https://www.ikea.com/us/en/images/products/pinntorp-table-light-brown-stained-white-stained-pine__1118109_pe872932_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/pinntorp.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "vihals-table",
+      "product_page": "https://www.ikea.com/us/en/p/vihals-extendable-table-white-20589777/",
+      "image_url": "https://www.ikea.com/us/en/images/products/vihals-extendable-table-white__1370472_pe958745_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/shared/vihals-table.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "slattum",
+      "product_page": "https://www.ikea.com/us/en/p/slattum-upholstered-bed-frame-vissle-dark-gray-40571253/",
+      "image_url": "https://www.ikea.com/us/en/images/products/slattum-upholstered-bed-frame-vissle-dark-gray__1259363_pe926663_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/farm/slattum.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "malm-queen",
+      "product_page": "https://www.ikea.com/us/en/p/malm-bed-frame-oak-veneer-00599433/",
+      "image_url": "https://www.ikea.com/us/en/images/products/malm-bed-frame-oak-veneer__1364778_pe956034_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/malm-queen.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "vihals-ns",
+      "product_page": "https://www.ikea.com/us/en/p/vihals-nightstand-white-80488737/",
+      "image_url": "https://www.ikea.com/us/en/images/products/vihals-nightstand-white__1038845_pe839899_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/vihals-ns.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "gullaberg",
+      "product_page": "https://www.ikea.com/us/en/p/gullaberg-nightstand-with-1-drawer-with-door-white-20561764/",
+      "image_url": "https://www.ikea.com/us/en/images/products/gullaberg-nightstand-with-1-drawer-with-door-white__1283771_pe932625_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/modern/gullaberg.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lillberget",
+      "product_page": "https://www.ikea.com/us/en/p/lillberget-nightstand-white-10567568/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lillberget-nightstand-white__1281809_pe931989_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/lillberget.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "micke",
+      "product_page": "https://www.ikea.com/us/en/p/micke-desk-white-80213074/",
+      "image_url": "https://www.ikea.com/us/en/images/products/micke-desk-white__0736018_pe740345_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/micke.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lisabo-desk",
+      "product_page": "https://www.ikea.com/us/en/p/lisabo-desk-ash-veneer-10606273/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lisabo-desk-ash-veneer__1487203_pe1002710_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/lisabo-desk.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "rodflik-floor",
+      "product_page": "https://www.ikea.com/us/en/p/roedflik-floor-reading-lamp-gray-green-80563581/",
+      "image_url": "https://www.ikea.com/us/en/images/products/roedflik-floor-reading-lamp-gray-green__1232722_pe916583_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/rodflik-floor.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "rodflik-desk",
+      "product_page": "https://www.ikea.com/us/en/p/roedflik-desk-lamp-gray-green-70582716/",
+      "image_url": "https://www.ikea.com/us/en/images/products/roedflik-desk-lamp-gray-green__1327045_pe944344_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/rodflik-desk.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "rodflik-pendant",
+      "product_page": "https://www.ikea.com/us/en/p/roedflik-pendant-lamp-gray-green-80582749/",
+      "image_url": "https://www.ikea.com/us/en/images/products/roedflik-pendant-lamp-gray-green__1327085_pe944358_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/rodflik-pendant.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "nymane",
+      "product_page": "https://www.ikea.com/us/en/p/nymane-led-pendant-lamp-wireless-dimmable-white-spectrum-anthracite-00504048/",
+      "image_url": "https://www.ikea.com/us/en/images/products/nymane-led-pendant-lamp-wireless-dimmable-white-spectrum-anthracite__1008036_pe826684_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/black-wood-modern/nymane.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "melodi",
+      "product_page": "https://www.ikea.com/us/en/p/melodi-pendant-lamp-white-60386532/",
+      "image_url": "https://www.ikea.com/us/en/images/products/melodi-pendant-lamp-white__0545277_pe655373_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/melodi.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "baeckmaerke",
+      "product_page": "https://www.ikea.com/us/en/p/baeckmaerke-pendant-lamp-white-textile-wood-80599472/",
+      "image_url": "https://www.ikea.com/us/en/images/products/baeckmaerke-pendant-lamp-white-textile-wood__1507548_pe1009366_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/modern/baeckmaerke.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "hunter-cavera",
+      "product_page": "https://www.homedepot.com/p/Hunter-Cavera-II-52-in-Indoor-Matte-Black-Wifi-Enabled-Smart-Ceiling-Fan-with-Light-Kit-and-Remote-50476/311956708",
+      "image_url": "https://images.thdstatic.com/productImages/c9fce580-3a81-43b4-81ef-d6ff780716bf/svn/hunter-ceiling-fans-with-lights-50476-64_300.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/hunter-cavera.jpg",
+      "source_dimensions": [
+        300,
+        300
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "The Home Depot"
+    },
+    {
+      "id": "hunter-swanson",
+      "product_page": "https://www.lowes.com/pd/Hunter-Swanson-52-in-Matte-Black-LED-Medium-Base-e-26-Indoor-Ceiling-Fan-with-Light-5-Blade/5013829645",
+      "image_url": null,
+      "local_file": null,
+      "note": "No official retailer-CDN image saved. The dashboard shows a text card with the product link.",
+      "verified_on": "November 10, 2026"
+    },
+    {
+      "id": "hampton-northvale",
+      "product_page": "https://www.homedepot.com/p/Hampton-Bay-Northvale-24-in-3-Light-Matte-Black-Vanity-Light-with-Dimmable-Sockets-for-Bathroom-51888/316697770",
+      "image_url": null,
+      "local_file": null,
+      "note": "No official retailer-CDN image saved. The dashboard shows a text card with the product link.",
+      "verified_on": "November 10, 2026"
+    },
+    {
+      "id": "moen-genta",
+      "product_page": "https://www.homedepot.com/p/MOEN-Genta-Single-Handle-Single-Hole-Bathroom-Faucet-with-Drain-Kit-Included-in-Matte-Black-84760BL/304930079",
+      "image_url": "https://images.thdstatic.com/productImages/62084b84-c376-4bde-89c4-d9485750bd07/svn/matte-black-moen-single-hole-bathroom-faucets-84760bl-64_300.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/moody-lodge/moen-genta.jpg",
+      "source_dimensions": [
+        300,
+        300
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "The Home Depot"
+    },
+    {
+      "id": "almaren",
+      "product_page": "https://www.ikea.com/us/en/p/aelmaren-kitchen-faucet-stainless-steel-50341643/",
+      "image_url": "https://www.ikea.com/us/en/images/products/aelmaren-kitchen-faucet-stainless-steel__0804883_pe769403_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/almaren.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "glittran",
+      "product_page": "https://www.ikea.com/us/en/p/glittran-kitchen-faucet-brass-color-80468683/",
+      "image_url": "https://www.ikea.com/us/en/images/products/glittran-kitchen-faucet-brass-color__0830679_pe776814_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/glittran.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "liberty-mandara",
+      "product_page": "https://www.homedepot.com/p/Liberty-Mandara-5-1-16-in-128-mm-Classic-Matte-Black-Cabinet-Drawer-Bar-Pull-P36131C-FB-CP/310240906",
+      "image_url": null,
+      "local_file": null,
+      "note": "No official retailer-CDN image saved. The dashboard shows a text card with the product link.",
+      "verified_on": "November 10, 2026"
+    },
+    {
+      "id": "eneryda-handle",
+      "product_page": "https://www.ikea.com/us/en/p/eneryda-handle-brass-color-30610858/",
+      "image_url": "https://www.ikea.com/us/en/images/products/eneryda-handle-brass-color__1427449_pe980246_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/eneryda-handle.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "eneryda-knob",
+      "product_page": "https://www.ikea.com/us/en/p/eneryda-knob-brass-color-50610862/",
+      "image_url": "https://www.ikea.com/us/en/images/products/eneryda-knob-brass-color__1427450_pe980247_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/farm/eneryda-knob.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "bagganas-brass",
+      "product_page": "https://www.ikea.com/us/en/p/bagganaes-handle-brass-color-00338407/",
+      "image_url": "https://www.ikea.com/us/en/images/products/bagganaes-handle-brass-color__0754229_pe747828_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/shared/bagganas-brass.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "bagganas-knob",
+      "product_page": "https://www.ikea.com/us/en/p/bagganaes-knob-black-90338417/",
+      "image_url": "https://www.ikea.com/us/en/images/products/bagganaes-knob-black__0753944_pe747748_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/moody-lodge/bagganas-knob.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lindbyn-black",
+      "product_page": "https://www.ikea.com/us/en/p/lindbyn-mirror-black-60507204/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lindbyn-mirror-black__0914856_pe784354_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/lindbyn-black.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lindbyn-gold",
+      "product_page": "https://www.ikea.com/us/en/p/lindbyn-mirror-gold-70506119/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lindbyn-mirror-gold__0956627_pe804723_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/lindbyn-gold.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "ginstmott",
+      "product_page": "https://www.ikea.com/us/en/p/ginstmott-curtains-1-pair-white-with-eyelets-80597166/",
+      "image_url": "https://www.ikea.com/us/en/images/products/ginstmott-curtains-1-pair-white-with-eyelets__1341356_pe948715_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/quiet/ginstmott.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "rosenrobinia",
+      "product_page": "https://www.ikea.com/us/en/p/rosenrobinia-sheer-curtains-1-pair-beige-with-heading-tape-80564854/",
+      "image_url": "https://www.ikea.com/us/en/images/products/rosenrobinia-sheer-curtains-1-pair-beige-with-heading-tape__1166930_pe891320_s3.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/modern/rosenrobinia.jpg",
+      "source_dimensions": [
+        250,
+        250
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "sanela",
+      "product_page": "https://www.ikea.com/us/en/p/sanela-curtains-1-pair-light-beige-with-heading-tape-80592183/",
+      "image_url": "https://www.ikea.com/us/en/images/products/sanela-curtains-1-pair-light-beige-with-heading-tape__1280039_pe931640_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/northwoods/sanela.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "lill",
+      "product_page": "https://www.ikea.com/us/en/p/lill-sheer-curtains-1-pair-white-with-rod-pocket-90111980/",
+      "image_url": "https://www.ikea.com/us/en/images/products/lill-sheer-curtains-1-pair-white-with-rod-pocket__0099863_pe242253_s4.jpg",
+      "local_file": "/workspace/howell-main-house-prototype/assets/products/modern/lill.jpg",
+      "source_dimensions": [
+        480,
+        480
+      ],
+      "verified_on": "November 10, 2026",
+      "store": "IKEA"
+    },
+    {
+      "id": "threshold-stitched",
+      "product_page": "https://www.target.com/p/54-34-x84-34-light-filtering-stitched-edge-curtain-panel-cream-threshold-8482/-/A-51586729",
+      "image_url": null,
+      "local_file": null,
+      "note": "No official retailer-CDN image saved. The dashboard shows a text card with the product link.",
+      "verified_on": "November 10, 2026"
+    }
+  ]
+}
