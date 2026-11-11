@@ -1,6 +1,6 @@
 /* Looks registry: the ONE list of looks every page reads.
  * Added November 11, 2026. Loaded after data.js, extra-looks.js, products-by-look.js
- * and nautical-sourced.js, and before shop-builder.js, gallery-shop.js and app.js.
+ * nautical-sourced.js and exterior-looks.js, and before shop-builder.js, gallery-shop.js and app.js.
  *
  * What lives where
  * ----------------
@@ -22,6 +22,10 @@
   if (typeof HOUSE === "undefined") return;
 
   var LOOKS = [
+    /* Exterior paint looks (main house), November 11, 2026 */
+    { id: "ext-lodge", status: "active", scope: "exterior", accents: ["Iron Ore siding and trim", "Existing wood door", "Black barn light", "Brass numbers", "Silver Brunnera"] },
+    { id: "ext-cottage", status: "active", scope: "exterior", accents: ["Evergreen Fog siding", "Alabaster trim", "Rookwood Dark Green door", "Vintage brass", "Catmint and hydrangea"] },
+    { id: "ext-classic", status: "active", scope: "exterior", accents: ["Alabaster siding and trim", "Tricorn Black door", "Matte black lantern", "Boxwood row"] },
     /* Nautical variants, November 11, 2026 */
     { id: "nt-navy", status: "active", accents: ["Navy walls", "Signal-red textiles", "Brass", "Rope", "Stripes"] },
     { id: "nt-keeper", status: "active", accents: ["Rookwood dark green", "Barn-red textiles", "Rope", "Brass", "Weathered teak", "No blue"] },
@@ -92,6 +96,7 @@
         description: def.blurb || "",
         palette: (def.swatches || []).map(function (s) { return { name: s.name, hex: s.hex, role: s.column || "", use: s.use || "" }; }),
         accents: (row.accents || []).slice(),
+        scope: row.scope || (def.exterior ? "exterior" : "interior"),
         status: STATUSES.indexOf(row.status) !== -1 ? row.status : "active",
         rooms: (def.rooms || []).slice(),
         renders: renderPaths(def),

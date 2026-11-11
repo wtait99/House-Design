@@ -146,29 +146,28 @@ var HOUSE = {
     },
     {
       id: "exterior",
-      lookKey: null,
+      lookKey: "exterior",
       name: "Exterior and garage",
-      captionNow: "Now: vacant photographs, November 9, 2026. No concept renders.",
+      captionNow: "Now: vacant photographs of the main house, garage and yard, November 9, 2026. Three exterior paint looks (November 11, 2026) use the front and front-door views.",
       photos: [
-        { file: "rooms/exterior-7256.jpg", alt: "Approach to the house from the yard.", kind: "vacant", title: "Approach to the house" },
-        { file: "rooms/exterior-7261.jpg", alt: "Main house from the yard.", kind: "vacant", title: "Main house from the yard" },
-        { file: "rooms/exterior-7286.jpg", alt: "House with the chimney.", kind: "vacant", title: "House with the chimney" },
-        { file: "rooms/exterior-7266.jpg", alt: "Side of the house.", kind: "vacant", title: "Side of the house" },
-        { file: "rooms/exterior-7291.jpg", alt: "Another side of the house.", kind: "vacant", title: "Side of the house" },
-        { file: "rooms/exterior-7296.jpg", alt: "Side of the house, with a car and a shed.", kind: "vacant", title: "Side of the house, car, and shed" },
-        { file: "rooms/exterior-7281.jpg", alt: "Yard and a distant outbuilding.", kind: "vacant", title: "Yard and a distant outbuilding" },
-        { file: "rooms/exterior-7316.jpg", alt: "Outbuilding or garage from the yard.", kind: "vacant", title: "Outbuilding from the yard" },
-        { file: "rooms/exterior-7301.jpg", alt: "Shed or outbuilding.", kind: "vacant", title: "Shed or outbuilding" },
+        { file: "rooms/exterior-7261.jpg", alt: "Main house, straight-on front view from the yard: vertical wood siding on the front, hip roof, chimney, two front windows and the front door with a concrete stoop.", kind: "vacant", title: "Main house, front (render base)" },
+        { file: "rooms/exterior-7266.jpg", alt: "Main house front door and two-step concrete stoop, three-quarter view, with the house number 4709 and the concrete walk along the front wall.", kind: "vacant", title: "Main house, front door and stoop (render base)" },
+        { file: "rooms/exterior-7276.jpg", alt: "Main house siding detail: horizontal aluminum lap siding meeting the vertical wood front siding at a window.", kind: "vacant", title: "Main house, siding detail (wood and aluminum)" },
+        { file: "rooms/exterior-7286.jpg", alt: "Main house side, with the brick chimney and horizontal aluminum siding.", kind: "vacant", title: "Main house, side with the chimney" },
+        { file: "rooms/exterior-7291.jpg", alt: "Main house back, with the air-conditioning unit.", kind: "vacant", title: "Main house, back" },
+        { file: "rooms/exterior-7301.jpg", alt: "Garage and wood shed at the edge of the woods.", kind: "vacant", title: "Garage and shed" },
         { file: "rooms/garage-7311.jpg", alt: "Garage interior, looking out the open door.", kind: "vacant", title: "Garage interior" },
+        { file: "rooms/exterior-7256.jpg", alt: "Yard and trees near the house.", kind: "vacant", title: "Yard" },
         { file: "rooms/exterior-7251.jpg", alt: "Yard and trees.", kind: "vacant", title: "Yard and trees" },
         { file: "rooms/exterior-7306.jpg", alt: "Yard and trees, another view.", kind: "vacant", title: "Yard and trees" },
         { file: "rooms/exterior-7371.jpg", alt: "Yard and trees, another view.", kind: "vacant", title: "Yard and trees" },
-        { file: "rooms/exterior-7276.jpg", alt: "Close view of the siding.", kind: "vacant", title: "Close view of the siding" },
-        { file: "rooms/exterior-7326.jpg", alt: "Close view of the siding, another spot.", kind: "vacant", title: "Close view of the siding" }
+        { file: "rooms/exterior-7281.jpg", alt: "Yard and a distant outbuilding.", kind: "vacant", title: "Yard and a distant outbuilding" }
       ],
       notes: [
-        { label: "Scope", text: "Exterior planning covers the main house, the garage, and the guest house. These are photographs only. There are no exterior concept renders." },
-        { label: "Open", text: "Garage order is not set. Siding and condition are not established as approved work." }
+        { label: "Siding", text: "Main house: wood siding on the front (and a small part of the sides); the rest is aluminum siding. The exterior looks are paint only: no new siding, no window replacement." },
+        { label: "Looks", text: "Iron Ore Lodge, Evergreen Fog Cottage and Alabaster Classic (November 11, 2026) are rendered on the front view and the front-door view only. Guest-house photographs are under Guest house (deferred)." },
+        { label: "Before painting", text: "The house is pre-1978. Test the old paint for lead before any scraping or sanding. Not tested yet." },
+        { label: "Open", text: "Garage order is not set. Nothing is approved." }
       ]
     },
     {
@@ -186,7 +185,10 @@ var HOUSE = {
         { file: "rooms/guest-7351.jpg", alt: "Guest house bedroom, another angle.", kind: "vacant", title: "Bedroom, another angle" },
         { file: "rooms/guest-7361.jpg", alt: "Guest house bedroom, looking along the red carpet.", kind: "vacant", title: "Bedroom, along the carpet" },
         { file: "rooms/guest-7366.jpg", alt: "Guest house bedroom or hall, wood walls and wood ceiling.", kind: "vacant", title: "Bedroom or hall" },
-        { file: "rooms/guest-7356.jpg", alt: "Guest house bathroom, with wood walls and a water heater in the room. Not the main bath.", kind: "vacant", title: "Bathroom" }
+        { file: "rooms/guest-7356.jpg", alt: "Guest house bathroom, with wood walls and a water heater in the room. Not the main bath.", kind: "vacant", title: "Bathroom" },
+        { file: "rooms/exterior-7296.jpg", alt: "Guest house exterior, with the driveway, a car and the chimney. Not the main house.", kind: "vacant", title: "Guest house, outside with the driveway" },
+        { file: "rooms/exterior-7316.jpg", alt: "Guest house exterior from the yard, with a picnic table. Not the main house.", kind: "vacant", title: "Guest house, outside from the yard" },
+        { file: "rooms/exterior-7326.jpg", alt: "Guest house siding and window close-up, with worn white siding. Not the main house.", kind: "vacant", title: "Guest house, siding close-up" }
       ],
       notes: [
         { label: "Deferred", text: "The main house comes first. These photographs are not on the main-house plan." },
@@ -547,7 +549,7 @@ var HOUSE = {
       "Existing architecture stays. Natural knotty pine and real wood stay unpainted. Manufactured bedroom paneling may be painted.",
       "The laundry’s tile floor and unpainted wood plank ceiling stay.",
       "Bathroom planning is in scope. Fixture and plumbing locations stay. The main-bath photograph is the vacant hall-door view from November 9, 2026. The guest bath is a different room, in the deferred guest house.",
-      "Exteriors of the main house, the garage, and the guest house are in the wider scope. Vacant exterior and garage photographs are in Exterior and garage. There are no exterior concept renders.",
+      "Exteriors of the main house, the garage, and the guest house are in the wider scope. Main-house, garage and yard photographs are in Exterior and garage; guest-house exterior photographs are under Guest house. Three paint-only exterior looks for the main house were added November 11, 2026; the guest house is deferred.",
       "Blue is out of the running."
     ],
     open: [
@@ -626,6 +628,7 @@ HOUSE.looksForRoom = function (roomKey) {
 };
 
 HOUSE.roomCountLabel = function (look) {
+  if (look && look.viewsLabel) return look.viewsLabel;
   var n = look && look.rooms ? look.rooms.length : 0;
   if (n === 1) return "One room";
   if (n === 6) return "Six rooms";
@@ -701,6 +704,11 @@ HOUSE.nowPhotoForLook = function (look, roomKey) {
       if (room.photos[i].file === file) return room.photos[i];
     }
     return { file: file, alt: (room.name || "Office") + ", vacant photograph used for this concept.", kind: "vacant" };
+  }
+  if (file && !room) {
+    var view = HOUSE.lookViews && HOUSE.lookViews[roomKey];
+    if (view && view.photo && view.photo.file === file) return view.photo;
+    return { file: file, alt: ((view && view.name) || roomKey) + ", vacant photograph used for this concept.", kind: "vacant" };
   }
   if (!room || !room.photos) return null;
   for (i = 0; i < room.photos.length; i++) {

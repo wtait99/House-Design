@@ -19,7 +19,7 @@
     { id: "chairs", label: "Chairs", slots: ["seating", "chairs", "accents", "stools", "bench"], match: /chair|armchair|stool|swivel|bench/i },
     { id: "tables", label: "Tables", slots: ["coffee", "dining-table", "dining-set"] },
     { id: "rugs", label: "Rugs", slots: ["rug"] },
-    { id: "lighting", label: "Lighting", slots: ["lamp", "pendant", "vanity"] },
+    { id: "lighting", label: "Lighting", slots: ["lamp", "pendant", "vanity", "light"] },
     { id: "fans", label: "Fans", slots: ["fan"] },
     { id: "curtains", label: "Curtains", slots: ["curtains"] },
     { id: "mirrors", label: "Mirrors", slots: ["mirror"] },
@@ -28,6 +28,9 @@
     { id: "storage", label: "Storage", slots: ["desk"] },
     { id: "textiles", label: "Bedding & pillows", slots: ["bedding", "throw", "pillows"] },
     { id: "decor", label: "Decor", slots: ["accents", "pulls", "faucet", "art", "decor"] },
+    { id: "paint", label: "Paint & prep", slots: ["bodyPaint", "trimPaint", "doorPaint", "woodPrimer", "metalPrimer", "cleaner", "caulk"] },
+    { id: "exterior-accents", label: "Numbers, hardware & planters", slots: ["numbers", "hardware", "planters"] },
+    { id: "plants", label: "Plants & mulch", slots: ["potPlant", "shrubs", "perennials", "mulch"] },
     { id: "flooring", label: "Flooring", ids: ["floor"] }
   ];
   HOUSE.SHOP_CATEGORIES = CATEGORIES;
@@ -141,6 +144,11 @@
       cat = CATEGORIES[i];
       if (cat.ids && cat.ids.indexOf(p.id) !== -1) return cat.id;
     }
+    for (i = 0; i < CATEGORIES.length; i++) {
+      cat = CATEGORIES[i];
+      if ((cat.id === "paint" || cat.id === "plants" || cat.id === "exterior-accents") && slots.some(function (s) { return cat.slots.indexOf(s) !== -1; })) return cat.id;
+    }
+    if (slots.indexOf("light") !== -1) return "lighting";
     if (slots.indexOf("rug") !== -1) return "rugs";
     if (slots.indexOf("fan") !== -1) return "fans";
     if (slots.indexOf("curtains") !== -1) return "curtains";

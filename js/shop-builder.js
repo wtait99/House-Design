@@ -131,7 +131,23 @@
     html += "<li>Estimated Michigan 6% tax on merchandise — " + esc(money(totals.taxCentsEstimate)) + ' <span class="note">(estimate, not a checkout tax)</span></li>';
     html += "<li>" + esc(totals.deliveryNote) + "</li>";
     html += "<li>" + esc(totals.laborNote) + "</li>";
-    html += "</ul></div>";
+    html += "</ul>";
+    if (totals.paintCents != null) {
+      html += '<ul class="shop-subtotals">';
+      html += "<li>Paint (estimated gallons) — " + esc(money(totals.paintCents)) + "</li>";
+      html += "<li>Prep: wash, wood primer, aluminum primer, caulk — " + esc(money(totals.prepCents)) + "</li>";
+      html += "<li>Light, numbers, hardware, planters — " + esc(money(totals.accentsCents)) + "</li>";
+      html += "<li>Plants and mulch — " + esc(money(totals.plantsCents)) + "</li>";
+      html += "</ul>";
+    }
+    if (totals.estimates && totals.estimates.length) {
+      html += '<h3 class="shop-alts-label">Estimates and checks (not in the total)</h3><ul class="shop-estimates">';
+      totals.estimates.forEach(function (e) {
+        html += "<li" + (e.flag ? ' class="fit-warn"' : "") + "><strong>" + esc(e.label) + ".</strong> " + esc(e.text) + "</li>";
+      });
+      html += "</ul>";
+    }
+    html += "</div>";
     return html;
   }
 
@@ -140,7 +156,8 @@
     if (!rec) return "";
     var html = '<section class="shop-look" id="shop-this-look">';
     html += '<h2 class="section-label">Shop this look</h2>';
-    html += '<p class="note">Real products checked November 10, 2026. The chip is merchandise only. Tax, delivery, and installation are listed separately and are estimates. This is not an order.</p>';
+    if (rec.checkedNote) html += '<p class="note">' + esc(rec.checkedNote) + '</p>';
+    else html += '<p class="note">Real products checked November 10, 2026. The chip is merchandise only. Tax, delivery, and installation are listed separately and are estimates. This is not an order.</p>';
     html += '<p class="shop-chip">' + esc(rec.chip) + "</p>";
     html += '<div class="shop-row">';
     rec.itemIds.forEach(function (id) {
@@ -186,9 +203,10 @@
     if (p.availability) html += '<p class="note">' + esc(p.availability) + "</p>";
     if (p.unverified) html += '<p class="note">Not fully verified: ' + esc(p.unverified) + "</p>";
     if (p.fanRatedBox) html += '<p class="fit-warn">This fan needs a fan-rated box, checked on site. Ceiling height is assumed 8 ft until measured. A licensed electrician should install it.</p>';
+    else if (p.hardwired && p.exterior) html += '<p class="fit-warn">Hardwired outdoor wall light. It replaces the existing light on the existing wall box. A licensed electrician should install it.</p>';
     else if (p.hardwired) html += '<p class="fit-warn">Hardwired. Use an existing electrical box only. A licensed electrician should install it. Ceiling height is assumed 8 ft until measured.</p>';
     html += '<p><a class="ctrl shop-ext" href="' + esc(p.url) + '" target="_blank" rel="noopener noreferrer">Open the ' + esc(p.store) + " page</a></p>";
-    html += '<p class="caveat">Prices were checked November 10, 2026. This does not place an order.</p>';
+    html += '<p class="caveat">Prices were checked ' + esc(p.verifiedOn || "November 10, 2026") + '. This does not place an order.</p>';
     html += "</div>";
     return html;
   };
@@ -614,6 +632,7 @@
       warns.push("This desk is wide for the shorter office wall. Use the 12 ft wall if you can.");
     }
     if (p.fanRatedBox) warns.push("Needs a fan-rated box, checked on site. Ceiling height is assumed 8 ft until measured.");
+    else if (p.hardwired && p.exterior) warns.push("Hardwired outdoor light on the existing wall box. Licensed electrician.");
     else if (p.hardwired) warns.push("Hardwired at an existing box only. Licensed electrician. Ceiling height assumed 8 ft until measured.");
     return warns;
   }
@@ -641,10 +660,15 @@
       var slots = picks[room.id] || {};
       var sub = 0;
       var hasSet = !!slots["dining-set"];
+      /* A view of the same place (Front door vs Front of house) does not count an item twice. */
+      var dupSlots = room.duplicateOf ? (picks[room.duplicateOf] || {}) : null;
+      var dupIds = {};
+      if (dupSlots) Object.keys(dupSlots).forEach(function (k) { if (dupSlots[k]) dupIds[dupSlots[k]] = true; });
       Object.keys(slots).forEach(function (slot) {
         if (hasSet && (slot === "dining-table" || slot === "chairs")) return;
         var p = productById(slots[slot]);
         if (!p) return;
+        if (dupIds[p.id]) return;
         sub += lineCents(p);
         if (p.hardwired) hardwired += 1;
         if (p.fanRatedBox) fans += 1;

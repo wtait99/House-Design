@@ -1,6 +1,6 @@
 {
   "updated": "November 10, 2026",
-  "note": "Display copies only. Vacant, exterior, garage, guest-house, and look sources were not modified. Rejected look files were not included. Earlier furnished photographs remain under assets/earlier/. s5\u2013s9 whole-house looks were added from vacant-2026-11-09/looks/ on November 10, 2026. Office concepts for s1\u2013s9 are paired with the closet view rooms/office-7401.jpg (original E55A7401.jpg).",
+  "note": "Display copies only. Vacant, exterior, garage, guest-house, and look sources were not modified. Rejected look files were not included. Earlier furnished photographs remain under assets/earlier/. s5–s9 whole-house looks were added from vacant-2026-11-09/looks/ on November 10, 2026. Office concepts for s1–s9 are paired with the closet view rooms/office-7401.jpg (original E55A7401.jpg).",
   "nov8_furnished_display_copies": [
     {
       "asset": "01.jpg",
@@ -1726,7 +1726,7 @@
     {
       "asset": "assets/rooms/exterior-7261.jpg",
       "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7261.jpg",
-      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "kind": "Vacant main-house exterior photograph, November 9, 2026. Display copy; render base for the exterior paint looks (front view).",
       "asset_size": [
         1400,
         933
@@ -1743,7 +1743,7 @@
     {
       "asset": "assets/rooms/exterior-7266.jpg",
       "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7266.jpg",
-      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "kind": "Vacant main-house exterior photograph, November 9, 2026. Display copy; render base for the exterior paint looks (front-door view).",
       "asset_size": [
         1400,
         934
@@ -1828,7 +1828,7 @@
     {
       "asset": "assets/rooms/exterior-7296.jpg",
       "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7296.jpg",
-      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "kind": "Vacant GUEST HOUSE exterior photograph, November 9, 2026 (not the main house; guest house deferred). Display copy only; no concept render.",
       "asset_size": [
         1400,
         934
@@ -1879,7 +1879,7 @@
     {
       "asset": "assets/rooms/exterior-7316.jpg",
       "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7316.jpg",
-      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "kind": "Vacant GUEST HOUSE exterior photograph, November 9, 2026 (not the main house; guest house deferred). Display copy only; no concept render.",
       "asset_size": [
         1400,
         934
@@ -1896,7 +1896,7 @@
     {
       "asset": "assets/rooms/exterior-7326.jpg",
       "source": "/workspace/home-design-reference/vacant-2026-11-09/originals/E55A7326.jpg",
-      "kind": "Vacant exterior or garage photograph, November 9, 2026. Display copy only; no concept render.",
+      "kind": "Vacant GUEST HOUSE exterior photograph, November 9, 2026 (not the main house; guest house deferred). Display copy only; no concept render.",
       "asset_size": [
         1400,
         934

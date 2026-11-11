@@ -105,8 +105,19 @@
       esc(label) + '<span class="sr"> (opens a new tab)</span></a>';
   }
   function roomByLookKey(key) {
-    for (var i = 0; i < HOUSE.rooms.length; i++) if (HOUSE.rooms[i].lookKey === key) return HOUSE.rooms[i];
-    return null;
+    var found = null;
+    for (var i = 0; i < HOUSE.rooms.length; i++) if (HOUSE.rooms[i].lookKey === key) { found = HOUSE.rooms[i]; break; }
+    /* Exterior looks name their views (Front of house, Front door) instead of the photo room. */
+    var view = HOUSE.lookViews && HOUSE.lookViews[key];
+    if (view) {
+      var out = {};
+      if (found) Object.keys(found).forEach(function (k) { out[k] = found[k]; });
+      out.name = view.name;
+      out.lookKey = key;
+      if (!found) out.photos = view.photo ? [view.photo] : [];
+      return out;
+    }
+    return found;
   }
 
   function swatchById(look, id) {
