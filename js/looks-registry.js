@@ -26,6 +26,7 @@
     { id: "ext-lodge", status: "active", scope: "exterior", accents: ["Iron Ore siding and trim", "Existing wood door", "Black barn light", "Brass numbers", "Silver Brunnera"] },
     { id: "ext-cottage", status: "active", scope: "exterior", accents: ["Evergreen Fog siding", "Alabaster trim", "Rookwood Dark Green door", "Vintage brass", "Catmint and hydrangea"] },
     { id: "ext-classic", status: "active", scope: "exterior", accents: ["Alabaster siding and trim", "Tricorn Black door", "Matte black lantern", "Boxwood row"] },
+    { id: "ext-charcoal-cedar", status: "active", scope: "exterior", accents: ["Peppercorn charcoal siding and trim", "Rough-sawn cedar under the windows", "Existing wood door", "Black barn light", "Brass numbers"] },
     /* Nautical variants, November 11, 2026 */
     { id: "nt-navy", status: "active", accents: ["Navy walls", "Signal-red textiles", "Brass", "Rope", "Stripes"] },
     { id: "nt-keeper", status: "active", accents: ["Rookwood dark green", "Barn-red textiles", "Rope", "Brass", "Weathered teak", "No blue"] },

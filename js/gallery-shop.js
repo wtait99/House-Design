@@ -31,6 +31,7 @@
     { id: "paint", label: "Paint & prep", slots: ["bodyPaint", "trimPaint", "doorPaint", "woodPrimer", "metalPrimer", "cleaner", "caulk"] },
     { id: "exterior-accents", label: "Numbers, hardware & planters", slots: ["numbers", "hardware", "planters"] },
     { id: "plants", label: "Plants & mulch", slots: ["potPlant", "shrubs", "perennials", "mulch"] },
+    { id: "cedar-accent", label: "Cedar accent", slots: ["cedarBoards", "cedarBoards2", "cedarBudget", "furring", "stain", "fasteners", "furringScrews", "flashing"] },
     { id: "flooring", label: "Flooring", ids: ["floor"] }
   ];
   HOUSE.SHOP_CATEGORIES = CATEGORIES;
@@ -146,7 +147,7 @@
     }
     for (i = 0; i < CATEGORIES.length; i++) {
       cat = CATEGORIES[i];
-      if ((cat.id === "paint" || cat.id === "plants" || cat.id === "exterior-accents") && slots.some(function (s) { return cat.slots.indexOf(s) !== -1; })) return cat.id;
+      if ((cat.id === "paint" || cat.id === "plants" || cat.id === "exterior-accents" || cat.id === "cedar-accent") && slots.some(function (s) { return cat.slots.indexOf(s) !== -1; })) return cat.id;
     }
     if (slots.indexOf("light") !== -1) return "lighting";
     if (slots.indexOf("rug") !== -1) return "rugs";

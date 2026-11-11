@@ -138,6 +138,7 @@
       html += "<li>Prep: wash, wood primer, aluminum primer, caulk — " + esc(money(totals.prepCents)) + "</li>";
       html += "<li>Light, numbers, hardware, planters — " + esc(money(totals.accentsCents)) + "</li>";
       html += "<li>Plants and mulch — " + esc(money(totals.plantsCents)) + "</li>";
+      if (totals.cedarCents) html += "<li>Cedar accent: boards, furring, oil, fasteners, flashing — " + esc(money(totals.cedarCents)) + "</li>";
       html += "</ul>";
     }
     if (totals.estimates && totals.estimates.length) {
