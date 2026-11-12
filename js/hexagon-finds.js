@@ -407,6 +407,148 @@
   "image": "assets/products/hexagon/hx-gold-hex-pull.jpg",
   "imageMissing": false,
   "collection": "Hexagon finds"
+ },
+ {
+  "id": "hx-woodpeckers-shelves",
+  "name": "Woodpeckers unfinished wooden hexagon floating shelves with backs, set of 7",
+  "maker": "Woodpeckers Crafts",
+  "store": "Woodpeckers Crafts",
+  "url": "https://woodpeckerscrafts.com/products/wooden-hexagon-floating-shelves-with-backs-set-of-7?variant=44381072523443",
+  "price": "$37.15",
+  "priceCents": 3715,
+  "qty": 1,
+  "finish": "Unfinished natural wood; can be stained to sit near the knotty pine",
+  "dimText": "Smallest 4.75 in x 1.75 in deep, largest 9.5 in x 2.75 in deep",
+  "slots": [
+   "accents"
+  ],
+  "rooms": [
+   "living",
+   "office",
+   "master"
+  ],
+  "looks": [
+   "northwoods",
+   "moody-lodge",
+   "craftsman",
+   "mid-century-cabin",
+   "scandi-cabin"
+  ],
+  "fit": "Small decor shelves; stain before hanging.",
+  "verified": "productsearch",
+  "verifiedOn": "November 12, 2026",
+  "availability": "Price from the store's catalog listing via product search on November 12, 2026 (also reported by Shopper). Confirm price, size and stock in the cart.",
+  "unverified": "Price from the store's catalog listing via product search on November 12, 2026 (also reported by Shopper). Confirm price, size and stock in the cart.",
+  "hardwired": false,
+  "fanRatedBox": false,
+  "image": "assets/products/hexagon/hx-woodpeckers-shelves.jpg",
+  "imageMissing": false,
+  "collection": "Hexagon finds"
+ },
+ {
+  "id": "hx-castelune-shelves",
+  "name": "Castelune wood hexagon floating shelves, dark brown, set of 3",
+  "maker": "Castelune Home",
+  "store": "Castelune Home",
+  "url": "https://castelune.com/products/hexagon-floating-shelves-set-of-3-wall-mounted-honeycomb-display-shelf-wood-hexagonal-hanging-storage-bedroom?variant=71573679440125",
+  "price": "$44.99",
+  "priceCents": 4499,
+  "qty": 1,
+  "finish": "Dark brown wood",
+  "dimText": "Size not captured; confirm on the product page",
+  "slots": [
+   "accents"
+  ],
+  "rooms": [
+   "living",
+   "office",
+   "master"
+  ],
+  "looks": [
+   "moody-lodge",
+   "black-wood-modern",
+   "northwoods"
+  ],
+  "fit": "Confirm dimensions before buying.",
+  "verified": "productsearch",
+  "verifiedOn": "November 12, 2026",
+  "availability": "Price from the store's catalog listing via product search on November 12, 2026 (also reported by Shopper). Confirm price, size and stock in the cart.",
+  "unverified": "Price from the store's catalog listing via product search on November 12, 2026 (also reported by Shopper). Confirm price, size and stock in the cart.",
+  "hardwired": false,
+  "fanRatedBox": false,
+  "image": "",
+  "imageMissing": true,
+  "collection": "Hexagon finds"
+ },
+ {
+  "id": "hx-elcrea-mirror",
+  "name": "El Crea brass hexagon wall mirror with decorative chain",
+  "maker": "El Crea Designs",
+  "store": "El Crea Designs",
+  "url": "https://elcreadesigns.us/products/brass-hexagon-wall-mirror-pa-altigen-20x18?variant=53384863219893",
+  "price": "$40.00",
+  "priceCents": 4000,
+  "qty": 1,
+  "finish": "Brass frame with hanging chain",
+  "dimText": "Size unclear: the product address says 20x18, Shopper reported 8 x 7 in; confirm",
+  "slots": [
+   "accents"
+  ],
+  "rooms": [
+   "living",
+   "master",
+   "bath"
+  ],
+  "looks": [
+   "english-cottage",
+   "mid-century-cabin",
+   "nt-navy",
+   "moody-lodge"
+  ],
+  "fit": "Confirm size before buying; small online seller, check returns.",
+  "verified": "productsearch",
+  "verifiedOn": "November 12, 2026",
+  "availability": "Price from the store's catalog listing via product search on November 12, 2026 (also reported by Shopper). Confirm price, size and stock in the cart.",
+  "unverified": "Price from the store's catalog listing via product search on November 12, 2026 (also reported by Shopper). Confirm price, size and stock in the cart.",
+  "hardwired": false,
+  "fanRatedBox": false,
+  "image": "assets/products/hexagon/hx-elcrea-mirror.jpg",
+  "imageMissing": false,
+  "collection": "Hexagon finds"
+ },
+ {
+  "id": "hx-glam-side-table",
+  "name": "Glam hexagon metal end table, black or gold",
+  "maker": "Create White",
+  "store": "Create White",
+  "url": "https://www.createwhite.com/products/glam-hexagon-metal-end-table-geometric-side-end-table-in-gold-black-white?variant=43921690853616",
+  "price": "$163.57",
+  "priceCents": 16357,
+  "qty": 1,
+  "finish": "Metal, black or gold (white listed)",
+  "dimText": "Listed sizes: 15 x 15 x 26 in, 15 x 15 x 18 in, 18 x 18 x 15 in; confirm which size this price covers",
+  "slots": [
+   "coffee"
+  ],
+  "rooms": [
+   "living",
+   "master"
+  ],
+  "looks": [
+   "black-wood-modern",
+   "modern",
+   "mid-century-cabin"
+  ],
+  "fit": "Works as a nightstand or sofa-side table; confirm height.",
+  "verified": "productsearch",
+  "verifiedOn": "November 12, 2026",
+  "availability": "Price from the store's catalog listing via product search on November 12, 2026 (also reported by Shopper). Confirm price, size and stock in the cart.",
+  "unverified": "Price from the store's catalog listing via product search on November 12, 2026 (also reported by Shopper). Confirm price, size and stock in the cart.",
+  "hardwired": false,
+  "fanRatedBox": false,
+  "image": "assets/products/hexagon/hx-glam-side-table.jpg",
+  "imageMissing": false,
+  "collection": "Hexagon finds"
  }
 ];
   var have = {}; sd.products.forEach(function (p) { have[p.id] = 1; });
