@@ -28,9 +28,9 @@
     { id: "ext-classic", status: "active", scope: "exterior", accents: ["Alabaster siding and trim", "Tricorn Black door", "Matte black lantern", "Boxwood row"] },
     { id: "ext-charcoal-cedar", status: "active", scope: "exterior", accents: ["Peppercorn charcoal siding and trim", "Rough-sawn cedar under the windows", "Existing wood door", "Black barn light", "Brass numbers"] },
     /* 2027 trend palettes (color only, Sherwin-Williams), November 18, 2026 */
-    { id: "tr-moss-clay", status: "active", accents: ["Clary Sage walls", "Roycroft Bronze Green office", "Celery bedrooms", "Canyon Clay accents", "White Duck ceilings"] },
-    { id: "tr-smoky-blue", status: "active", accents: ["Blustery Sky walls", "Agreeable Gray", "Romance blush accent", "Alabaster ceilings"] },
-    { id: "tr-rewild", status: "active", accents: ["Universal Khaki walls", "Red Barn doors", "Bitter Chocolate built-ins", "Alabaster ceilings"] },
+    { id: "tr-moss-clay", status: "active", accents: ["Celery walls", "Artichoke office", "Roycroft Bronze Green doors", "White Duck bedrooms and ceilings", "Reynard accents"] },
+    { id: "tr-smoky-blue", status: "active", accents: ["Quietude walls", "Dutch Tile Blue bedrooms", "Icicle ceilings", "Cordovan doors"] },
+    { id: "tr-rewild", status: "active", accents: ["Universal Khaki walls", "Red Barn office", "Clove doors", "White Duck bedrooms and ceilings"] },
     /* Nautical variants, November 11, 2026 */
     { id: "nt-navy", status: "active", accents: ["Navy walls", "Signal-red textiles", "Brass", "Rope", "Stripes"] },
     { id: "nt-keeper", status: "active", accents: ["Rookwood dark green", "Barn-red textiles", "Rope", "Brass", "Weathered teak", "No blue"] },
