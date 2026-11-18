@@ -27,9 +27,9 @@
     { id: "ext-cottage", status: "active", scope: "exterior", accents: ["Evergreen Fog siding", "Alabaster trim", "Rookwood Dark Green door", "Vintage brass", "Catmint and hydrangea"] },
     { id: "ext-classic", status: "active", scope: "exterior", accents: ["Alabaster siding and trim", "Tricorn Black door", "Matte black lantern", "Boxwood row"] },
     { id: "ext-charcoal-cedar", status: "active", scope: "exterior", accents: ["Peppercorn charcoal siding and trim", "Rough-sawn cedar under the windows", "Existing wood door", "Black barn light", "Brass numbers"] },
-    /* 2027 trend palettes (color only), November 18, 2026 */
-    { id: "tr-moss-clay", status: "active", accents: ["Grounded olive office", "Environmental sage walls", "Coastal Beige bedrooms", "Tuscan Terra clay accents"] },
-    { id: "tr-smoky-blue", status: "active", accents: ["Cottage Door blue-gray walls", "Moon Shot greige", "Apricot Blush accent", "Light wood floors"] },
+    /* 2027 trend palettes (color only, Sherwin-Williams), November 18, 2026 */
+    { id: "tr-moss-clay", status: "active", accents: ["Clary Sage walls", "Roycroft Bronze Green office", "Celery bedrooms", "Canyon Clay accents", "White Duck ceilings"] },
+    { id: "tr-smoky-blue", status: "active", accents: ["Blustery Sky walls", "Agreeable Gray", "Romance blush accent", "Alabaster ceilings"] },
     { id: "tr-rewild", status: "active", accents: ["Universal Khaki walls", "Red Barn doors", "Bitter Chocolate built-ins", "Alabaster ceilings"] },
     /* Nautical variants, November 11, 2026 */
     { id: "nt-navy", status: "active", accents: ["Navy walls", "Signal-red textiles", "Brass", "Rope", "Stripes"] },
